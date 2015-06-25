@@ -1,0 +1,80 @@
+fun step aiState worldState
+begin
+	return call doStep aiState worldState
+end
+
+fun doStep aiState worldState
+var map,lambdaManState,fruits,currentLocation,currentDirection,x,y,currMapRow,topRow,bottomRow,left,right,top,bottom
+begin
+  set map=worldState[0]
+  set lambdaManState=worldState[1]
+  set fruits=worldState[3]
+  
+  set currentLocation=lambdaManState[1]
+  set currentDirection=lambdaManState[2]
+
+  set x=currentLocation[0]
+  set y=currentLocation[1]
+
+  set currMapRow=map[y]
+  set topRow=y-1
+  set topRow=map[topRow]
+  set bottomRow=y+1
+  set bottomRow=map[bottomRow]
+  
+  set left=x-1
+  set left=currMapRow[left]
+  
+  set right=x+1
+  set right=currMapRow[right]
+  
+  set top=topRow[x]
+  set bottom=bottomRow[x]
+  
+  //down
+  if currentDirection == 2
+  	if bottom == 0
+  		if right > 0
+	  		set currentDirection=1
+  		elseif
+  			set currentDirection=3
+  		endif
+  		return cons aiState currentDirection
+  	endif
+  endif
+  
+  //right
+  if currentDirection == 1
+  	if right == 0
+  		if top > 0
+	  		set currentDirection=0
+  		elseif
+  			set currentDirection=2
+  		endif 
+  		return cons aiState currentDirection
+  	endif
+  endif 
+  
+  //left
+  if currentDirection == 3
+  	if left == 0
+  		if bottom > 0
+	  		set currentDirection=2
+  		elseif
+  			set currentDirection=0
+  		endif 
+  		return cons aiState currentDirection
+  	endif
+  endif 			
+  
+  //up
+  if currentDirection == 0
+  	if top == 0
+  		//right
+  		set currentDirection=1
+  		return cons aiState currentDirection
+  	endif
+  endif 	
+
+  return cons aiState currentDirection
+end

@@ -1,0 +1,110 @@
+define TRUE  = 1
+define FALSE = 0
+
+define UP    = 0
+define RIGHT = 1
+define DOWN  = 2
+define LEFT  = 3
+
+define POINT_X = 0
+define POINT_Y = 1
+
+define GHOST_VITALITY = 0
+define GHOST_LOCATION = 1
+define GHOST_DIRECTION = 2
+
+define GHOST_FEAR = -100
+
+define WALL = 0
+
+begin
+  call test
+end
+
+fun test
+var map, row, p1, dist
+begin
+  set row=cons 0 0 0 0 0 0 0
+  set map=cons row map
+  set row=cons 0 1 1 1 1 0 0
+  set map=cons row map
+  set row=cons 0 0 1 1 1 0 0
+  set map=cons row map
+  set row=cons 0 1 1 1 1 0 0
+  set map=cons row map
+  set row=cons 0 1 1 1 0 0 0
+  set map=cons row map
+  set row=cons 0 0 0 0 0 0 0
+  set map=cons row map
+  set p1=cons 1 1
+  set dist=call wallDistanceInAllDirections map p1
+  debug dist
+end
+
+fun wallDistanceInAllDirections map currentLocation
+var x, y
+var row,cx,cy,startptr,flag,cell
+var distUp, distRight, distDown, distLeft
+begin
+  set x=currentLocation[:POINT_X]
+  set y=currentLocation[:POINT_Y]
+
+  set row=map[y]
+  // find left distance
+  set flag=0
+  set cx=0
+  while 1 > flag
+    set cell=car row
+    set row=cdr row
+    if cell == :WALL
+      set startptr=cx
+    endif
+    if x == cx
+      set flag=1
+      set distLeft=cx-startptr
+    endif
+    set cx=cx+1
+  endloop
+  // find right distance
+  set flag=0
+  while 1 > flag
+    set cell=car row
+    set row=cdr row
+    if cell == :WALL
+      set flag=1
+      set distRight=cx-x
+    endif
+    set cx=cx+1
+  endloop
+
+  // find top dist
+  set flag=0
+  set cy=0
+  while 1 > flag
+    set cell=car map
+    set cell=cell[x]
+    set map=cdr map
+    if cell == :WALL
+      set startptr=cy
+    endif
+    if y == cy
+      set flag=1
+      set distUp=cy-startptr
+    endif
+    set cy=cy+1
+  endloop
+  // find bottom dist
+  set flag=0
+  while 1 > flag
+    set cell=car map
+    set cell=cell[x]
+    set map=cdr map
+    if cell == :WALL
+      set flag=1
+      set distDown=cy-y
+    endif
+    set cy=cy+1
+  endloop
+
+  return cons distUp distRight distDown distLeft
+end

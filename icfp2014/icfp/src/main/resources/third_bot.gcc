@@ -1,0 +1,928 @@
+// directions
+define UP    = 0
+define RIGHT = 1
+define DOWN  = 2
+define LEFT  = 3
+// map tiles types
+define WALL  = 0
+define SPACE = 1
+define PILL  = 2
+define PPILL = 3
+define FRUIT = 4
+define LAMAN = 5
+define GHOST = 6
+// unpacking misc tuples/lists
+// coordinates
+define POINT_X = 0
+define POINT_Y = 1
+// ghost
+define GHOST_VITALITY = 0
+define GHOST_LOCATION = 1
+define GHOST_DIRECTION = 2
+// world
+define WORLD_MAP = 0
+// AI state tuple
+define AI_FRUIT = 0
+define AI_PILLS = 1
+define AI_PTR   = 2
+define AI_LAST_EAT = 3
+define AI_MAP_SIZE = 4
+// priorities
+define GHOST_FEAR   = -200
+define GHOST_FEAR_OPEN_LINE = -10
+define GHOST_ATTRACT_OPEN_LINE=10
+define GHOST_RADIUS = 4
+define GHOST_FEAR_VITALITY = 600
+define FRUIT_BONUS  = 100
+define GHOST_EAT_RADIUS = 6
+define GHOST_BONUS = 1000
+//define POWER_BONUS = 1000
+define OPPOSITE_BONUS = -50
+define PPILL_PENALTY_WHEN_IN_POWER_MODE = -100
+define PPILL_BONUS = 100
+define PILL_BONUS = 5
+define PILL_BONUS_WHEN_FRUIT = -20
+// behaviour
+define CHANGE_PTR_EVERY = 83
+define WALL_SEARCH_DEPTH = 20
+
+// aiState:
+// ( (fruit x, fruit y)
+//   ((ppilx, ppily)
+//    (ppilx, ppily)
+//    (ppilx, ppily)))
+fun init worldState code
+var c,p,allPills,flag,result,size,x,y,map
+begin
+  // find fruit
+  set c=cons 0 0
+  set c=call findCell worldState :FRUIT c
+  // find power pills
+  set flag=0
+  set p=cons 0 0
+  while flag >= 0
+    set p=call findCell worldState :PPILL p
+    // p = -1 -1 means not found
+    set flag=p[0]
+    if flag >= 0
+        set allPills=cons p allPills
+    endif
+    // we can cheat because field is surrounded by walls
+    set p=call nextToRight p
+  endloop
+  // get size of field
+  set map=worldState[:WORLD_MAP]
+  set y=call listLen map
+  set x=map[0]
+  set x=call listLen x
+  set size=cons x y
+  // build result
+  set result=cons c allPills 0 0 size
+  debug result
+  return result
+end
+
+fun nextToRight point
+var x,y
+begin
+  set x=point[:POINT_X]
+  set y=point[:POINT_Y]
+  set x=x+1
+  return cons x y
+end
+
+fun step aiState worldState
+var map,lambdaManState,fruits,currentLocation,currentDirection,lamdaManX,lamdaManY
+var leftScore,rightScore,topScore,bottomScore
+var fruitLocation,fruitScore,fruitDistance
+var tmpScore,ghostDist,flag,ghost,ghostLoc,ghostX,ghostY,wallDist
+var ghosts,vitality,ghostScore
+var current,decisions,decisionPtr,bestScore,score
+var ppills,lastEat,nextCell,mapSize,nextLocation,closePill,pillScore
+var i,doDebug,around
+var tmp1,tmp2
+begin
+  // debug -33333
+
+  set map=worldState[0]
+  set lambdaManState=worldState[1]
+  set ghosts=worldState[2]
+  set fruits=worldState[3]
+  
+  set vitality=lambdaManState[0]
+  set currentLocation=lambdaManState[1]
+  set lamdaManX=currentLocation[0]
+  set lamdaManY=currentLocation[1]
+  set currentDirection=lambdaManState[2]
+
+  set fruitLocation=aiState[:AI_FRUIT]
+  set ppills=aiState[:AI_PILLS]
+  set decisionPtr=aiState[:AI_PTR]
+  set lastEat=aiState[:AI_LAST_EAT]
+  set mapSize=aiState[:AI_MAP_SIZE]
+
+  set around=call aroundPoint map currentLocation
+
+  // calculate value of direction based on map data and prev moves
+  set topScore=call directionScore currentDirection :UP around vitality fruits
+  set rightScore=call directionScore currentDirection :RIGHT around vitality fruits
+  set bottomScore=call directionScore currentDirection :DOWN around vitality fruits
+  set leftScore=call directionScore currentDirection :LEFT around vitality fruits
+
+  set wallDist=call wallDistanceInAllDirections map currentLocation
+  //debug wallDist
+
+  // calculate preference for fruit
+  if fruits > 0
+    // debug -44444
+    set fruitDistance=call distance fruitLocation currentLocation
+    set fruitScore=:FRUIT_BONUS/fruitDistance
+    set tmpScore=call fruitDirScore currentLocation fruitLocation :UP
+    set tmpScore=tmpScore*fruitScore
+    set topScore=topScore+tmpScore
+    set tmpScore=call fruitDirScore currentLocation fruitLocation :RIGHT
+    set tmpScore=tmpScore*fruitScore
+    set rightScore=rightScore+tmpScore
+    set tmpScore=call fruitDirScore currentLocation fruitLocation :DOWN
+    set tmpScore=tmpScore*fruitScore
+    set bottomScore=bottomScore+tmpScore
+    set tmpScore=call fruitDirScore currentLocation fruitLocation :LEFT
+    set tmpScore=tmpScore*fruitScore
+    set leftScore=leftScore+tmpScore
+  endif
+
+  // calculate preference based on presence of monsters
+  if :GHOST_FEAR_VITALITY > vitality
+    set flag=1
+    while flag > 0
+      set ghost=car ghosts
+      // check distance
+      set ghostLoc=ghost[1]
+      set ghostDist=call distance currentLocation ghostLoc
+      set ghostX=ghostLoc[0]
+      set ghostY=ghostLoc[1]
+      // ghost is near - discount ghost directions
+      if :GHOST_RADIUS > ghostDist
+        // debug -55555
+//        set doDebug=1
+        set tmpScore=call ghostDirScore currentLocation ghost :UP wallDist
+        set topScore=topScore+tmpScore
+        set tmpScore=call ghostDirScore currentLocation ghost :RIGHT wallDist
+        set rightScore=rightScore+tmpScore
+        set tmpScore=call ghostDirScore currentLocation ghost :DOWN wallDist
+        set bottomScore=bottomScore+tmpScore
+        set tmpScore=call ghostDirScore currentLocation ghost :LEFT wallDist
+        set leftScore=leftScore+tmpScore
+      endif
+      //check if ghost is nearby and not blocked by wall
+      
+      if lamdaManX == ghostX
+        set tmp1=lamdaManY-ghostY
+        if 0 > tmp1
+          set tmp1=0-tmp1
+          set tmp2=wallDist[0]
+          if tmp2 > tmp1
+            set topScore=topScore+:GHOST_FEAR_OPEN_LINE
+          endif
+        else
+          set tmp2=wallDist[2]
+          if tmp2 > tmp1
+            set bottomScore=bottomScore+:GHOST_FEAR_OPEN_LINE
+          endif
+        endif
+      endif
+      if lamdaManY == ghostY
+        set tmp1=lamdaManX-ghostX
+        if 0 > tmp1
+          set tmp1=0-tmp1
+          set tmp2=wallDist[1]
+          if tmp2 > tmp1
+            set rightScore=rightScore+:GHOST_FEAR_OPEN_LINE
+          endif
+        else
+          set tmp2=wallDist[3]
+          if tmp2 > tmp1
+            set leftScore=leftScore+:GHOST_FEAR_OPEN_LINE
+          endif
+        endif
+      endif
+      //open line ghost check finished
+
+      set ghosts=cdr ghosts
+      if isint ghosts
+        set flag=0
+      endif
+    endloop
+  else
+    // try to chase ghosts
+    //set doDebug=1
+    set flag=1
+    while flag > 0
+      set ghost=car ghosts
+      // check distance
+      set ghostLoc=ghost[1]
+      set ghostX=ghostLoc[0]
+      set ghostY=ghostLoc[1]
+      set ghostDist=call distance currentLocation ghostLoc
+      // ghost is near - discount ghost directions
+      if :GHOST_RADIUS > ghostDist
+        // debug -55555
+//        set doDebug=1
+        set ghostScore=:GHOST_BONUS/ghostDist
+        set tmpScore=call fruitDirScore currentLocation ghostLoc :UP
+        set tmpScore=tmpScore*ghostScore
+        set topScore=topScore+tmpScore
+        set tmpScore=call fruitDirScore currentLocation ghostLoc :RIGHT
+        set tmpScore=tmpScore*ghostScore
+        set rightScore=rightScore+tmpScore
+        set tmpScore=call fruitDirScore currentLocation ghostLoc :DOWN
+        set tmpScore=tmpScore*ghostScore
+        set bottomScore=bottomScore+tmpScore
+        set tmpScore=call fruitDirScore currentLocation ghostLoc :LEFT
+        set tmpScore=tmpScore*ghostScore
+        set leftScore=leftScore+tmpScore
+      endif
+      //check if ghost is nearby and not blocked by wall
+      if lamdaManX == ghostX
+        set tmp1=lamdaManY-ghostY
+        if 0 > tmp1
+          set tmp1=0-tmp1
+          set tmp2=wallDist[0]
+          if tmp2 > tmp1
+            set topScore=topScore+:GHOST_ATTRACT_OPEN_LINE
+          endif
+        else
+          set tmp2=wallDist[2]
+          if tmp2 > tmp1
+            set bottomScore=bottomScore+:GHOST_ATTRACT_OPEN_LINE
+          endif
+        endif
+      endif
+      if lamdaManY == ghostY
+        set tmp1=lamdaManX-ghostX
+        if 0 > tmp1
+          set tmp1=0-tmp1
+          set tmp2=wallDist[1]
+          if tmp2 > tmp1
+            set rightScore=rightScore+:GHOST_ATTRACT_OPEN_LINE
+          endif
+        else
+          set tmp2=wallDist[3]
+          if tmp2 > tmp1
+            set leftScore=leftScore+:GHOST_ATTRACT_OPEN_LINE
+          endif
+        endif
+      endif
+
+      set ghosts=cdr ghosts
+      if isint ghosts
+        set flag=0
+      endif
+    endloop
+  endif
+
+  // search closest pill
+//  if 1 > vitality
+//    set closePill=call closestPill ppills currentLocation
+//  if isint closePill
+      // do nothing
+//  else
+//    set pillScore=call distance currentLocation closePill
+//    set pillScore=:POWER_BONUS/pillScore
+//    set tmpScore=call fruitDirScore currentLocation closePill :UP
+//    set tmpScore=tmpScore*pillScore
+//    set topScore=topScore+tmpScore
+//    set tmpScore=call fruitDirScore currentLocation closePill :RIGHT
+//    set tmpScore=tmpScore*pillScore
+//    set rightScore=rightScore+tmpScore
+//    set tmpScore=call fruitDirScore currentLocation closePill :DOWN
+//    set tmpScore=tmpScore*pillScore
+//    set bottomScore=bottomScore+tmpScore
+//    set tmpScore=call fruitDirScore currentLocation closePill :LEFT
+//    set tmpScore=tmpScore*pillScore
+//    set leftScore=leftScore+tmpScore
+//  endif
+//endif
+
+  // pack decisions
+  set decisions=cons topScore rightScore bottomScore leftScore 0
+  set current=cons :UP :RIGHT :DOWN :LEFT 0
+  set decisions=call zipLists decisions current
+
+  // debug decisions
+  if doDebug > 0
+    debug -111111
+    debug currentLocation
+    debug decisions
+  endif
+  // choose best decision
+  set i=0
+  set bestScore=-100000
+  while 4 > i
+    set current=decisions[decisionPtr]
+    set score=current[0]
+    if score > bestScore
+      set currentDirection=current[1]
+      set bestScore=score
+    endif
+    set decisionPtr=call incMod decisionPtr 4
+    set i=i+1
+  endloop
+
+  // check if we plan to eat pill this time and reset counter
+  set lastEat = lastEat+1
+  set nextCell=around[currentDirection]
+  if nextCell == :PILL
+    set lastEat = 0
+  endif
+  if nextCell == :PPILL
+    set lastEat = 0
+    set nextLocation = call projectLocation currentLocation currentDirection
+    set ppills=call removePill ppills nextLocation
+    debug ppills
+  endif
+
+  if lastEat == :CHANGE_PTR_EVERY
+    set decisionPtr=call incMod decisionPtr 4
+    set lastEat=0
+  endif
+
+  // restore AI state
+  set decisionPtr=call incMod decisionPtr 4
+  set aiState=cons fruitLocation ppills decisionPtr lastEat mapSize
+  return cons aiState currentDirection
+end
+
+fun aroundPoint map location
+var x,y,currRow,topRow,bottomRow,top,bottom,left,right
+begin
+  set x=location[:POINT_X]
+  set y=location[:POINT_Y]
+
+  set currRow=map[y]
+  set topRow=y-1
+  set topRow=map[topRow]
+  set bottomRow=y+1
+  set bottomRow=map[bottomRow]
+
+  set top=topRow[x]
+  set bottom=bottomRow[x]
+  set left=x-1
+  set left=currRow[left]
+  set right=x+1
+  set right=currRow[right]
+
+  return=cons top right bottom left 0
+end
+
+fun projectLocation location direction
+var x,y
+begin
+  set x=location[:POINT_X]
+  set y=location[:POINT_Y]
+  if direction == :UP
+    set y=y-1
+  endif
+  if direction == :RIGHT
+    set x=x+1
+  endif
+  if direction == :DOWN
+    set y=y+1
+  endif
+  if direction == :LEFT
+    set x=x-1
+  endif
+  return cons x y
+end
+
+fun incMod value modulo
+begin
+  set value=value+1
+  if value == modulo
+    return 0
+  endif
+  return value
+end
+
+fun addMod value diff modulo
+begin
+  set value=value+diff
+  if value >= modulo
+    return value-modulo
+  endif
+  if 0 > value
+    return value + modulo
+  else
+    return value
+  endif
+end
+
+fun directionScore currentDirection candidateDirection around vitality fruits
+var nextSquare,score,opposite
+begin
+  set nextSquare=call getSquare candidateDirection around
+  set opposite=call getOpposite currentDirection candidateDirection
+  
+  set score=0
+  
+  if nextSquare == 0
+  	set score=score-10000
+  end
+  if opposite == 1
+  	set score=score+:OPPOSITE_BONUS
+  end
+  if currentDirection == candidateDirection
+ 	set score=score+3
+  endif
+  if nextSquare == :PILL
+    if fruits > 0
+ 	  set score=score+:PILL_BONUS_WHEN_FRUIT
+    else
+ 	  set score=score+:PILL_BONUS
+ 	endif
+  endif
+  if nextSquare == :PPILL
+    if vitality > 0
+      set score=score+:PPILL_PENALTY_WHEN_IN_POWER_MODE
+    else
+  	  set score=score+:PPILL_BONUS
+  	endif
+  endif
+  if nextSquare == :FRUIT
+  	set score=score+50
+  endif
+  
+  return score
+end
+
+fun getSquare candidateDirection around
+begin
+    return around[candidateDirection]
+end
+
+fun getOpposite currentDirection candidateDirection
+begin
+	if currentDirection == 0
+		if candidateDirection == 2
+			return 1
+		else
+			return 0
+		endif
+	endif
+	if currentDirection == 1
+		if candidateDirection == 3
+			return 1
+		else
+			return 0
+		endif
+	endif
+	if currentDirection == 2
+		if candidateDirection == 0
+			return 1
+		else
+			return 0
+		endif
+	endif
+	if candidateDirection == 1
+		return 1
+	else
+		return 0
+	endif
+end
+
+fun findCell state value from
+var map,height,width
+var fruit,fruitX,fruitY
+var x,y,row,cell
+var result
+var flag,xstart
+begin
+    set map=state[0]
+    set height=call listLen map
+    set row=map[0]
+    set width=call listLen row
+    set x=from[0]
+    set y=from[1]
+    set result=cons -1 -1
+    while 2 > flag
+        set flag=0
+        set row=map[y]
+        while 1 > flag
+            set cell=row[x]
+            if cell == value
+                set flag=2
+                set result=cons x y
+            endif
+            set x=x+1
+            if x >= width
+                set flag=1
+            endif
+        endloop
+        set y=y+1
+        if y >= height
+            set flag=2
+        endif
+        set x=0
+    endloop
+    return result
+end
+
+fun listLen list
+var counter,flag
+begin
+  set counter=0
+  while flag == 0
+    if isint list
+      set flag=1
+    else
+      set counter=counter+1
+      set list=cdr list
+    endif
+  endloop
+  return counter
+end
+
+// fruit direction score
+fun fruitDirScore currentLocation fruitLocation direction
+var x,y,fx,fy
+begin
+  set x=currentLocation[0]
+  set y=currentLocation[1]
+  set fx=fruitLocation[0]
+  set fy=fruitLocation[1]
+  // up
+  if direction == :UP
+    if y > fy
+      return 1
+    else
+      return 0
+    endif
+  endif
+  // right
+  if direction == :RIGHT
+    if fx > x
+      return 1
+    else
+      return 0
+    endif
+  endif
+  // down
+  if direction == :DOWN
+    if fy > y
+      return 1
+    else
+      return 0
+    endif
+  endif
+  // left
+  if direction == :LEFT
+    if x > fx
+      return 1
+    else
+      return 0
+    endif
+  endif
+end
+
+// (vit1, (x1, y1), dir1)
+fun ghostDirScore currentLocation ghost direction wallDist
+var x,y,gx,gy,ghostLocation,ghostDir,frontWallDist,ghostDist
+begin
+  set ghostLocation=ghost[:GHOST_LOCATION]
+  set ghostDir=ghost[:GHOST_DIRECTION]
+  set frontWallDist=wallDist[direction]
+
+  set x=currentLocation[:POINT_X]
+  set y=currentLocation[:POINT_Y]
+  set gx=ghostLocation[:POINT_X]
+  set gy=ghostLocation[:POINT_Y]
+  // up
+  if direction == :UP
+    // are traveling towards ghost on y, but is it coming towards us on x?
+    if y > gy
+      // ghost is on the right
+      if gx > x
+        if ghostDir == :LEFT
+          return :GHOST_FEAR
+        else
+          return 0
+        endif
+      endif
+      // ghost is on the left
+      if x > gx
+        if ghostDir == :RIGHT
+          return :GHOST_FEAR
+        else
+          return 0
+        endif
+      endif
+      // ghost is straight ahead
+      set ghostDist=y-gy
+      if frontWallDist > ghostDist
+        return :GHOST_FEAR
+      else
+        return 0
+      endif
+    else
+      return 0
+    endif
+  endif
+  // right
+  if direction == :RIGHT
+    if gx > x
+      // ghost is on the bottom
+      if gy > y
+        if ghostDir == :UP
+          return :GHOST_FEAR
+        else
+          return 0
+        endif
+      endif
+      // ghost is on the top
+      if y > gy
+        if ghostDir == :DOWN
+          return :GHOST_FEAR
+        else
+          return 0
+        endif
+      endif
+      // ghost is straight ahead
+      set ghostDist=gx-x
+      if frontWallDist > ghostDist
+        return :GHOST_FEAR
+      else
+        return 0
+      endif
+    else
+      return 0
+    endif
+  endif
+  // down
+  if direction == :DOWN
+    if gy > y
+      // ghost is on the right
+      if gx > x
+        if ghostDir == :LEFT
+          return :GHOST_FEAR
+        else
+          return 0
+        endif
+      endif
+      // ghost is on the left
+      if x > gx
+        if ghostDir == :RIGHT
+          return :GHOST_FEAR
+        else
+          return 0
+        endif
+      endif
+      // ghost is straight ahead
+      set ghostDist=gy-y
+      if frontWallDist > ghostDist
+        return :GHOST_FEAR
+      else
+        return 0
+      endif
+    else
+      return 0
+    endif
+  endif
+  // left
+  if direction == :LEFT
+    if x > gx
+      // ghost is on the bottom
+      if gy > y
+        if ghostDir == :UP
+          return :GHOST_FEAR
+        else
+          return 0
+        endif
+      endif
+      // ghost is on the top
+      if y > gy
+        if ghostDir == :DOWN
+          return :GHOST_FEAR
+        else
+          return 0
+        endif
+      endif
+      // ghost is straight ahead
+      set ghostDist=x-gx
+      if frontWallDist > ghostDist
+        return :GHOST_FEAR
+      else
+        return 0
+      endif
+    else
+      return 0
+    endif
+  endif
+end
+
+//try to detect wall in given direction, return 1 if wall found, 0 if none found
+fun wallDistanceInAllDirections map currentLocation
+var x, y
+var row,cx,cy,startptr,flag,cell
+var distUp, distRight, distDown, distLeft
+begin
+  set x=currentLocation[:POINT_X]
+  set y=currentLocation[:POINT_Y]
+
+  set row=map[y]
+  // find left distance
+  set flag=0
+  set cx=0
+  while 1 > flag
+    set cell=car row
+    set row=cdr row
+    if cell == :WALL
+      set startptr=cx
+    endif
+    if x == cx
+      set flag=1
+      set distLeft=cx-startptr
+    endif
+    set cx=cx+1
+  endloop
+  // find right distance
+  set flag=0
+  while 1 > flag
+    set cell=car row
+    set row=cdr row
+    if cell == :WALL
+      set flag=1
+      set distRight=cx-x
+    endif
+    set cx=cx+1
+  endloop
+
+  // find top dist
+  set flag=0
+  set cy=0
+  while 1 > flag
+    set cell=car map
+    set cell=cell[x]
+    set map=cdr map
+    if cell == :WALL
+      set startptr=cy
+    endif
+    if y == cy
+      set flag=1
+      set distUp=cy-startptr
+    endif
+    set cy=cy+1
+  endloop
+  // find bottom dist
+  set flag=0
+  while 1 > flag
+    set cell=car map
+    set cell=cell[x]
+    set map=cdr map
+    if cell == :WALL
+      set flag=1
+      set distDown=cy-y
+    endif
+    set cy=cy+1
+  endloop
+
+  return cons distUp distRight distDown distLeft
+end
+
+fun distance location1 location2
+var x1,y1,x2,y2
+begin
+  set x1=location1[:POINT_X]
+  set y1=location1[:POINT_Y]
+  set x2=location2[:POINT_X]
+  set y2=location2[:POINT_Y]
+  set x1=call distance2 x1 x2
+  set y1=call distance2 y1 y2  
+  return x1+y1
+end
+
+fun distance2 x1 x2
+var dist
+begin
+    set dist=x1-x2
+    if 0 > dist
+      set dist=0-dist
+    endif
+    return dist
+end
+
+fun addLists listOne listTwo
+var result, flag, v, w
+begin
+  while 1>flag
+    set v=car listOne
+    set listOne=cdr listOne
+    set w=car listTwo
+    set listTwo=cdr listTwo
+    set v=v+w
+    set result=cons v result
+    if isint listOne
+      set flag=1
+    endif
+  endloop
+  set result=call reverse result
+  return result
+end
+
+fun reverse list
+var result,flag,v
+begin
+  while 1>flag
+    if isint list
+      set flag=1
+    else
+      set v=car list
+      set list=cdr list
+      set result=cons v result
+    endif
+  endloop
+  return result
+end
+
+fun mulList list mult
+var result,flag,v
+begin
+  while 1>flag
+    if isint list
+      set flag=1
+    else
+      set v=car list
+      set list=cdr list
+      set v=v*mult
+      set result=cons v result
+    endif
+  endloop
+  set result=call reverse result
+  return result
+end
+
+fun zipLists listOne listTwo
+var result, flag, v, w
+begin
+  while 1>flag
+    if isint listOne
+      set flag=1
+    else
+      set v=car listOne
+      set listOne=cdr listOne
+      set w=car listTwo
+      set listTwo=cdr listTwo
+      set v=cons v w
+      set result=cons v result
+    endif
+  endloop
+  set result=call reverse result
+  return result
+end
+
+fun removePill list location
+var flag, result, v, x, y, px, py
+begin
+  set x=location[:POINT_X]
+  set y=location[:POINT_Y]
+  while 1>flag
+    if isint list
+      set flag=1
+    else
+      set v=car list
+      set list=cdr list
+      set px=v[:POINT_X]
+      set py=v[:POINT_Y]
+      if px == x
+        if py == y
+          // we found this item, don't cons it back
+        else
+          set result=cons v result
+        endif
+      else
+        set result=cons v result
+      endif
+    endif
+  endloop
+  set result=call reverse result
+  return result
+end
+
+fun closestPill pills location
+var dist,cdist,closest,pill,flag
+begin
+  set dist=10000
+  while 1>flag
+    if isint pills
+      set flag=1
+    else
+      set pill=car pills
+      set pills=cdr pills
+      set cdist=call distance location pill
+      if dist > cdist
+        set dist=cdist
+        set closest=pill
+      endif
+    endif
+  endloop
+  return closest
+end

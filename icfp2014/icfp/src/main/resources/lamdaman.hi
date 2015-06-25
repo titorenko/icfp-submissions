@@ -1,0 +1,43 @@
+// does nothing because it is hard to implement
+// global a,b,c
+
+fun step aiState worldState
+var a,b,c
+begin
+	call getNextMove 23
+	cons 0 1
+end
+
+fun getNextMove worldState
+begin
+end
+
+fun ifExample
+begin
+	if 1 == 2 
+		cons 1 1
+	endif
+	if 1 == 1 
+		cons 3 3
+	else 
+		cons 2 2
+	endif
+	cons 4 4
+end
+
+fun whileExample
+begin
+	while 1 == 2 
+		cons 3 4
+	endloop	
+end
+
+fun test input
+var x,y
+begin
+  set x=5+5
+  set y=-7
+  set input=6+y
+  debug x
+  return y[x]
+end

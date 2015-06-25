@@ -1,0 +1,110 @@
+fun step aiState worldState
+begin
+    debug -7777
+	return call doStep aiState worldState
+end
+
+// ai state: (?)
+
+// world state:
+// (map
+//    (( row1.1 row1.2 ... 0 )
+//     ( row2.1 row2.2 ... 0 )
+//     ...
+//     0)
+//  lm
+//    ( vit, (x, y), dir, lives, score )
+//  ghosts
+//    ((vit1, (x1, y1), dir1)
+//     (vit2, (x2, y2), dir2)
+//     ...
+//      0)
+//  fruit)
+
+// const:
+// ghost vit: 0 - std, 1 - fright, 2 - invis
+// map: 0 - wall, 1 - empty, 2 - pill, 3 - power, 4 - fruit pos, 5 - lambda strt, 6 - ghost strt
+// dir: 0 - up, 1 - right, 2 - down, 3 - left
+
+fun doStep aiState worldState
+var a, map, lm, lmp, x, y, d, prevDir
+begin
+  set map=worldState[0]
+  set lm=worldState[1]
+  set lmp=lm[1]
+  set prevDir=lm[2]
+  set x=lmp[0]
+  set y=lmp[1]
+  set d=call bestMove map x y prevDir
+  //call printTuple lmp 2
+  return cons aiState d
+end
+
+fun bestMove map x y first
+var cells,i,k,p,newp,c
+begin
+  set cells=call cellsAround map x y
+//  debug first
+//  call printTuple cells 4
+  set i=0
+  while 4 > i
+    set c=cells[first]
+    if c > 0
+      if c == 2
+        set newp=2
+      else
+        if c == 3
+          set newp=3
+        else
+          set newp=1
+        endif
+      endif
+      if newp > p
+        set k=first
+        set p=newp
+      endif
+    endif
+    set i=i+1
+    set first=first+1
+    if first > 3
+      set first=0
+    endif
+  endloop
+  return k
+end
+
+fun printTuple tuple size
+var x,v
+begin
+  set x=0
+  while size > x
+    set v=tuple[x]
+    debug v
+    set x=x+1
+  endloop
+end
+
+fun cellsAround map x y
+var list, cell, cc
+begin
+  set cc=x-1
+  set cell=call getItem map cc y
+  set list=cons cell 0
+  set cc=y+1
+  set cell=call getItem map x cc
+  set list=cons cell list
+  set cc=x+1
+  set cell=call getItem map cc y
+  set list=cons cell list
+  set cc=y-1
+  set cell=call getItem map x cc
+  set list=cons cell list
+  return list
+end
+
+fun getItem map x y
+var row
+begin
+  set row=map[y]
+  return row[x]
+end

@@ -1,0 +1,86 @@
+package algo.simple;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+
+import model.Mine;
+import model.MineFactory;
+import model.Path;
+
+import org.junit.Test;
+
+public class FinalSolutionOptimizerTest {
+	
+	@Test
+	public void testCandidates() {
+		FinalSolutionOptimizer optimizer = new FinalSolutionOptimizer(null, null, 2);
+		Path path = Path.fromString("LRUDW");
+		List<Path> candidates = optimizer.getCandidates(path, 0, OptimizationMode.NORMAL);
+		assertEquals(18, candidates.size());
+		assertEquals("RUDW", candidates.get(0).toString());
+		assertEquals("UDW", candidates.get(9).toString());
+	}
+	
+	@Test
+	public void testSamplePath10() {
+		Mine game = MineFactory.getMineFromResource("/contest1.map.txt");
+		Path path = Path.fromString("LRWDDDULULLDDL");
+		
+		FinalSolutionOptimizer optimizer = new FinalSolutionOptimizer(game, path);
+		Path optimized = optimizer.optimize();
+		int optimizedScore = game.makeMoves(optimized).getScore();
+		assertEquals(212, optimizedScore);
+	}
+	
+	@Test
+	public void testSpeculativeMoveOnMap2() {
+		Mine game = MineFactory.getMineFromResource("/contest2.map.txt");
+		Path path = Path.fromString("UDRLURRDRRULURULLLDDLDL");
+		
+		FinalSolutionOptimizer optimizer = new FinalSolutionOptimizer(game, path);
+		Path optimized = optimizer.optimize();
+		int optimizedScore = game.makeMoves(optimized).getScore();
+		assertEquals(281, optimizedScore);
+	}
+	
+	/*@Test
+	public void testLongOptimizeOfTrampoline3() {
+		Mine game = MineFactory.getMineNgFromResource("/trampoline3.map.txt");
+		Path path = Path.fromString("RRRRDDLDDDDDDDRRRUURRRRRUUURRRRUURRRURRDRDUUDDRUUDDDUUURDDUURDDUURDDDRRRRRRDRRRDDDDRRLUUUUUUUUDDDDDDLDLUUUUUUUDDDDDDDDUUUUUUUULDULDULDDUULDDUULDDUULDDUULDDDDDDRUUUUUURRDDDDDUUUUURRDDUURRDDDDDDLUUUUUURRDULLDDDDDDDUUUUUUURRDDUULLDDDDDDLUUUUUURRDRDDUUULLDDDDLDLLUUUUURRRRDRDDRDRUUUUDLLULLDDDDDLLUUUUULLDDDDDUUUUULLDDDDLUUUURRDDDDDDDUUUUUUURRDDDDRDDUUUUUULLDDDDDDUUUUUULLDDDLLUUURRDRDDDDRRUUUUULLDDDDDLLUUUUURRDRDDDDDRUUUUUULLDDDDLLLUUUURRDRRURRDDDDDLDRUUUUUULLDDDLLLLLUUURRDRRURRDDDDDDDUUUUUUULLDDDDDDDDUUUUUUUURRDDDDDDRRUUUUUULLDDDDDDDLUUUUUUURRDDDDDDDUUUUUUULLDDDDDDDDUUUUUUUURRDDDDDDDRUUUUUUULLDDDDDDDDUUUUUUUULLDDDDDDDLUUUUUUURRDDDDDDDDRRUUUUUUUULLDDDDDDLLLUUUUUURRDRDDDDDDRRRRUUUUUUULLDDDDDDDDRUUUUUUUULLDDDDDLLLLLUUUUURRDRRURRDDDDDDDDRRUUUUUUUULLDDDDDDDDLLLLUUUUUUUURRDDDDDDDRRUURRRRRRUUUUULLDLLULLDDDDDDDLLLLLUUUUUUURRDRDDDDDDRRURRRRRRUUUUUULLDLLULLDDDDDDDDLLLLLUUUUUUUULLLDDDDUUUURRDRRURRDDDDDDDDLLLDDLLDDUULDULDULDULDULDULDULDULDULDULDDULUDDDDDLDDDDDRRRRRRRRRRRRRRRRRRRRRRRRRLLLLLLLLLLUUUULLLUUUUULLDULLDULLDULLDULLDDDDLLDDDDDLLLLLLLLLRRRUUUUURRLDDDDDLLLLLLRRRRRRRUUURUUUUUDDDDDDUUUUUURUUDDDDURLUUURUULLLLLLULLDRRRRRRRRUDRURUURUDDUURLDDDUURLURURURDURUURRRRDRRURRDRRURRDDDDDDLLLLLUUUUUULLDDDLLRRRRRRRRRR");
+		
+		FinalSolutionOptimizer optimizer = new FinalSolutionOptimizer(game, path);
+		Path optimized = optimizer.optimize();
+		int optimizedScore = game.makeMoves(optimized).getScore();
+		System.out.println(optimizedScore);
+	}*/
+	
+	public static void main(String[] args) {//246
+		Map<Integer, String> toOptimize = new HashMap<Integer, String>();
+		toOptimize.put(2, "UDRLURRDRRULURULLLDDLDL");
+		toOptimize.put(3, "LDULRDDUURRDDURUDDUURDDULLDDRRDDLLLDLLURRRUULLRRRRR");
+		toOptimize.put(4, "DDRDRDRRRLUUULDRRUUUULDRDDLLLUULLRDDRRRRUUR");
+		toOptimize.put(5, "LLUUURUUUURDDRRRRRUULLLLRDDDDRURURURDDDLLDURRDDDLLRRUUULLDLLDDD");
+		toOptimize.put(6, "RUULRRRRRRRRRRUUULLLLDLLLLLLUUUUUURULURRRDDRRRDDURRLUDLDLLLLLDDLDDRRRURRRRUDRRRRRDDDDUUUULUDLLLULDRRRRRDDDDDLLLLLLLLLRRRRRRRRRUUUUULUURUUULULLULLLLLLLLDDLDDDDDDRRRURRRRRD");
+		toOptimize.put(7, "RDRRRDDLLRRDRDRRRLULULLLLDLDLLRURRR");
+		toOptimize.put(8, "UUUUULRURDLDDDLLDLLUDDUULUDDUULDDULUDDRDUUULLDULDRURRRDDDULULLDUURRRDRRRRRDDRRRRRURRLUULWRUUUURUULLULLLLLUULUUULLLLLLLLRRDDDDDDDDULURUULLRRDDDDDDLLRRUUUULLDDUUUDRRUUUUUURRDDDDDDDDDDRURDRDDDDDRRD");
+		toOptimize.put(9, "LURUDDRLUURRRDLDRRRRRUUURRRRDDDRRRRRRRURDRRRUULLLLLLRDDLLULULLUULLLRUUUULLLULUURUURRURRRDDDDDULUDDUULLDLDLLLLLRDURDULLLLRURRRUDDRRURURRRRRRDDRRRRRURDRDULLLLUULLLLUUULLLLLLU");
+		toOptimize.put(10, "UUUUUDDDDLUUDDLUDDUULRRUULLLURLLUDLDRDDRLUUUULUUUULLUULUULDDDDUULDLUDDLDLUUDLDDLDDDLDDLLLLLURRLUULLLLLUURRLUUUULUUURUUURUUUDRDLLRRUUDDRRRDLLULLLDDRRLDDDDDDDRRDLDRRRDDRRRRRRDDDURDURDURUURRUULLULDLLLLDDDDLLLRUUUUUURUUUUUURRURRUDDUURUURRRRRRDRDRURRLLUURRRRLLLLDDDDUUUULDLLUDLLDDULDDLDLUDRRURRRUDLLLDDDDDRRDDRRRUDDRDRUDLLRRURUDDRRUULURDDDDDDDDDDDD");
+		int total = 0;
+		for (Entry<Integer, String> task: toOptimize.entrySet()) {
+			Mine mine = MineFactory.getMineFromResource("/contest"+task.getKey()+".map.txt");
+			Path path = Path.fromString(task.getValue());
+			int score = mine.makeMoves(path).getScore();
+			FinalSolutionOptimizer optimizer = new FinalSolutionOptimizer(mine, path);
+			Path optimized = optimizer.optimize();
+			int optimizedScore = mine.makeMoves(optimized).getScore();
+			System.out.println(score+" -> "+optimizedScore);
+			total += (optimizedScore - score);
+		}
+		System.out.println("Total optimized: "+total);
+		
+	}
+}

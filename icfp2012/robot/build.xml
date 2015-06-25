@@ -1,0 +1,121 @@
+<project name="icfpc" default="build">
+
+	<property name="jar.name" value="icfpc-hiteam.jar" />
+	<property name="main.class" value="runner.BotRunner" />
+	<property name="algo.class" value="algo.simple.EvaluatorAlgorithm" />
+	<property name="map.file" value="${basedir}/mines/beard4.map.txt" />
+	<property name="tar.file" value="${basedir}/icfp-95315716.tgz" />
+
+	<path id="build.classpath">
+		<fileset dir="${basedir}/lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<path id="run.classpath">
+		<path refid="build.classpath" />
+		<pathelement location="${basedir}/out/${jar.name}" />
+	</path>
+
+	<path id="test.classpath">
+		<path refid="run.classpath" />
+		<pathelement location="${basedir}/test-classes" />
+		<pathelement location="${basedir}/mines" />
+		<pathelement location="${basedir}/resources" />
+	</path>
+
+	<target name="compile">
+		<mkdir dir="${basedir}/classes" />
+		<javac srcdir="${basedir}/src" destdir="${basedir}/classes" debug="true" includeAntRuntime="false">
+			<classpath refid="build.classpath" />
+		</javac>
+	</target>
+
+	<target name="test-compile" depends="compile">
+		<mkdir dir="${basedir}/test-classes" />
+		<javac srcdir="${basedir}/test" destdir="${basedir}/test-classes" debug="true" includeAntRuntime="false">
+			<classpath refid="test.classpath" />
+		</javac>
+	</target>
+
+	<target name="unit-tests" depends="test-compile">
+		<junit printsummary="yes" haltonfailure="no">
+			<classpath refid="test.classpath" />
+
+			<formatter type="plain" />
+			<formatter type="xml" />
+
+			<batchtest fork="no" todir="${basedir}/test-classes/">
+				<fileset dir="${basedir}/test">
+					<include name="**/*Test*.java" />
+				</fileset>
+			</batchtest>
+
+		</junit>
+	</target>
+
+	<target name="clean">
+		<delete dir="${basedir}/classes" />
+		<delete dir="${basedir}/out" />
+		<delete dir="${basedir}/bundle" />
+		<delete file="${tar.file}" />
+	</target>
+
+	<target name="jar" depends="compile">
+		<mkdir dir="${basedir}/out" />
+		<jar destfile="${basedir}/out/${jar.name}">
+			<!--  manifest="${basedir}/META-INF/Manifest.txt" -->
+			<fileset dir="${basedir}/classes" />
+			<fileset dir="${basedir}/resources" />
+			<manifest>
+				<attribute name="Built-By" value="hi, team" />
+				<attribute name="Main-Class" value="${main.class}" />
+				<attribute name="Class-Path" value="lib/log4j-1.2.17.jar lib/slf4j-api-1.6.6.jar lib/slf4j-log4j12-1.6.6.jar" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="build" depends="jar" description="Build jar file" />
+
+	<target name="dist" depends="jar" description="Prepare submission bundle.">
+		<delete dir="${basedir}/bundle" />
+		<copy todir="${basedir}/bundle">
+			<fileset dir="${basedir}/bin">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+		<chmod file="${basedir}/bundle/install" perm="a+x" />
+		<chmod file="${basedir}/bundle/lifter" perm="a+x" />
+		<copy todir="${basedir}/bundle" file="${basedir}/out/${jar.name}" />
+		<mkdir dir="${basedir}/bundle/src" />
+		<copy todir="${basedir}/bundle/src">
+			<fileset dir="${basedir}/src">
+				<include name="**/*.java" />
+			</fileset>
+		</copy>
+		<mkdir dir="${basedir}/bundle/lib" />
+		<copy todir="${basedir}/bundle/lib">
+			<fileset dir="${basedir}/lib">
+				<include name="**/*.jar" />
+			</fileset>
+		</copy>
+		<exec executable="tar" dir="${basedir}/bundle">
+			<arg value="-cz" />
+			<arg value="--file=${tar.file}" />
+			<arg value="." />
+		</exec>
+	</target>
+
+	<target name="run-contest-maps" depends="unit-tests" description="Launch configuration">
+		<java classname="integration.EvalutatorRunner" classpathref="test.classpath" />
+	</target>
+
+
+	<target name="run" depends="jar" description="Launch configuration">
+		<java classname="${main.class}" classpathref="run.classpath">
+			<sysproperty key="log4j.configuration" value="log4j.xml" />
+			<arg value="${algo.class}" />
+			<arg value="${map.file}" />
+		</java>
+	</target>
+</project>

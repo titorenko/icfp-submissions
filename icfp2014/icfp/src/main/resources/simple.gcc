@@ -1,0 +1,12 @@
+begin
+	return call simple 5
+end
+
+fun simple arg
+var c,last
+begin
+  set c=cons 1 2
+  debug c
+  set last=c[1]
+  debug last
+end

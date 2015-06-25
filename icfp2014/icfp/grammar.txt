@@ -1,0 +1,27 @@
+Language grammar:
+
+define <macro>=<text> - macro could be used in place of constant or variable as :macro to perform substitution
+
+fun <arg1> <arg2> ... <argx> - function
+var a,b,c,d,e                - define variables for function (after fun before begin)
+
+if <condition> - execute if condition is true
+[else]         - execute if confition is false
+endif          - end if node
+
+while <condition> - execute loop
+endloop
+
+set var=<expression>
+
+<expression> - call function, a <op> b, <list access>, <token>, cons a b c n, car l, cdr l
+<op>      - + - * /
+<token>   - <const> or <var>
+<list access> - <var>[ <token> ] - get list element by name
+<condition> - <expression> <cop> <expression>, isint l
+<cop> - ==, >, >=
+
+debug <var/const> - print debug info
+
+program must declare function step with 2 args
+program could declare function init with 2 args

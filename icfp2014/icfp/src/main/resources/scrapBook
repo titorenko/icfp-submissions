@@ -1,0 +1,129 @@
+mov c, scoreUp
+mov [c], 20
+mov a,[ghostX]
+mov b,[ghostY]
+dec b
+int 7
+jgt _notWall, a, 0
+mov [c], 0
+_notWall:
+
+
+
+
+
+
+
+
+
+
+.data
+moveCount 4
+ghostIndex
+;0: standard, 1: fright mode, 2: invisible.
+ghostVitality
+ghostDirection
+ghostX
+ghostY
+lambdaX
+lambdaY
+prevGhostX
+prevGhostY
+prevLambdaX
+prevLambdaY
+scoreUp
+scoreRight
+scoreLeft
+scoreDown
+;--------------------------
+;**************************
+;--------------------------
+.code
+int 3
+mov [ghostIndex], a
+int 6
+mov [ghostVitality], a
+mov [ghostDirection], b
+int 3
+int 5
+mov [ghostX], a
+mov [ghostY], b
+int 1
+mov [lambdaX], a
+mov [lambdaY], a
+;init base scores
+mov [scoreLeft], 20
+mov [scoreRifh, 20
+jeq _frightMode, [ghostVitality], 1
+;*******************************************
+_normalMode:
+jeq _exit, 0, 0
+;*******************************************
+_frightMode:
+jeq _exit, 0, 0
+;*******************************************
+_exit:
+mov [prevGhostX], [ghostX]
+mov [prevGhostY], [ghostY]
+mov [prevLambdaX], [lambdaX]
+mov [prevLambdaY], [lambdaY]
+hlt
+
+
+
+
+//try to detect wall in given direction, return count of walls found, 0 if none found
+fun detectWall map currentLocation toLocation direction
+var x,y,tox,toy,dx,dy,idx,cell,nWalls,height,width,row
+begin
+  set x=currentLocation[0]
+  set y=currentLocation[1]
+  set tox=toLocation[0]
+  set toy=toLocation[1]
+  set height=call listLen map
+  set row=map[y]
+  set width=call listLen row
+  if direction == :UP
+    set dy=-1
+  else 
+    if direction == :RIGHT
+      set dx=1
+    else
+      if direction == :DOWN
+        set dy=1
+      else
+        set dx=-1
+      endif
+    endif
+  endif
+//look for wall using certain depth
+  while :WALL_SEARCH_DEPTH > idx    
+    set x=x+dx
+    set y=y+dy
+    if x == tox
+      return nWalls
+    end
+    if x == 0
+      return nWalls
+    end    
+    if x == width
+      return nWalls
+    end
+    if y == toy
+      return nWalls
+    end
+    if y == 0
+      return nWalls
+    end
+    if y == height
+      return nWalls
+    end
+    set cell=map[y]
+    set cell=cell[x]
+    if cell == :WALL 
+      set nWalls=nWalls+1
+    endif
+    set idx=idx+1
+  endloop
+  return nWalls
+end

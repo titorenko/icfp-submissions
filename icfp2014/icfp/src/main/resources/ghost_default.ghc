@@ -1,0 +1,21 @@
+.code
+mov a,255  
+mov b,0    
+mov c,255  
+
+_moveLoop:           
+inc c      
+jgt _notBest,[c],a
+           
+mov a,[c]  
+mov b,c
+_notBest:    
+jlt _moveLoop,c,3  
+
+mov a,b    
+int 0
+
+int 3      
+int 6      
+inc [b]    
+hlt

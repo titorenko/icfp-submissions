@@ -1,0 +1,279 @@
+; this ghost resets move counter when passing its start point
+.data
+moveCount 4
+ghostIndex
+;-- 0: standard, 1: fright mode, 2: invisible.
+ghostVitality
+ghostDirection
+oppositeDirection
+ghostX
+ghostY
+lambdaX
+lambdaY
+deltaX
+deltaY
+maxDelta
+preferredHorizontalDirection
+preferredVerticalDirection
+preferredDirection
+preferredOpposite
+secondPreferredDirection
+squares 4
+isInLoop
+moveNumber
+discoveryIncrement
+;--------------------------
+;**************************
+;--------------------------
+.code
+int 3
+mov [ghostIndex], a
+int 6
+mov [ghostVitality], a
+mov [ghostDirection], b
+;-- check if we are in start location
+mov a, [ghostIndex]
+int 4
+jeq _sameX, a, [ghostX]
+jeq _notAtStart, 0, 0
+_sameX:
+jeq _sameY, b, [ghostY]
+jeq _notAtStart, 0, 0
+_sameY:
+mov [moveNumber], 0
+_notAtStart:
+;--compute discoveryIncrement
+jlt _increment3, [moveNumber], 30
+jlt _increment2, [moveNumber], 100
+jlt _increment3, [moveNumber], 130
+jlt _increment2, [moveNumber], 200
+jlt _increment3, [moveNumber], 230
+_increment2:
+mov [discoveryIncrement], 2
+jeq _incrementFinished, 0, 0 
+_increment3:
+mov [discoveryIncrement], 3
+_incrementFinished:
+inc [moveNumber]
+;---compute opppositeDirection
+mov [oppositeDirection], [ghostDirection]
+add [oppositeDirection], 2
+jlt _noCorrection,[oppositeDirection],4
+sub [oppositeDirection], 4
+_noCorrection:
+;---compute deltas
+int 3
+int 5
+mov [ghostX], a
+mov [ghostY], b
+int 1
+mov [lambdaX], a
+mov [lambdaY], b
+
+jlt _ldltXNeg, [ghostX],[lambdaX]
+mov [deltaX], [ghostX]
+sub [deltaX], [lambdaX]
+mov [preferredHorizontalDirection], 3
+jeq _ldeltY, 0, 0
+_ldltXNeg:
+mov [deltaX], [lambdaX]
+sub [deltaX], [ghostX]
+mov [preferredHorizontalDirection], 1
+_ldeltY:
+jlt _ldltYNeg, [ghostY],[lambdaY]
+mov [deltaY], [ghostY]
+sub [deltaY], [lambdaY]
+mov [preferredVerticalDirection], 0
+jeq _deltaComplete, 0, 0
+_ldltYNeg:
+mov [deltaY], [lambdaY]
+sub [deltaY], [ghostY]
+mov [preferredVerticalDirection], 2
+_deltaComplete:
+;---compute preferred direction
+jeq _preferX, 0, deltaY
+jeq _preferY, 0, deltaX
+;-- jgt _preferY,deltaX,deltaY
+jlt _preferY,deltaX,deltaY
+_preferX:
+mov [preferredDirection], [preferredHorizontalDirection]
+mov [secondPreferredDirection], [preferredVerticalDirection]
+mov [maxDelta], [deltaX]
+jeq _preferredComplete, 0, 0
+_preferY:
+mov [preferredDirection], [preferredVerticalDirection]
+mov [secondPreferredDirection], [preferredHorizontalDirection]
+mov [maxDelta], [deltaY]
+_preferredComplete:
+
+DEBUG mov a, [lambdaX]
+DEBUG mov b, [lambdaY]
+DEBUG mov c, [ghostX]
+DEBUG mov d, [ghostY]
+DEBUG mov e, [preferredVerticalDirection]
+DEBUG mov f, [preferredHorizontalDirection]
+DEBUG mov g, [deltaX]
+DEBUG mov h, [deltaY]
+DEBUG int 8
+
+mov [preferredOpposite], [preferredDirection]
+add [preferredOpposite], 2
+jlt _preferredInvertComplete,[preferredOpposite],4
+sub [preferredOpposite], 4
+_preferredInvertComplete:
+
+;---invert preferred direction if in fright mode
+jeq _frightMode, [ghostVitality], 1
+jeq _frightInversionComplete, 0, 0
+_frightMode:
+;-- do not run from him if we are far away
+jgt _frightInversionComplete, [maxDelta], 4
+;-- swap
+mov a, [preferredOpposite]
+mov [preferredOpposite], [preferredDirection]
+mov [preferredDirection], a
+_frightInversionComplete:
+
+;-- compute which squares are blocked
+;--up
+mov a,[ghostX]
+mov b,[ghostY]
+dec b
+int 7
+mov [squares], a
+;--right
+mov a,[ghostX]
+mov b,[ghostY]
+inc a 
+int 7
+mov [squares+1], a
+;--down
+mov a,[ghostX]
+mov b,[ghostY]
+inc b 
+int 7
+mov [squares+2], a
+;--left
+mov a,[ghostX]
+mov b,[ghostY]
+dec a 
+int 7
+mov [squares+3], a
+;-- compute if we are in some sort of loop
+;-- if any two opposite directions have high counts then yes
+;--mov [isInLoop], 1
+;--jlt _verticalOk, [moveCount+0], 8
+;--jlt _verticalOk, [moveCount+2], 8
+;--inc [isInLoop]
+;--_verticalOk:
+;--jlt _horizOk, [moveCount+1], 8
+;--jlt _horizOk, [moveCount+3], 8
+;--inc [isInLoop]
+;--_horizOk:
+
+DEBUG mov a, [oppositeDirection]
+DEBUG mov b, [preferredDirection]
+DEBUG mov c, [secondPreferredDirection]
+DEBUG mov d, [squares+0]
+DEBUG mov e, [squares+1]
+DEBUG mov f, [squares+2]
+DEBUG mov g, [squares+3]
+DEBUG mov h, [isInLoop]
+DEBUG int 8
+
+;-- ************************************************************
+;-- score calc
+;---a is the best score so far
+;-- c is candidate direction and pointer to move counts
+;-- b is best direction so far
+;-- d is current score
+;-- e is square state
+
+mov a,0
+mov b,0    
+mov c,moveCount-1  
+mov e,squares-1
+
+_moveLoop:
+inc c
+inc e
+;-- base score
+mov d, 150
+;-- set score to 0 if hitting the wall
+jgt _noWallPenalty, [e], 0
+mov d, 0
+DEBUG mov h, 110
+DEBUG int 8
+jeq _bestMoveCheck, 0, 0
+_noWallPenalty:
+;-- set score to 1 for opposite direction
+jeq _opposite, [oppositeDirection], c
+jeq _nonOpposite, 0, 0
+_opposite:
+mov d, 1
+DEBUG mov h, 113
+DEBUG int 8
+jeq _bestMoveCheck, 0, 0
+_nonOpposite:
+;-- subtract number of moves, if we are in some loop
+;-- jeq _noMoveCountPenalty, [isInLoop], 0
+sub d, [c]
+DEBUG mov h, 111
+DEBUG int 8
+_noMoveCountPenalty:
+;-- bias move for current ghostIndex
+jeq _ghostIndexBias, c, [ghostIndex]
+dec d
+DEBUG mov h, 112
+DEBUG int 8
+_ghostIndexBias:
+;-- bias move for preferred direction
+jeq _prefDir, [preferredDirection], c
+DEBUG mov h, 114
+DEBUG int 8
+sub d,40
+_prefDir:
+;-- penalize preferred direction opposite
+jeq _prefOpposite, [preferredOpposite], c
+DEBUG mov h, 115
+DEBUG int 8
+add d,10
+_prefOpposite:
+;-- bias move for second preferred direction
+jeq _secPrefDir, [secondPreferredDirection], c
+DEBUG mov h, 116
+DEBUG int 8
+sub d,25
+_secPrefDir:
+_bestMoveCheck:
+
+DEBUG mov h, 100
+DEBUG int 8
+
+;-- is move best
+jgt _notBest,a,d
+;-- save best score so far and move
+mov a,d
+inc a
+mov b,c
+_notBest:
+jlt _moveLoop,c,moveCount+3  
+
+mov a,b    
+int 0
+
+int 3      
+int 6
+;-- update history
+mov c,moveCount-1 
+_decLoop:
+inc c
+;-- reduce number of last moves
+jeq _loopCheck, [c], 0
+dec [c]
+_loopCheck:
+jlt _decLoop,c,moveCount+3
+;-- add 2 to direction we travel to  
+add [b],[discoveryIncrement]
+    
+hlt

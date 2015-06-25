@@ -1,0 +1,73 @@
+define INIT_DEBUG = -5555
+
+fun init worldState code
+var m,r,k
+begin
+  debug :INIT_DEBUG
+  set k=car worldState
+//  set r=cdr worldState
+//  debug m
+//  debug r
+//  debug worldState
+//  debug code
+  set r=cons 1 2 3 4 5 0
+  debug r
+  set m=call listLen r
+  debug m
+  set m=call listLen k
+  debug m
+  return 0
+end
+
+fun step aiState worldState
+var x
+begin
+    debug -7777
+    call print aiState
+    set x=13
+    call print x
+    set aiState=aiState+1
+	return cons aiState 0
+end
+
+fun print arg
+begin
+    debug arg
+end
+
+fun listLen list
+var counter,flag
+begin
+  set counter=0
+  while flag == 0
+    if isint list
+      set flag=1
+    else
+      set counter=counter+1
+      set list=cdr list
+    endif
+  endloop
+  return counter
+end
+
+// ai state: (?)
+
+// world state:
+// (map
+//    (( row1.1 row1.2 ... 0 )
+//     ( row2.1 row2.2 ... 0 )
+//     ...
+//     0)
+//  lm
+//    ( vit, (x, y), dir, lives, score )
+//  ghosts
+//    ((vit1, (x1, y1), dir1)
+//     (vit2, (x2, y2), dir2))
+//     ...
+//      0)
+//  fruit)
+
+// const:
+// ghost vit: 0 - std, 1 - fright, 2 - invis
+// map: 0 - wall, 1 - empty, 2 - pill, 3 - power, 4 - fruit pos, 5 - lambda strt, 6 - ghost strt
+// dir: 0 - up, 1 - right, 2 - down, 3 - left

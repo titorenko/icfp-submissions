@@ -1,0 +1,55 @@
+Scala: 42756, Java: 65981   - size 7
+::Benchmark Expression Generation.scala::
+Parameters(sizes -> 4): 0.800415
+Parameters(sizes -> 5): 0.740867
+Parameters(sizes -> 7): 19.813179
+
+::Benchmark Expression Generation.java::
+Parameters(sizes -> 4): 0.172727
+Parameters(sizes -> 5): 0.640512
+Parameters(sizes -> 7): 27.741532
+
+
+
+Scala: 296202, Java: 491622 - size 8
+::Benchmark Expression Generation.scala::
+Parameters(sizes -> 4): 0.325887
+Parameters(sizes -> 5): 0.735106
+Parameters(sizes -> 8): 179.831771
+
+::Benchmark Expression Generation.java::
+Parameters(sizes -> 4): 0.348257
+Parameters(sizes -> 5): 0.574735
+Parameters(sizes -> 8): 291.328191
+
+::Benchmark MemoryFootprint.Scala::
+Parameters(sizes -> 6): 490.432
+Parameters(sizes -> 7): 3469.56
+Parameters(sizes -> 8): 23533.48
+
+::Benchmark MemoryFootprint.java::
+Parameters(sizes -> 6): 620.56
+Parameters(sizes -> 7): 4592.088
+Parameters(sizes -> 8): 34090.888
+
+
+scala 3469.56  / 42756  = 81 byte per expression for size 7
+scala 23533.48 / 296202 = 79 byte per expression for size 8
+java  4592.088 / 65981  = 69 byte size 7
+java  34090.8  / 491622 = 69 byte size 8
+
+
+
+
+Bit encoding
+x,y,a,not,xor,or,and,plus,if0,fold
+shl/r + shift
+ulong+ref
+
+12 diff
+
+ulongs separate
+
+
+[1..4op][1..32r1][1..32r2][r3]
+or

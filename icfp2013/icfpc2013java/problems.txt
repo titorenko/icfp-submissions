@@ -1,0 +1,1420 @@
+Problem{id='02GJ1A32WAXH3JbazT1FrJu6', size=9, operators=[and, if0], solved=false, timeLeft=0}
+Problem{id='03MQLBaWLkIXtBVeaBrOzzq4', size=10, operators=[if0, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='04Ouk0ULMaXD4LRjYGdOIduj', size=26, operators=[and, if0, not, or, plus, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='06eiLafHhv0y4FJvxPhaEuOA', size=29, operators=[and, fold, if0, not, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='08C6upmP5wQF4RE0MeWhAFz8', size=29, operators=[fold, if0, not, or, plus, shl1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='08p75IXPOUweZn7a92mVUVSn', size=21, operators=[and, fold, if0, not, or, shr16, xor], solved=false, timeLeft=0}
+Problem{id='0AcvnL4h3DBwl6RzahzEyx0d', size=9, operators=[plus, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='0B1LHXHWB99qmtAcHN0TYglA', size=19, operators=[and, fold, if0, not, or, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='0K84DjWmpgtBEEUpPQrWH7Gw', size=22, operators=[and, fold, if0, not, or, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='0NGuoWA2p5pouScmOgAi2Txp', size=30, operators=[and, fold, if0, not, or, plus, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='0OC60AwKCh3UdFv3jcwuC3iL', size=26, operators=[and, fold, if0, not, or, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='0R5gGhcAByP4Eccru1C8T6DL', size=7, operators=[or, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='0S3OQnH5SaDBxJBJrrpex1fJ', size=23, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='0VKk2H8BLpDyAu8S7FuOb6FJ', size=13, operators=[and, if0, not, plus, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='0soTeFDkwFCDvGVe73Cyhkgx', size=25, operators=[and, fold, if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='0ypHQ4zjlf0RkmlA2i3sPZLz', size=6, operators=[plus, xor], solved=false, timeLeft=0}
+Problem{id='0z4xknnyw0Diu4XzAOzdIUh7', size=18, operators=[and, fold, if0, not, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='10LZGK0FKXv1Xxkq06RtfrYG', size=7, operators=[and, plus, shr16], solved=false, timeLeft=0}
+Problem{id='11xL0JIc54NaDLRuftFfEE1R', size=9, operators=[if0, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='1Ag9pePCX0nE6BLwYuyNpfW3', size=11, operators=[and, if0, not, plus], solved=false, timeLeft=0}
+Problem{id='1DabieOT3SX4BE4dbUauPOgH', size=13, operators=[fold, not, plus, shr1, xor], solved=false, timeLeft=0}
+Problem{id='1KiojoUMfzGk5RBj9sGjCxG5', size=17, operators=[and, if0, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='1Ng7cZtGuy5ikNLXLVhkjTbb', size=13, operators=[and, fold, not, shr16, xor], solved=false, timeLeft=0}
+Problem{id='1ODBiFiSf379K8Wf7frCiVMs', size=28, operators=[and, if0, not, or, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='1T0sK0dGObb9AiyiiinxBMhp', size=28, operators=[and, if0, not, or, plus, shl1, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='1WSGwYGboD0DnTXBRvB9HALp', size=19, operators=[and, if0, not, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='1XIgZMFDyBT96i56apI8kTV7', size=25, operators=[and, if0, not, or, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='1YWrXmvMggZo5RgRnIHZ34JO', size=27, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='1ZybZ7dAIbM0c3Q98HCzXUbl', size=13, operators=[if0, plus, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='1dC3XvE7y71HoIcNQw0UgiSH', size=15, operators=[and, fold, if0, not, shr16, xor], solved=false, timeLeft=0}
+Problem{id='1fohkPPAAsjuEPRq826RmGnb', size=24, operators=[and, if0, not, or, plus, shl1, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='1gCBNsdybne4sAJoDGZYHi4c', size=17, operators=[and, if0, not, or, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='1gVnmfwB01Jbl995Oxqd3uNc', size=17, operators=[fold, if0, or, plus, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='1kVvvgPoTF4ZH4Qsq518uvw5', size=12, operators=[fold, if0, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='1n4HqvTZ2mqxEdGqDbqj75VM', size=12, operators=[plus, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='1nZ6tEpmJFmRgqLB1RBuPWFE', size=8, operators=[not, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='1pcabfw8ohUCj2O96J2NuVxk', size=27, operators=[and, if0, not, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='1wlvY5lrWx9XwR3sbwLEqLHu', size=14, operators=[and, if0, plus, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='23VjPVKxJtQ5JHYCcox4Nuyu', size=11, operators=[if0, not, or, shl1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='25bG8nHa77rBA45aY9Y5ZiYB', size=19, operators=[and, if0, not, plus, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='2DAibKDsZzSVXJrj8UVxNzlI', size=18, operators=[and, if0, not, or, plus, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='2DHMuKMY7EaJ5gAIAuk13rnm', size=16, operators=[fold, if0, not, shr4], solved=false, timeLeft=0}
+Problem{id='2F3AuFH5gsMiJpPAqmoQSidL', size=16, operators=[fold, if0, or, plus, shl1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='2G7POg89yALSrjrH0fxfo4B7', size=18, operators=[and, if0, not, or, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='2KuiCYoCUygMdr5BpuKMqE5j', size=27, operators=[fold, if0, not, or, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='2N7rcRI0tLY8tClHMCMqgOSc', size=13, operators=[if0, not, or, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='2S4bkLW5YETEOseWxBDBqkiq', size=19, operators=[and, if0, not, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='2SEaq6ZHzpo2vPACe5R55KPC', size=10, operators=[and, or, tfold], solved=false, timeLeft=0}
+Problem{id='2SaABtXNoqM8yxmBvUokhwsf', size=10, operators=[and, tfold, xor], solved=false, timeLeft=0}
+Problem{id='2dr6Aep0MYT18sbGPEPMRHI4', size=29, operators=[and, if0, or, plus, shl1, shr1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='2jvOVekdeO129UhhKkCr4iH9', size=30, operators=[and, if0, not, or, plus, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='2sl1MRdemHdrCbrltifTIERB', size=12, operators=[fold, plus, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='30UedJPuuNbJiMXh2dehyYbL', size=29, operators=[and, fold, if0, not, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='31maKH3vZL2GwvlLZcOFIpJ0', size=18, operators=[and, fold, if0, or, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='333ns2OkHQ5EZ4BfftidIzZN', size=29, operators=[and, if0, not, or, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='3APjHPBO7RfbB88ah7NrOWs3', size=22, operators=[and, if0, not, or, plus, shr1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='3BA6Su93pELyhdnv3wQ8rBku', size=11, operators=[if0, or, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='3H5rvMIxB9q9bf4Gk50PbBWv', size=3, operators=[shl1], solved=false, timeLeft=0}
+Problem{id='3IBVfJWhX7FqyvDJYTMnbMXj', size=14, operators=[and, if0, plus, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='3IDqnk9CkAFHi58RAchBYild', size=15, operators=[if0, not, plus, tfold, xor], solved=false, timeLeft=0}
+Problem{id='3NU0BHb1PgzM1qwcXTdZngqp', size=13, operators=[if0, or, shl1, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='3OJtvpp1toTCBSnvV8n99MAy', size=4, operators=[shl1, shr16], solved=false, timeLeft=0}
+Problem{id='3OK422Se222UIpiLGhOqEYJn', size=29, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='3SjscrhHZytaW7vwo0YmXZbv', size=18, operators=[and, if0, not, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='3Y5AApEyMIWg9mo1BKsZDG1s', size=21, operators=[and, if0, not, or, plus, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='3fhzQCqaDcHA2hwzsl9pVdt6', size=20, operators=[and, if0, not, or, plus, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='3rGn2BxZ3FW2Fj1Rv2BUgPdX', size=17, operators=[and, if0, or, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='3sJV6lbyRW5AzwUqbWjG2ENB', size=18, operators=[and, if0, plus, shl1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='3uCyKlLHBmjFAa1OSFOGLjz0', size=15, operators=[if0, not, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='3vTttlBlNdHghZsZ03O9q2fT', size=19, operators=[fold, if0, or, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='3wAbFBUQbD77NPu2arHQkDlA', size=18, operators=[fold, if0, or, xor], solved=false, timeLeft=0}
+Problem{id='3wqwrNqAYY6sado5GU9WkAVh', size=13, operators=[if0, not, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='3xk1w22v8oGXLiFzn8Rf8e6X', size=12, operators=[fold, not, or, shl1], solved=false, timeLeft=0}
+Problem{id='42oVvEZ7Lf1wSAqBeFzKweMx', size=23, operators=[and, if0, not, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='44Jha0eyBAYdBAuRiQK4YmSH', size=8, operators=[or, tfold], solved=false, timeLeft=0}
+Problem{id='44tpyN43c5hNnKstWy95W9Os', size=17, operators=[if0, not, or, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='481djjZGeQNFvQl7bCXhWerV', size=22, operators=[fold, if0, not, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='48Y7uFDu7dadMiHpxARoAGGx', size=8, operators=[shl1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='49MSBeXqZTwDYq9DjzMhm3GK', size=24, operators=[and, if0, or, plus, shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='4ABAwiRHBl9C04yWT3csDcat', size=29, operators=[fold, if0, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='4BFcmObWYaqyv5C2C1CGe9xF', size=22, operators=[if0, not, or, plus, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='4BllWOFA9bCQ0rDpyHvBK6rH', size=25, operators=[and, if0, or, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='4JCRmGWU1qznpmxLAlKVXsVK', size=10, operators=[and, tfold, xor], solved=false, timeLeft=0}
+Problem{id='4KCL7XsSau0fx0ieT2ZBeDw8', size=24, operators=[and, if0, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='4KemjA4k49f6i5knHvALantC', size=29, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='4MnkFZphWfwwKfjGAALuIo6H', size=20, operators=[and, if0, not, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='4OFnCWzpKYDIDcP72yGqExsY', size=18, operators=[and, fold, if0, plus, shl1], solved=false, timeLeft=0}
+Problem{id='4QSpNWNBvkJWYPULAG5l8ep2', size=29, operators=[if0, not, or, plus, shl1, shr1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='4Qkw77fqHdIr5pZYKeX2169R', size=10, operators=[shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='4TBkMKYfCdBs9BvDepGpuLQJ', size=26, operators=[and, fold, if0, not, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='4UKiXJ7elPnF0DBfZWEGGfQq', size=8, operators=[not, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='4VQgArNFcldNP5keVASvIULl', size=24, operators=[and, if0, not, or, plus, shl1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='4XRnr0qlDerBA5h42uSVMMay', size=22, operators=[if0, not, or, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='4anTdEJZ3x0CVwGLLpILeotB', size=28, operators=[and, fold, if0, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='4bQmrZDd3YidAFDAWvBXMDx8', size=17, operators=[and, if0, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='4bZ80HFtv3ET6bpgRoAa9XOg', size=3, operators=[shr4], solved=false, timeLeft=0}
+Problem{id='4dDj9WQYYEWimMCO7oe1t5Mf', size=9, operators=[shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='4djqP6rAYvdANlINCeJ9aCJ3', size=22, operators=[and, if0, not, or, plus, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='4dwxKHVW7RbkXeqn0A2zuF7R', size=13, operators=[if0, not, or, tfold], solved=false, timeLeft=0}
+Problem{id='4fj3JDLzhYsIxAp9m6Xq3PUu', size=18, operators=[and, fold, if0, plus, shl1], solved=false, timeLeft=0}
+Problem{id='4j6yqfPryFvZR67lAd1ffFfk', size=14, operators=[if0, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='4nSDbXg0M0gqDrx0vA6wzaKm', size=19, operators=[fold, if0, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='4pRXxTgFbTgueDpsoqg7jnXA', size=23, operators=[if0, not, or, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='4pktu8JyvD0MX7RgntCsu0ma', size=10, operators=[and, if0, shr16, xor], solved=false, timeLeft=0}
+Problem{id='4qFuOZoZk3mMrAQHjJvVbA1v', size=24, operators=[if0, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='4u0CW8HpoBA7i32CWolghOft', size=6, operators=[or, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='4uz2ScporxA9BB9eerGNHN9s', size=20, operators=[and, if0, or, plus, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='4wnsPVfQMfa8IGFKS8zSMalT', size=24, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='4xHXePuydULVHgUb1P2euZh0', size=20, operators=[and, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='50cHAA0T3cBghhq0I6Z82B9A', size=29, operators=[and, if0, not, or, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='52ccB3PHF2OUuQ1nD3pLAB2P', size=17, operators=[if0, not, or, plus, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='58lQeJqsZ8TBwYTytPfZicyb', size=3, operators=[shr4], solved=false, timeLeft=0}
+Problem{id='5AXcfhHHZA5k4ReIOTRHAWF4', size=12, operators=[fold, if0, plus, shr1], solved=false, timeLeft=0}
+Problem{id='5DLW7AoDYvLI7rs9ugluyql5', size=23, operators=[fold, if0, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='5GMmgYa1Vg4NUWap7YBiB1np', size=17, operators=[if0, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='5Kb1oKE2AG88Dw4Q9SVVayZt', size=26, operators=[and, fold, if0, plus, shl1, xor], solved=false, timeLeft=0}
+Problem{id='5MNxBptyXyosc9AtlRCJ4M7E', size=14, operators=[if0, or, plus, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='5OY3cWPH0fEIlVRUyv13OBMG', size=3, operators=[shr16], solved=false, timeLeft=0}
+Problem{id='5PNXgzuoSC5Ay0ztmi6bUahw', size=13, operators=[and, if0, plus, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='5XsX1GbEgAOT1RcYIBL4wfYA', size=20, operators=[and, fold, if0, plus, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='5XzBXmVY424A56xaMylUb0pe', size=29, operators=[and, if0, not, or, plus, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='5aJcRWyzECATmh7qGPioEPaL', size=20, operators=[and, if0, not, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='5bj0ep1nfiCk1jkW0pPdi1qT', size=22, operators=[if0, not, or, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='5gmkCLbTwZ6GDaAfqKE7w30C', size=14, operators=[fold, if0, or, shr4], solved=false, timeLeft=0}
+Problem{id='5he34gnBavjqBT7dbGGA8Hkg', size=25, operators=[and, if0, not, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='5hvtU8y3KlKlAWNyJnRkXvri', size=21, operators=[and, if0, not, or, plus, tfold, xor], solved=false, timeLeft=0}
+Problem{id='5lOv6Wmgo6oztrIx7cEqhLDV', size=5, operators=[plus, shr1], solved=false, timeLeft=0}
+Problem{id='5mHqa8Zxpsreudfmx8jkHh55', size=30, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='5r00dIFzqhVfho8TbUhAD4i8', size=12, operators=[if0, shl1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='5tj8Bx15qBKrlLZiD4OcyBIX', size=8, operators=[and, if0, shr16], solved=false, timeLeft=0}
+Problem{id='5wWLdS8WDezBLdCePsOhtHlg', size=12, operators=[fold, not, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='5xvyq6e9GBLgyasCJqo1rbXG', size=10, operators=[and, plus, tfold], solved=false, timeLeft=0}
+Problem{id='66Hp5OgRdL7AkAQgweBxwJBt', size=24, operators=[and, if0, not, or, plus, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='66I32otA4BIpB0vomXx9uCYf', size=15, operators=[if0, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='6AjCE8ZvGWnL5KIU8psC1Yez', size=5, operators=[or, shl1], solved=false, timeLeft=0}
+Problem{id='6BMBTenzWLFuR196ArviEtTB', size=15, operators=[fold, if0, not, or, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='6G6OiaHg6r5wAZaezAsdMdJu', size=23, operators=[and, if0, not, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='6IoeFvDDYtBR0QkDoGHdqrkt', size=13, operators=[fold, if0, not, xor], solved=false, timeLeft=0}
+Problem{id='6JiFut3zzhFVpHx0bRKxQyPi', size=27, operators=[if0, not, or, plus, shl1, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='6L5RAlRB64WPVsgRQhd4W4wl', size=18, operators=[and, if0, not, plus, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='6QHzwZZFpBbvMcEahXiA09FL', size=28, operators=[and, if0, not, or, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='6VKt4dBSlmCzFFBwJe0PsxeA', size=18, operators=[if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='6ZN48jAvBJ2jUBwiSE7Z56U6', size=27, operators=[fold, if0, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='6aUhBKudnh949QOwDAH8GQod', size=22, operators=[and, fold, if0, not, plus, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='6bUVY7FadaTVNJ2C0PZqduDq', size=25, operators=[and, if0, not, or, plus, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='6bnGpAhcxq1kRxb8bqDu0Aim', size=20, operators=[and, fold, if0, not, plus, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='6exUPwm5ud8AZKk2KMyjINjm', size=12, operators=[not, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='6g3ZEwPt9axRzhlaZ7UaAc6A', size=19, operators=[and, fold, if0, not, or, plus, shl1], solved=false, timeLeft=0}
+Problem{id='6mQYe1WprW7xFC5obJM4g0YW', size=15, operators=[fold, not, plus, shl1], solved=false, timeLeft=0}
+Problem{id='6mXGIdx57V4NqV0gRc4EACJp', size=14, operators=[fold, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='6piu2BByzBHw1qvb9D2ExlXn', size=16, operators=[fold, if0, plus, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='6q1zApDb7Z5wuZTaZdYskijY', size=23, operators=[and, if0, not, or, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='6tCZmh621czrvdd1B5K7f0tf', size=23, operators=[and, if0, not, or, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='6wD59BBD1iyXIFHY4TVXliLz', size=9, operators=[not, tfold, xor], solved=false, timeLeft=0}
+Problem{id='6xANiXuAP85WZxcfBAeS2XNE', size=11, operators=[not, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='78hbdXX3XEzNHCPUQYT8IlnY', size=16, operators=[fold, if0, not, or, xor], solved=false, timeLeft=0}
+Problem{id='792cw3S1mBZVWZ8pM23ZFteu', size=16, operators=[and, fold, if0, not, plus, xor], solved=false, timeLeft=0}
+Problem{id='7BNnBVB3kTrPLRPbhtgspfkC', size=5, operators=[plus, shr16], solved=false, timeLeft=0}
+Problem{id='7DVLt7kNZU7lXr1spziAlbSN', size=14, operators=[if0, plus, shl1, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='7FcbN6w389GiA1diPT2aBSdr', size=25, operators=[and, if0, or, shl1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='7GZcNDXyaAQ58xRuZqcrPEab', size=16, operators=[if0, or, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='7Jcrt4EOkE137ODi0SF0hZXU', size=24, operators=[and, if0, or, shl1, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='7PTXRB2TMqTWvuLuwSoHoMEZ', size=23, operators=[and, fold, if0, not, or, plus, shl1], solved=false, timeLeft=0}
+Problem{id='7VGD078JYwZM8tAVZdkS4tKQ', size=9, operators=[if0, tfold], solved=false, timeLeft=0}
+Problem{id='7VviV93ktDthRlY4xZLJDHCn', size=21, operators=[and, if0, not, plus, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='7adlPQnqzAARqmRgAkyp3DUu', size=30, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='7bdYs4W2GPGbIuJIpEVMl1ld', size=25, operators=[if0, not, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='7cbwAeN7zjpQtIhCqoowGQBC', size=3, operators=[shr16], solved=false, timeLeft=0}
+Problem{id='7erUSqixisUPHqypvV8BXAfI', size=27, operators=[and, fold, if0, or, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='7mWTBzIfyDs46YbBd47HtqBz', size=26, operators=[fold, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='7sl77Hwc9wb8dqcF94GFaXmZ', size=23, operators=[if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='7yZHLzCJ7APE0oVQYRqB0kim', size=17, operators=[if0, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='85LXtxqv38gC8MjsrcXhnQm6', size=12, operators=[or, plus, tfold], solved=false, timeLeft=0}
+Problem{id='89xeGooeGgd7fBSHPC0Lh0DD', size=30, operators=[and, if0, or, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='8BrzN48eSSHuRhsdhpnp29bk', size=17, operators=[and, if0, not, plus, shl1, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='8DZQsZYFmtbB0ABnNrIUg2pf', size=24, operators=[and, if0, not, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='8KW2VZyP126nHdBLPoOSmE67', size=6, operators=[if0, shr1], solved=false, timeLeft=0}
+Problem{id='8N73B9xMuGfJuBBCupKPQSGA', size=27, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='8UAA1oNS9P3hJ76AQUI82G5F', size=11, operators=[fold, not, plus, shr1], solved=false, timeLeft=0}
+Problem{id='8VnxKSPVTkbBlqojvroygBGS', size=15, operators=[and, if0, not, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='8XKEhUBwEQjr7WoC9EWpqVWB', size=17, operators=[and, if0, or, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='8a1kagTD3TjLtfey0EAThWRg', size=26, operators=[and, if0, or, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='8dseiVXQVKSkRFsZQbsHx6m4', size=27, operators=[and, fold, if0, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='8dvIf0owTQ1O75odGOYk4i4z', size=19, operators=[if0, or, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='8fiAMpEZdZTqdRwRenKCbC5c', size=16, operators=[if0, not, plus, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='8hmaqbV7oZAvwHiW9rT8XOX8', size=25, operators=[fold, if0, not, or, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='8iUIj9VsqYfCmVLqf0m95mBd', size=25, operators=[and, fold, if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='8kJGRqkcFgbtAXKpp5tMS6WF', size=16, operators=[and, if0, or, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='8vu0vDOcJ5LjaGphQhzvS6Rr', size=19, operators=[fold, if0, not, or, plus, shr16], solved=false, timeLeft=0}
+Problem{id='90PLPQ2b9E0PsrGRCp8q0YS1', size=11, operators=[and, if0, not, or, shr1], solved=false, timeLeft=0}
+Problem{id='93Fg9jEa0zu7AX7NrRUHDXNM', size=11, operators=[or, shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='9A63Slrf5EQELiz2kRcHFAur', size=28, operators=[and, if0, not, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='9A9xrBYPCLANfAzMHcSvNIMv', size=14, operators=[fold, if0, not, shr1], solved=false, timeLeft=0}
+Problem{id='9AN96RgSpA7gwlfy1noybLqo', size=29, operators=[and, if0, or, plus, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='9AfcDJPmpeWaTGxmhsBILSqD', size=23, operators=[and, if0, not, or, plus, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='9BIpyJXADADQDghy2J5nBwSx', size=14, operators=[fold, not, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='9BUSxZnUtwUGttmvdOCAF7my', size=11, operators=[and, if0, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='9Okb0s12dhw2KxlrqRWpfQLt', size=24, operators=[and, fold, if0, or, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='9U3dvoM23EKKVRif1LA1qSmw', size=27, operators=[and, fold, if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='9VOHmTmbza5F0L0r6rwAvBRd', size=8, operators=[shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='9bQQ9mfqA4gOoa3MOkLBqsjA', size=22, operators=[and, fold, if0, not, or, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='9fPZuhEFL9CmJF4jkmpG6FRr', size=23, operators=[if0, not, or, plus, shr1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='9lLBB6u17uzBaNKib2z0kAdO', size=23, operators=[and, if0, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='9ooAW97AXKncco2Ux46Ri15b', size=14, operators=[and, if0, or, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='9q5ZVDtKHbB7AA72zAM7ZoQD', size=22, operators=[and, if0, not, or, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='9u0jSJa7VGzZgw2BnMxfUq9T', size=8, operators=[and, or, plus], solved=false, timeLeft=0}
+Problem{id='9u1jBlTm2SNSsOwBuqH0zDmt', size=28, operators=[and, fold, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='9u9Iwbstx6rE3lHeTTbdeBwy', size=28, operators=[and, if0, or, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='9uI4AyqE7Tb5A7QeI9v9KhkJ', size=20, operators=[if0, or, plus, shl1, shr1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='A2z8j677pcIGi1dhJTT3Evnq', size=16, operators=[if0, plus, shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='A4ARRXTeqChMUihJLxkiR6ez', size=5, operators=[shr1, shr4], solved=false, timeLeft=0}
+Problem{id='A54LIomATqIBvDj3vXnEFGrB', size=12, operators=[fold, or, plus, shl1], solved=false, timeLeft=0}
+Problem{id='A5BYAc34IIBFf3WRAmuXgW2E', size=26, operators=[if0, or, plus, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='A5RkWXovoiFyG32I5j2cz6Na', size=11, operators=[if0, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='A6Mjr8scImqC5dHVPTsN3tRm', size=28, operators=[fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='A797BCAZshULMg4ULFrAfng1', size=28, operators=[if0, not, or, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='A8v1ZMPj8JAXn8OvXrsTgDZ9', size=13, operators=[if0, or, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='A9WiWzvBE1wk4A230OExh4WO', size=24, operators=[and, fold, if0, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ABJ6SkRLBC359GxccWqhpTJj', size=22, operators=[and, if0, not, or, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='ABSOTC3CrkpuH9uXO2KTQ9Xt', size=13, operators=[if0, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='ABreYWx6FxTc985IqmBsjI9y', size=15, operators=[fold, not, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ACAn4m0xjJn9a7VBoYmuyKWX', size=10, operators=[and, if0, or, shr16], solved=false, timeLeft=0}
+Problem{id='ACBGc9SVaeG6E8GHUbrhFDcO', size=9, operators=[if0, plus, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='AFZIEXTJO8aVbYdNAGWjHH7j', size=19, operators=[if0, not, plus, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='AGqzGT1JoemZuDAEAADVF23i', size=14, operators=[if0, or, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='AHShYAvaDSwdb4YWaBKL744s', size=21, operators=[fold, if0, or, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='AJPH8dE67DOrJ9O4PRenvCd5', size=17, operators=[fold, if0, not, or, shr1, xor], solved=false, timeLeft=0}
+Problem{id='AMVMG7c4WvGfrjvcpx8Jjqg3', size=17, operators=[if0, not, or, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='AN8vB11PS8ehTeqtoovERDg2', size=20, operators=[and, if0, or, plus, shl1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='AOy7Gd5MrmDC124RRq6D17rR', size=24, operators=[and, if0, or, plus, shr1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='AP6rPgz5k1TVAlaC65LE63vl', size=15, operators=[fold, if0, not, plus, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='APkFoeQV5nAk6I3mt1nuX1qb', size=20, operators=[fold, if0, not, or, plus, shr1, xor], solved=false, timeLeft=0}
+Problem{id='AQAPEe6HejmXpvJlR1MpvIcN', size=15, operators=[fold, plus, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ASwPqYjePGM3QgA2nmxe42ob', size=24, operators=[and, fold, if0, not, or, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ATfW9JBlFgfFvJl8xl4I94dK', size=21, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='ATrbBG9BuBtn7Z7kskORQASW', size=10, operators=[and, if0, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='AYEnKpsYAxPvXQzQjVAL4YIm', size=29, operators=[and, if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='AZJusbAOa7MEUwH0I3njG6Jb', size=23, operators=[if0, not, or, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='AcE5GMeftBCLqTtacuj2O5on', size=24, operators=[and, if0, not, or, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='Ad3dEsZgyxuP0TXfabUppjkJ', size=24, operators=[and, if0, not, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='AdX4dhNZjHjq4exn18FIhJKN', size=11, operators=[if0, tfold, xor], solved=false, timeLeft=0}
+Problem{id='AdtC1BHAKIj4lPuxaQjuiVl8', size=24, operators=[and, if0, not, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='AeqM8byVXtnTAnRbfoOfHIOl', size=24, operators=[and, fold, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='AhwumzAyBShGKvZG598V0b87', size=19, operators=[if0, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='Aibyfv8ITfBquC4JbHst3Xnj', size=22, operators=[and, fold, if0, not, or, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='AkDMqiyLBBCHQ3pXW6th657O', size=12, operators=[if0, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Al34poiAoBjCv4Ut4zXh8x3F', size=11, operators=[or, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='AmfdyJKWw1POdOzbfb2OlSlr', size=30, operators=[and, fold, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Ap4OpkLylfhcmb9CpmPOKUcO', size=12, operators=[or, plus, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='ApXawG9EySq501ZXwswuSZUZ', size=17, operators=[and, fold, if0, not, plus, shl1, xor], solved=false, timeLeft=0}
+Problem{id='ApZvz5FZu7uoWNmKXICs9J0C', size=5, operators=[plus, shl1], solved=false, timeLeft=0}
+Problem{id='AsFfbCsEArqa25MV09UO4cAA', size=27, operators=[fold, if0, not, or, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='AtTrCi1NoSvALavj4Fxd31g6', size=17, operators=[fold, if0, not, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Atdqd7wkBDqD09B6ZiEBqrNn', size=8, operators=[plus, tfold], solved=false, timeLeft=0}
+Problem{id='AugebYEoO6KZAluhSRIqQvVE', size=19, operators=[if0, not, or, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='AwGjQHTkBigUcs8QrvwiuObC', size=22, operators=[and, fold, if0, or, xor], solved=false, timeLeft=0}
+Problem{id='AwSp5WBmBqmLOTOmKDf8ArUv', size=30, operators=[and, fold, if0, not, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='Axev8KvyXLoEJjGBnBjfcVYv', size=27, operators=[and, if0, not, or, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='AzEAjLmljrJaWlBNZP1C3hBR', size=12, operators=[if0, not, or, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='B1H1lVLTalb6I6AOuZM1TRih', size=10, operators=[and, if0, or, shr1], solved=false, timeLeft=0}
+Problem{id='B1qtruxoAt24OnoF0G97bpSK', size=28, operators=[and, if0, not, or, plus, shr1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='B5OzecRplLBs3AjV27zXOK7i', size=26, operators=[fold, if0, not, or, plus, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='B6Axf2TyhY7hzLFBaRFchzmy', size=20, operators=[and, fold, if0, plus, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='B7nmZZYd5Y4gDT3h1EfWnNX9', size=28, operators=[and, if0, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='B7v9ejJl9EPV9YCczptMmSpj', size=4, operators=[shl1], solved=false, timeLeft=0}
+Problem{id='B8egr0dHrFG8k3tTv1tMGEeJ', size=6, operators=[or, xor], solved=false, timeLeft=0}
+Problem{id='BANMAfEpCdKz38MmlobVUcyf', size=25, operators=[and, if0, not, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='BCrnXZTu1d3CQHBi3BxCarvp', size=17, operators=[if0, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='BD7raBnAKcyECj6QwP3QKUrE', size=27, operators=[and, if0, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='BESC5vOaFrHRImYPrJLiAuuY', size=22, operators=[and, if0, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='BGGSPr3DR3AHCZBMGgFB5QsV', size=9, operators=[or, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='BGabaOeCU60VBR9T4NpTMnqk', size=11, operators=[fold, not, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='BH3qmFZBNBE9kUNaoQTzBn3g', size=13, operators=[fold, if0, not, or, shr16], solved=false, timeLeft=0}
+Problem{id='BHVlaqjO2yeLN9eNKgu58ZhB', size=16, operators=[if0, not, or, plus, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='BOcTSGgAuOMdhNTXeFcnQ9fC', size=27, operators=[and, if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='BPQj8v2wNoxZhysuf1WDBOsB', size=24, operators=[and, if0, shl1, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='BQjCRz5xl3BO04SdZAzsl7Qv', size=12, operators=[and, if0, plus, shl1], solved=false, timeLeft=0}
+Problem{id='BVecqYRaE279PN2AnI0xKY3t', size=18, operators=[and, if0, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='BWhr71qqcXbVPdCpr27GRFmz', size=25, operators=[fold, if0, or, plus, shr4, xor], solved=false, timeLeft=0}
+Problem{id='BXpRAIycmktNc3nIYNJSqHih', size=14, operators=[if0, not, or, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='BaNbNSJ7nADj6HhYRm2UHNWO', size=10, operators=[and, if0, not], solved=false, timeLeft=0}
+Problem{id='BfK8EAWs9Ur9LLdRZCXeGtnE', size=25, operators=[if0, not, or, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='Bg1pmiCq5SDE702z9aFyiNMO', size=10, operators=[not, plus, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='Bg95Xyrv9IR5e3er9OBL7KDM', size=19, operators=[and, if0, not, or, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='BgxYBdVh75ded5CvKOFHywWm', size=21, operators=[fold, if0, not, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='Bh6WjGgwjv0134C8npUIQId5', size=25, operators=[and, fold, if0, not, or, plus, shl1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='BiYFdlx9rQjJB4SH3GDWOtVU', size=8, operators=[not, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='BjqghAJAJ75sHUutPSBWLWeF', size=25, operators=[and, if0, not, or, plus, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='BjwfHQJv4fsm2xQjjKigBBsb', size=29, operators=[and, if0, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='BmDH0YD52uQvo0ncDIbPKDBz', size=19, operators=[and, fold, if0, plus, shr16, xor], solved=false, timeLeft=0}
+Problem{id='BmQTAc59qQUBESYLdiGD0yQn', size=28, operators=[and, if0, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='BodMaHHzbA5z9xgxtBlcy963', size=24, operators=[and, if0, not, or, plus, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='BodtkobVBS7AAJss2bAIwe1F', size=21, operators=[if0, or, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='BrsOjUIzdW4YjBL5QA8CAKcA', size=23, operators=[and, if0, not, or, plus, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='BtXK3Q1tKB28DN4ClabrneP2', size=23, operators=[fold, if0, not, or, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='BvAtcGWFRhgx81E1LiRN3sKA', size=22, operators=[and, if0, not, or, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='BvNnwwCnv7FK6lI4QLWIhqiq', size=16, operators=[and, if0, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='BvuUdtbXd2BSUETCuhqhusEf', size=24, operators=[fold, if0, not, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='Bwg4cOqjkA03vAUBuAMPOjDE', size=14, operators=[and, fold, plus, shl1, shr16], solved=false, timeLeft=0}
+Problem{id='BxJ7x2B3VkYIn5BzxWRIGD5X', size=22, operators=[and, if0, or, shl1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='ByIyBD4NBACg6OOW5GkKcasc', size=28, operators=[and, if0, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='BzNnboA77QEACs2VbGY9UQEC', size=8, operators=[not, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='C0ZyLHkGagwKSCDt6zVEI4po', size=23, operators=[and, if0, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='C52vAjFcC0zQ75BQSmT8bsVZ', size=28, operators=[and, if0, not, or, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='C5IfQ9PqeYgpsLjp3wuaS6Ya', size=12, operators=[and, tfold, xor], solved=false, timeLeft=0}
+Problem{id='C6S48gqZ0TVFGYvBnRJMQZgX', size=9, operators=[not, shl1, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='C7VOLon0122FcSQWrXJfpGBd', size=15, operators=[if0, not, or, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='CBLn64wZMjBTay9yk0Cx8gHP', size=19, operators=[and, if0, not, or, tfold, xor], solved=false, timeLeft=0}
+Problem{id='CBWfFqA6ioa4mFhkFBe0fUhh', size=24, operators=[and, if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='CF9pBVWSS1c5zX10Asf5HHaL', size=25, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='CFxrbImMfL9Haf4qSYmGUae1', size=28, operators=[and, if0, not, or, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='CIu1Elg2JHi2IUpa21d4wLYA', size=29, operators=[and, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='CMtAtUHJ5BG2nokNnz3mUktJ', size=19, operators=[and, fold, if0, not, or, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='CNGuZdll5vc6l6fnb0ONH7Lb', size=16, operators=[if0, not, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='CV6PHAPpxwA6G5K6GoaDv16Q', size=20, operators=[and, if0, not, or, plus, shl1, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='CWVD5JEPuwYl7kkf17ShXwAD', size=23, operators=[if0, not, or, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='Cb6ifkoBBdOvPMxMLfnxCw6P', size=24, operators=[fold, if0, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='CbbVqPQwCs04Xna7JqI40Fso', size=20, operators=[and, fold, if0, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Ce84kAvQtFHHCRAFABfEjeZA', size=30, operators=[and, if0, not, or, plus, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='CeFbR0tR1NeGoiscDBfXmhQ0', size=23, operators=[and, if0, not, or, plus, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='Cf4XMbW6mieywF2qqMaGorA4', size=17, operators=[and, fold, if0, or, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='Cgc40rCBny4CJ3eFYm9pcDKU', size=21, operators=[and, if0, or, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='CgvYT9zyq0vsABJkXaO3mDBm', size=30, operators=[and, if0, not, or, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='CjlMi720BA2AE4pioaFDbx7B', size=23, operators=[and, fold, if0, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='CkBLKDChccAuc8x5Zjaiwmh1', size=17, operators=[and, if0, or, shl1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='CkEgbWwX9kwcRdpqKQfU60zP', size=7, operators=[or, plus, shl1], solved=false, timeLeft=0}
+Problem{id='ClBLs16dED3T59FaxXYqpAuO', size=23, operators=[and, if0, not, plus, shl1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='ClgpGIhjn768S0nN3cCwM05C', size=24, operators=[if0, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='CrxjEI5yrAY9Yqd4GgxldBuN', size=22, operators=[and, fold, if0, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='Cwg4fvimtiYpteaPYaMcdXaO', size=16, operators=[if0, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='D0m2Xzf9wDwfChVvWYiHBEbQ', size=11, operators=[and, if0, not, plus, shl1], solved=false, timeLeft=0}
+Problem{id='D3X9x3mvy4rS1AJIvZxPwDBd', size=16, operators=[if0, or, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='D634UycQc0MB0zDfHeJfYbky', size=23, operators=[and, if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='DAeABVy0RY2AzlO6QeylABEQ', size=14, operators=[if0, or, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='DEBTOaCrPUrIZAmBqXwEcKbs', size=21, operators=[and, if0, or, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='DIYOYol6OiD0EUNioei7LyRi', size=3, operators=[shr1], solved=false, timeLeft=0}
+Problem{id='DKKG9YEY95dUKGJ9TfHw7aJY', size=12, operators=[and, if0, shr4, xor], solved=false, timeLeft=0}
+Problem{id='DcqfGA6951h4kUz0tJB8Sr8R', size=14, operators=[if0, plus, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='DdIlKi8uyV0bEfndSQTP2q9q', size=20, operators=[fold, if0, not, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='DeiYqgpJx1Slsc07KZak3lvl', size=14, operators=[fold, if0, not, shr16, xor], solved=false, timeLeft=0}
+Problem{id='DgdwXypS6AZ455KEld3DAW5O', size=14, operators=[fold, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='DlgApX56ZszNQlrPShxnlwYT', size=15, operators=[if0, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='DnAarLLcB05WFhJ9YUcw7Vgf', size=21, operators=[if0, or, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='DnTCX9V50rYLuF4uVyJ1MwNO', size=15, operators=[and, if0, not, plus, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='Dpj5FLvKyNBkApmOWjjCU4FQ', size=13, operators=[fold, not, or, plus, shl1], solved=false, timeLeft=0}
+Problem{id='DsFRAtrMNbUPJVHgX4UtVT2v', size=18, operators=[and, if0, or, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='DtF2IFBNKBUkLDLmjPgNuVBM', size=22, operators=[if0, not, or, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='DvkBs4gIvWJWLyBROvVl8YSA', size=20, operators=[if0, or, plus, shl1, shr1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='Dzsl6YNgy8wnlJuyYrDgHfzj', size=3, operators=[shr1], solved=false, timeLeft=0}
+Problem{id='E348STEg3oqkJUIEqOdHjky5', size=27, operators=[if0, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='E3grdh0cXJ2ipiwbQBT3JXXA', size=27, operators=[and, fold, if0, or, plus, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='ECC5Z4NA3QIhPjscegxSBiDN', size=21, operators=[if0, not, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ECPXgxyYj8TNxdLe6iVfLnNW', size=25, operators=[and, if0, not, or, plus, shr4, xor], solved=false, timeLeft=0}
+Problem{id='EReBOH5u31sLBqyi40VuZlpF', size=13, operators=[fold, not, plus, shr1, xor], solved=false, timeLeft=0}
+Problem{id='ERlN3hMBaxO56FBJhDaoSHIh', size=19, operators=[and, if0, or, plus, tfold], solved=false, timeLeft=0}
+Problem{id='EUXT1GjWwjHgfeP7iIVh8hAE', size=19, operators=[if0, not, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='EWBaqhxNSz61OkurnTUo0I9K', size=17, operators=[if0, plus, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='EXLTALy8qTENBzf76Y88oHUd', size=28, operators=[if0, not, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='EYq6ppwyEmnoG62xSgP8UIso', size=30, operators=[and, if0, not, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='EaT6y4JTPei1REXvCpHEuWWK', size=15, operators=[and, if0, or, plus, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='EaZdsdavG9Fia3saqsx8MMMh', size=27, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='EcAL29Gp3cYnICS2G2wTqE31', size=10, operators=[and, if0, shl1, xor], solved=false, timeLeft=0}
+Problem{id='EcGTmMbLjq4OBiuaKMcgJA4b', size=27, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='EhLLXOLJzvtDWG6cwJMCGppz', size=27, operators=[and, fold, if0, not, or, plus, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='EheHDtaWDj0lEPoPcXxY2pXn', size=25, operators=[and, if0, or, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='EjVrae2mSh8E27QrQfR600Ks', size=18, operators=[if0, or, plus, shl1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='Emp2VdK9uz2BJdJNy9xILMBs', size=13, operators=[and, if0, or, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='EtHBUbBL9T7dYlAHzmTNzArW', size=4, operators=[and], solved=false, timeLeft=0}
+Problem{id='EyaAQ2vFvTzQRZns1Y9sSWvD', size=11, operators=[fold, or, plus, shr16], solved=false, timeLeft=0}
+Problem{id='F19NNrBHgT2XypDA1HrsiRsB', size=10, operators=[and, if0, shr1, xor], solved=false, timeLeft=0}
+Problem{id='F1yDBTVebV23I43Fv7zhYJOR', size=16, operators=[if0, plus, shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='F3XSvhAEpd6nQTOjMvlCZAml', size=9, operators=[and, if0, or], solved=false, timeLeft=0}
+Problem{id='F7QS27XLu3dJeF3Nw0VNbhXg', size=4, operators=[not, shr16], solved=false, timeLeft=0}
+Problem{id='F9q08BLtFOQxzYXXLB5qjBB2', size=19, operators=[and, if0, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='FAQPXCfbAbkYNaaG2NOvW152', size=13, operators=[if0, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='FB6SRctBLfFYySJxjPuK0aQB', size=27, operators=[and, if0, or, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='FBOq6AoIuf0AbtfF5IFbXQxy', size=26, operators=[and, if0, not, or, plus, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='FF6IzCb7kWXgOUuY4xCQHyd5', size=15, operators=[fold, if0, plus, shl1, xor], solved=false, timeLeft=0}
+Problem{id='FFDAaSHojvOIgMiZBu2rUlpT', size=18, operators=[and, if0, not, or, plus, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='FGFdE64EmAfbuWIEETIsbjnw', size=21, operators=[if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='FGrx66lnMJyoCliKBmIK2res', size=12, operators=[not, plus, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='FHSPagxTlo7qBkMEOFqhupcK', size=29, operators=[and, fold, if0, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='FKA27Zwi4Q0XzmSrmillRB0y', size=29, operators=[if0, not, or, plus, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='FO8NAbWpeV2D7oBd2JKCHkUD', size=25, operators=[and, if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='FQokxZHpEnlmqyfG2J6cjOEe', size=22, operators=[and, fold, if0, or, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='FWY1cncpzEcqfuO6qzkHxgE2', size=27, operators=[and, if0, not, or, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='FZGWW1uMhBDgiZmnnPIH3SCR', size=25, operators=[fold, if0, not, or, plus, shl1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='FZlOEFVl5srVSuLB35vvbQLu', size=12, operators=[fold, not, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='FblfKkhvqYUke0t104bsDmqV', size=5, operators=[plus, shr1], solved=false, timeLeft=0}
+Problem{id='Fe4PZ9YNbc8r2kP5p4BeiBtF', size=24, operators=[and, fold, if0, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Fg6YFuTB4UlaLto3pAsRR9z0', size=15, operators=[if0, not, plus, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='FhrsJkYZNWc6dPeCTloWnB9y', size=11, operators=[fold, plus, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='FqoigSFBYYSfMLHg9zaOdafM', size=3, operators=[not], solved=false, timeLeft=0}
+Problem{id='Ftti4I1PY3DLwRtmuA7Rtdve', size=10, operators=[and, tfold], solved=false, timeLeft=0}
+Problem{id='FuyEJAhfXBGFbxN4srtE5GyB', size=17, operators=[and, if0, or, plus, shl1, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='Fv0uHbongfZJxMMxXBrG6i8G', size=21, operators=[and, fold, if0, or, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='FvwUSnCPhopGMCuhKPBHCKRy', size=27, operators=[if0, not, or, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='FwFRQBXM7ZDJBFCY3pGqOC6H', size=14, operators=[if0, not, or, shr1], solved=false, timeLeft=0}
+Problem{id='G3rQB9iN80qqpsvBpAk3L3ZU', size=12, operators=[if0, not, shl1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='G9AMob5CFBoqnKYlZp8EDfsX', size=14, operators=[and, if0, plus, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='GBPu2BBXpz1CkdXeVRA3JAGA', size=14, operators=[and, if0, plus, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='GBU5UCmewcsMqEQu7Kw9TUp5', size=6, operators=[or, shl1], solved=false, timeLeft=0}
+Problem{id='GCh9LhMGoDmdLeQr9BIxFwYA', size=22, operators=[and, fold, if0, or, plus, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='GG4wxz0jSjiPv04A8nKetbcc', size=17, operators=[and, if0, or, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='GGyrVFCX9asuAXFfGvlzJrka', size=22, operators=[and, if0, plus, shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='GLxfkbYGvofH7WAgNZBMudCP', size=3, operators=[shl1], solved=false, timeLeft=0}
+Problem{id='GOxDQIesPAsbXg8n6u4aVWD3', size=23, operators=[if0, not, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='GRbFZkQDGWPCRmndqpoinbt7', size=28, operators=[fold, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='GSQfiuTgmZZO1TWf4qMrJFTv', size=13, operators=[and, if0, shl1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='GTFsYDVRer3vms1fOx5kGe57', size=19, operators=[fold, if0, not, or, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='GUGvQAoL0fndZFYHOwzVRHXg', size=21, operators=[if0, or, plus, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='GXwrCbMX0Bj6s4dbD7MjOYWB', size=26, operators=[if0, not, or, plus, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='GYcj2l988elnJQ3lhnKjNAPB', size=5, operators=[not, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='GbgXjQGYJhkb5HAqehLtxayd', size=20, operators=[and, if0, or, plus, shl1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='GgV3rtGKgYH6GNk8ZEOS60L2', size=13, operators=[if0, plus, shl1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='Gyw3P9KCfrAFE9TlfmKqBss8', size=17, operators=[if0, not, plus, shl1], solved=false, timeLeft=0}
+Problem{id='H3UqBhHdeiuP9sRzzwKsT7iu', size=14, operators=[and, if0, shl1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='H6v3J0IfVS8qBpH6fqdFwLoq', size=4, operators=[or], solved=false, timeLeft=0}
+Problem{id='HAx7QUZFFMe44PWruB1DmoW8', size=18, operators=[if0, not, or, plus, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='HBKwahUXuYUPhfqEzBYeFkuo', size=21, operators=[if0, not, plus, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='HBlks3b12gJ1mNWQ0EDVThyb', size=12, operators=[fold, or, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='HEOwHyCXT9T5Dg8MsW3YoYRn', size=26, operators=[and, fold, if0, not, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='HFZ9YFA5narFa7D4ly5och99', size=13, operators=[if0, not, shl1, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='HHyE1dEnos9aTU8laeM8jsAG', size=30, operators=[and, if0, not, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='HJ2oYdEEABgkufJWBKngcqMS', size=25, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='HLXocrM73d5PClSvdYhaA2As', size=3, operators=[not], solved=false, timeLeft=0}
+Problem{id='HN6I7LFlpwq2IJ4yhWC4BRNO', size=15, operators=[if0, not, or, plus, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='HPcAMCP8OFntIzFni0NAwXCa', size=15, operators=[if0, or, plus, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='HR2w3S32oSUwKhVsrln0AGAZ', size=29, operators=[and, if0, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='HRIMZJFcsEpUnD9XyuMWYmUH', size=13, operators=[and, if0, not, or, shl1, shr16], solved=false, timeLeft=0}
+Problem{id='HSIetk6r6GmDAbnfWnu1gIoz', size=21, operators=[and, fold, if0, or, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='HZ07tV0cBypTZTccmll1ci1c', size=27, operators=[and, if0, not, plus, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='HaV4ZNiG1Wtgy7rAhDlflxHe', size=21, operators=[if0, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='HdJTyd4AxTPW0TIxxeuHY50U', size=18, operators=[and, fold, if0, not, shr4], solved=false, timeLeft=0}
+Problem{id='HhrCGaO5LNejowAyDnCktysU', size=16, operators=[if0, or, plus, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='Hhs32yqyAhvsxoUksMOE39Lw', size=30, operators=[and, if0, not, or, plus, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='HjHqFy7C35rFWEAovnDIPsew', size=21, operators=[fold, if0, or, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='HltFS7q6rjBNq6Zdqv5GWhpa', size=8, operators=[or, plus, xor], solved=false, timeLeft=0}
+Problem{id='Hw5lLwGjgm8UyABe791NkNwn', size=20, operators=[and, if0, not, plus, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='HxZQFV1VsIUtrjIlG6pwfdUN', size=12, operators=[and, fold, plus, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='I37jQ3kYOB7aKBXMdYzcxX15', size=18, operators=[and, if0, not, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='I45ORgkqc3AH3u0eLoHktahI', size=16, operators=[and, if0, or, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='IABpKMzYoNGFeLBTBXbvEM5U', size=23, operators=[and, fold, if0, not, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='IAUd8GAL00XmwpEhAFOE9E0z', size=15, operators=[and, if0, or, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='IAsEeRue5qtMs4ZibqI7dpWp', size=27, operators=[and, fold, if0, not, plus, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='IBjBnaBJP7PoG8Tas8xN46Ag', size=21, operators=[and, if0, not, or, shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='IBsSXAokRZ8q7VY5yaCVUBJW', size=29, operators=[and, fold, if0, not, or, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='IGthBKCAfDM49RsgdKuBzNSU', size=9, operators=[if0, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='IGwrFfBMk8cWjfz8eDv34wVJ', size=14, operators=[and, if0, not, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='IIclOgkAXP57U00G9TxIFn36', size=21, operators=[and, if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='IQTWa9AKqAGhNgMw3kwfX8XO', size=18, operators=[if0, plus, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='IUPl97gjYaEe0Dd9pUpg2jLJ', size=22, operators=[and, if0, or, plus, shl1, shr1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='IWDnJygpeajXjchJymTNsVAo', size=15, operators=[and, fold, if0, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='IWJukpthf9fsPG4SyLScD5BY', size=30, operators=[and, fold, if0, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='IXhJIqkrn531PBE7jE8EVu0m', size=15, operators=[if0, not, or, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='IhaMBmZWFEonQsmfbhZCJicU', size=8, operators=[plus, shl1, shr16], solved=false, timeLeft=0}
+Problem{id='IkbV26yAEl0Qj6k6adtVhBoi', size=30, operators=[and, if0, not, or, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='IlXmtvN8fccAWB8yLU2oljJx', size=5, operators=[not, or], solved=false, timeLeft=0}
+Problem{id='IllGH6npjvLjaSIdqmdFQkc3', size=3, operators=[shr16], solved=false, timeLeft=0}
+Problem{id='IqAxpAMrjzrbJSWRoRJRbS7w', size=28, operators=[and, if0, not, or, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='IqJBcoPTYsXbCoEHR6DjKPNT', size=20, operators=[and, if0, plus, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='Is1lSDxY6hrlDv0YNBGIBA0N', size=18, operators=[and, if0, or, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='Iu9pXZMuUW1gJVQXQByIPolY', size=18, operators=[fold, if0, not, or, plus, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='Iwexvn3a0pb50O3DDTIYgxzc', size=28, operators=[and, if0, or, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='IzZGfEaow7vNq7wEL5Dpvq5g', size=14, operators=[if0, or, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='J6o5h1WslX3I6S7ULxkqC3Eo', size=13, operators=[if0, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='J7hzhLhB7UyxdvsnaBImihU8', size=20, operators=[and, fold, if0, not, or, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='J8QIUxJIT1ftyJo136drNCSP', size=27, operators=[if0, or, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='JB9DSCAxQ9tCApjw0mI4zCRx', size=9, operators=[if0, not, shl1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='JDtoExZAvJ9QM2hzm7CcYkNV', size=21, operators=[and, if0, plus, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='JErgQ1nSqCmrnxB3Sy7TphpU', size=29, operators=[and, if0, or, plus, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='JGlGdf24cVzs7uNTHwKKMrbK', size=20, operators=[if0, not, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='JLpmg8Q97AKMBMqeU1vfTeXi', size=9, operators=[plus, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='JLrfJPk3Ainpt9YgVeMLqjX1', size=23, operators=[fold, if0, not, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='JNL6rWIEPi9o1Ln8QNGMpcGc', size=28, operators=[and, fold, if0, not, or, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='JQzfdORIBIRlKVEEfzNljSV8', size=9, operators=[and, if0, shr16], solved=false, timeLeft=0}
+Problem{id='JU3gM6h3kgdVMXQKv9dB3Fi5', size=15, operators=[if0, plus, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='JWn6PkLVXHrtRHzR6HASpWfw', size=7, operators=[or, shr16], solved=false, timeLeft=0}
+Problem{id='JYJKhJNRlf2x1V0A13ia9DAj', size=25, operators=[if0, not, or, plus, shl1, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='JcS9Vq33tFZ9nMQdPqfzQTtB', size=17, operators=[fold, if0, or, shr1], solved=false, timeLeft=0}
+Problem{id='JePn0f7g21rzkAnqkmlwwcda', size=21, operators=[and, if0, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Jeth3fqeBtOBLagO7pHGjEL7', size=19, operators=[and, if0, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Jkl5Owd5Qt5nahBP6x3towaT', size=10, operators=[plus, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='JncZOTrljKxmfjYFpr4sMhCv', size=17, operators=[if0, not, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='JsAGob8SAtAGonHxAGFoZgHz', size=17, operators=[and, fold, if0, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='JsIAJyJSDQEyKUmmEtd3pd9V', size=13, operators=[fold, or, shr4, xor], solved=false, timeLeft=0}
+Problem{id='JszBSGL5ZMi9QZBaOVecuPgu', size=16, operators=[and, if0, not, or, plus, tfold], solved=false, timeLeft=0}
+Problem{id='K2QWGA9Av4bEocMgh5enZnWq', size=22, operators=[and, fold, if0, not, or, plus, shr16], solved=false, timeLeft=0}
+Problem{id='K515zzi0x8QltHrXXN7Z0SKw', size=15, operators=[fold, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='K5Nx5Ys7bSAdEIlLewLltG0H', size=17, operators=[and, fold, if0, or, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='K9JtzhrsZXZLht3y7kB7O6Zp', size=19, operators=[and, if0, not, or, tfold, xor], solved=false, timeLeft=0}
+Problem{id='KAdpjIFzg8Op5mab3z6RECVZ', size=23, operators=[and, fold, if0, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='KAzKL3ZjXILAIqpCIBFlB8Ve', size=14, operators=[fold, if0, or, shr1], solved=false, timeLeft=0}
+Problem{id='KBegLGxWG3dMFxh5gcu8jJps', size=28, operators=[and, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='KBwoBlo1zEReOXDmdOdj7ThM', size=27, operators=[and, if0, or, plus, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='KGLeERIvDVY8ccl1DgE65LT9', size=11, operators=[fold, plus, shl1], solved=false, timeLeft=0}
+Problem{id='KPgbXVWqNtLfiUjRuBQDgF6m', size=28, operators=[and, if0, not, or, plus, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='KW1ZeoCxKZjAI8zyYRtI9Zdc', size=25, operators=[fold, if0, not, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='KXqJuIaTDuNpzu4IQ80YGQDY', size=15, operators=[fold, if0, not, or], solved=false, timeLeft=0}
+Problem{id='Kc8qHIjDdS3xasa7Ck7edBfl', size=21, operators=[if0, not, or, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='KhusRBgBKC8xjIBBvqKfQ8s3', size=20, operators=[and, if0, not, or, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='Kk2v0Y3pNWiH7vDLgLurRSk7', size=26, operators=[and, if0, or, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='KnBqrKaNE4TD1CAOEGz47Hgj', size=9, operators=[and, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='KujwQCFkzmYH5Bmys5VljR3S', size=28, operators=[and, fold, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='KwLcTHmvDh11XvLbWxAdpyVI', size=19, operators=[and, fold, if0, not, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='KyhJpEO5fNqVrT0VmD8Cd6Zf', size=13, operators=[if0, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='L7Mf54qAk2UDKnlrQOOHJBIb', size=21, operators=[if0, not, or, plus, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='L8H2FjKfnhagoMfVySAp5bTy', size=26, operators=[fold, if0, not, plus, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='L9Rg3f0y0ucPaXeyIK8kuMW5', size=9, operators=[shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='LBh2ihSkIUCBftCOZQgJTvME', size=30, operators=[and, if0, not, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='LFtPpYK6ctRaNsCEqw7Erqj2', size=3, operators=[shl1], solved=false, timeLeft=0}
+Problem{id='LGhEGUniWfmGg6blnuqvgNrA', size=3, operators=[shr4], solved=false, timeLeft=0}
+Problem{id='LKKKiqiLOcQacr6GVUtfZfbC', size=30, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='LQAkFxyLnCtmzrtUptAhcMPN', size=10, operators=[and, if0, shr1], solved=false, timeLeft=0}
+Problem{id='LR3lf3r4MkjAjntrBAXSphxL', size=27, operators=[and, if0, not, or, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='LftqCmR9Lmu3IE6oRNZQmPP7', size=29, operators=[and, if0, not, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='LmIXrqilKOjctPVPBEbSfcCd', size=18, operators=[and, if0, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='LnOvxtMphB6VYv01gRPJP8B1', size=11, operators=[fold, plus, shl1, xor], solved=false, timeLeft=0}
+Problem{id='Lsf8SAlRjokf3dsJSzdLJ350', size=9, operators=[if0, or, xor], solved=false, timeLeft=0}
+Problem{id='Lw1y54qLhaLAA5hiZHaElzdv', size=14, operators=[if0, not, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='M4CjDRn9Z3C2fI8Nlz6mvM7Q', size=21, operators=[and, if0, not, or, plus, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='M5yrKFd5hcqy6YolA4jDihHL', size=29, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='MAwxBRXAKxKVCyJlQtJ6lbJA', size=15, operators=[fold, or, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='MCckU8IfT6tA4svmUONCFaKL', size=18, operators=[if0, or, plus, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='MG9xfADl6IPh2bxV1PsRSp51', size=28, operators=[fold, if0, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='MGqYJqCn8u5NcuYSPK1ovQs6', size=17, operators=[and, if0, not, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='MIsUCIY9VmB4yDlwU9es7X8Y', size=26, operators=[fold, if0, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='MSxtyLls7TE1B3bM9vWCA7tN', size=10, operators=[plus, shr1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='MT0Unwc0YkqcWD5SK2D0KJwp', size=10, operators=[and, if0, not, xor], solved=false, timeLeft=0}
+Problem{id='MTWV54dOcXOtTCK367NHdsZU', size=22, operators=[and, if0, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='MZTQ3DNeV1kB4oSAqDiSJJSa', size=26, operators=[fold, if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='MhDnYnFeZcileXWdxLkscVTo', size=13, operators=[and, if0, tfold, xor], solved=false, timeLeft=0}
+Problem{id='MlnBCV9wkvhZot0KFhypXJcQ', size=30, operators=[and, if0, or, plus, shl1, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='Mlp3jf0DLDlc3HDdEvPNxifZ', size=8, operators=[and, tfold], solved=false, timeLeft=0}
+Problem{id='Myh5R8uLVLolVsJ1m6evKBgj', size=24, operators=[fold, if0, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='MypWmgSQof535WPWm2IUkOFq', size=18, operators=[and, if0, not, shl1, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='MzB0I9LReXQVZrBY6G8dFXCp', size=9, operators=[if0, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='N0FBGCgSsVbN08zqEYeYwqBw', size=14, operators=[fold, not, shl1, xor], solved=false, timeLeft=0}
+Problem{id='N3fjH0T1yVDvAQlfEo9kRFnU', size=29, operators=[fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='N3wLJSswpHi4cjR3Y0kkQK32', size=13, operators=[and, if0, plus, tfold], solved=false, timeLeft=0}
+Problem{id='N496RyJI0tVBdsrwBk14h8qC', size=19, operators=[and, fold, if0, or, plus, shr1], solved=false, timeLeft=0}
+Problem{id='NCIrtVoMBbRicRgV5bbNDl3Z', size=22, operators=[and, if0, not, plus, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='NG98TuEhKaR9AwEBj7lzeZcm', size=12, operators=[fold, plus, shl1, xor], solved=false, timeLeft=0}
+Problem{id='NGBLUzUQU5Ry0Y9iVONuWHGd', size=13, operators=[if0, or, tfold, xor], solved=false, timeLeft=0}
+Problem{id='NGhmnIm2LrfXUcmivuBsszs7', size=22, operators=[and, if0, not, or, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='NK2BIUgNvtkAoTm2GsOjKM8M', size=11, operators=[or, plus, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='NKSXNmM4PyepVpJWaZAg2RWL', size=25, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='NKvsFCYHXnlXVQmPawz1rQR8', size=20, operators=[if0, not, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='NN2tIBCxOxS3e5BAK1rAZo4t', size=28, operators=[and, if0, not, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='NNx7FYBKGVASC8wAJOBj5Ee6', size=3, operators=[shr16], solved=false, timeLeft=0}
+Problem{id='NOqRM2xZzhqouOpEEBLA0Q2K', size=10, operators=[and, if0, shl1, shr16], solved=false, timeLeft=0}
+Problem{id='NQ1LAvEEiOeZnZVUOTGnzAtb', size=24, operators=[if0, or, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='NQGL18duboVf9gFaaY4tiWxv', size=19, operators=[if0, not, or, plus, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='NSF8zKFhVi6tp0qxYQZ4Dq6X', size=13, operators=[and, if0, not, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='NUwan4MgRtSK3EIKKRpXzI9a', size=13, operators=[and, fold, not, or, shl1], solved=false, timeLeft=0}
+Problem{id='NVVouBHrXN8ziCZ8OTiRbCds', size=15, operators=[if0, not, or, tfold, xor], solved=false, timeLeft=0}
+Problem{id='Na34aZBvtR6C6OMMraoQdBi4', size=21, operators=[fold, if0, not, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='NcFgnAr2CUlkr9lubdYCnTey', size=24, operators=[and, fold, if0, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='NdhHUDry7erID7iyfLdYXZPl', size=14, operators=[if0, not, plus, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='Nf8HEebYKOXBBAMXGJ6NuohZ', size=11, operators=[fold, if0, plus], solved=false, timeLeft=0}
+Problem{id='NfLUlzU3fAdUAxff7AJ2yU1A', size=12, operators=[fold, not, or, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='NiKizQ9A9oNaxuAnPBFXOtQk', size=30, operators=[and, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='NkmFW4qjKUpwkD9vanzpSSCQ', size=9, operators=[and, if0, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='Noad0p0GRfckFyCxerWmbSD7', size=13, operators=[fold, or, plus, shr1, xor], solved=false, timeLeft=0}
+Problem{id='Nq2WYnfSasqyJ6hIV0YCMQSt', size=28, operators=[and, if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='NrEg06h8fmjHgcm13RvpTaAP', size=20, operators=[and, if0, not, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='NusPemC0AIHIJHAzJxfgro5m', size=26, operators=[and, if0, not, or, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='NzG3dpJRXgjx3cA8SMMjPJ3S', size=19, operators=[if0, not, or, plus, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='O3e6T6HrQh4ftO1poZnQE0PK', size=18, operators=[fold, if0, not, or, plus, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='O9RQsOz59dAUd8nWjmQGKpsB', size=19, operators=[fold, if0, not, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='OBTCkejB8RpR5KGZpUFOdb01', size=15, operators=[if0, or, plus, shr16], solved=false, timeLeft=0}
+Problem{id='OBUbXIYOsbrfuRhcXH5U2XeW', size=29, operators=[and, if0, or, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='ODFbIet0B3RaBRh6XkTZswjx', size=9, operators=[and, if0, xor], solved=false, timeLeft=0}
+Problem{id='OE1TBzDSBiaQIVBEopgEYuo3', size=11, operators=[fold, not, or, shr4], solved=false, timeLeft=0}
+Problem{id='OFLByXbUj5BKsirca0vYp1gx', size=7, operators=[or, shr1], solved=false, timeLeft=0}
+Problem{id='OKM3akDdTrVWoIBZAwxLGjj3', size=22, operators=[fold, if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='OLTKofiY4TOhleJs7bwtdASB', size=6, operators=[shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='OMJmpVbXW7wRqf7e59LavW7r', size=17, operators=[if0, or, plus, tfold, xor], solved=false, timeLeft=0}
+Problem{id='ONYDgqJaYr3gB8pMqzU03HzK', size=16, operators=[and, fold, if0, not, or, plus], solved=false, timeLeft=0}
+Problem{id='ORznlpGlT1V9LhmmDvZ0OdYc', size=9, operators=[if0, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='OXBc7ukQwg26dTgCsMMgiyEh', size=13, operators=[and, if0, tfold, xor], solved=false, timeLeft=0}
+Problem{id='OXUeB5nZWbkV4uaiHRk3VRKO', size=16, operators=[and, fold, if0, or, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='Oe4rl67VHL4wKXAkMRaJWsBW', size=30, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='OezyeOQCgBgbpAhNpAUr6rLh', size=23, operators=[if0, not, or, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='OhCQj2P8XkW78mUO309VdoqQ', size=24, operators=[if0, not, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='OosklsWEBAAw8sFJ3BCAQHHA', size=22, operators=[and, if0, not, or, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='OrCei9GCZULyCgvafwAdGS1o', size=6, operators=[and, xor], solved=false, timeLeft=0}
+Problem{id='OsNUEmG3lz4Xv4vvKuYVfo4V', size=15, operators=[if0, not, plus, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='OtvE8tHSGVfM77J8zj7hWLwy', size=7, operators=[not, plus, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='P0TFGNaAkzLTgb3LI05A79VQ', size=3, operators=[not], solved=false, timeLeft=0}
+Problem{id='P1dOw6CDesEjORVZpUIyAKa2', size=12, operators=[if0, not, or, plus, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='P6ba7gKi6Snal6Cr9rcd2n66', size=14, operators=[if0, not, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='P8yVZju5JFf8gAKDzAJcsCWR', size=26, operators=[and, if0, not, or, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='PDQeWXYHbNhZ33OpJAWgoaGz', size=23, operators=[and, fold, if0, or, plus, shl1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='PDbQxfYe2fgZNlxidUJSq4OC', size=15, operators=[if0, or, plus, shl1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='PF5x5q9J9YAAUr4qWB7uMoSz', size=24, operators=[and, if0, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='PIgpKRXW7UuFm8RvnByrmo90', size=24, operators=[fold, if0, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='PNU5si6q5VjKqbAT6XaBwJXB', size=13, operators=[fold, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='PO0cADPrbAGryEPppHHnieeF', size=11, operators=[or, plus, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='PT2I8FcPy5TOVOhEtzS9IH8u', size=4, operators=[or], solved=false, timeLeft=0}
+Problem{id='PWTlhxSyb4EL1AGOs7ARsqE5', size=17, operators=[fold, if0, plus, shl1, shr16], solved=false, timeLeft=0}
+Problem{id='PXtJfQx2AgUvvsph8RbPXNCe', size=18, operators=[and, if0, or, plus, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='PYSSVMP8fIfizq7FzPvRuXMH', size=17, operators=[and, if0, not, or, plus, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='PYbKqDNVyrBbcZcWkmRlmTKt', size=28, operators=[fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='PYljG9FCqqFIk6oAFT1eAOJJ', size=19, operators=[fold, if0, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='PbNZGnhNULZBWbmAn8A6HUq2', size=13, operators=[and, if0, not, plus, shl1], solved=false, timeLeft=0}
+Problem{id='Pe1EBqdckQUww0XMt8SLkD9P', size=30, operators=[and, if0, not, plus, shl1, shr1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='PfnMaBY7lV3deyyxNfMy80kS', size=14, operators=[and, if0, or, plus, shr1], solved=false, timeLeft=0}
+Problem{id='PkW1RoRiTC1I0iAED0wBJZJ6', size=26, operators=[and, fold, if0, not, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='PllCTYS6vXHQ5UO9bAAXxKTH', size=11, operators=[and, not, tfold, xor], solved=false, timeLeft=0}
+Problem{id='Pm1ECv1X42v70D7fbUGTSzKP', size=30, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Pm2oDXTLMGcqB6kvEOmeBbkv', size=16, operators=[if0, not, or, plus, tfold], solved=false, timeLeft=0}
+Problem{id='PnB7DCBUm3KA2y0pBLLiidXO', size=20, operators=[if0, or, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='PynwYxPdpipMfqBtjRFS5DgV', size=30, operators=[fold, if0, not, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='PzfyRehloUAVvtJW3BoRrBWA', size=24, operators=[and, if0, not, or, plus, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='Q0ijDSO56K0lZyY4L6O0UPo7', size=26, operators=[and, if0, or, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='Q259jIRvCh8YRA8gvzd4elMr', size=30, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='QAnMs5HOdHLR8A2ACCioC8IB', size=30, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='QCSYw09AuSSnwJjEznipfu64', size=28, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='QEezx1DZM8z7OagngtwZcKGI', size=17, operators=[and, if0, not, or, shl1, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='QG5lXo39U3tiMxr5iGYKVX42', size=30, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='QKkQ4oj4vs8N39OBAXN5Z6gx', size=29, operators=[and, if0, not, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='QLTmR15VBz6WnIes2VR577Fq', size=5, operators=[or, shr16], solved=false, timeLeft=0}
+Problem{id='QLaBEjeGzEojt368ctUMPBMc', size=21, operators=[and, fold, if0, not, plus, shl1, xor], solved=false, timeLeft=0}
+Problem{id='QS82xaWwo47gAaBdqe8yUhDH', size=11, operators=[if0, or, tfold], solved=false, timeLeft=0}
+Problem{id='QV5eNiWvzxkkxVLQG8JIsggs', size=28, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Qane5DBreNOuiQhA1BdZNV1A', size=11, operators=[and, if0, not, or, shr1], solved=false, timeLeft=0}
+Problem{id='Qcp5y56IlUsslBOBvKI1E0A0', size=13, operators=[if0, not, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Qn7kgT2xOKw2KsAFNTQ85ovU', size=30, operators=[and, if0, not, or, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='QvG4Ggwf9dACjRA1B5p8SBW1', size=29, operators=[fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='QvdBnepciwHPlQIqNEreXxV8', size=30, operators=[fold, if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='R0iY4zQReX6MWGyxobBniaVF', size=24, operators=[and, if0, or, plus, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='R0rBF2AAxThpxzfYJTLP5ljR', size=10, operators=[or, plus, tfold], solved=false, timeLeft=0}
+Problem{id='R59Ik1AJf0OHPqV8g532BEc8', size=21, operators=[and, fold, if0, not, plus, xor], solved=false, timeLeft=0}
+Problem{id='R5T9izxJCmdqiayFOEwrbqAt', size=21, operators=[if0, or, plus, shl1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='RA2foZgytqWHGoEIc4hSuP5A', size=11, operators=[fold, not, plus, shr4], solved=false, timeLeft=0}
+Problem{id='RDSmEpRTE8mGWyIibbffdsw5', size=3, operators=[shr1], solved=false, timeLeft=0}
+Problem{id='REm2Jz0pcs5qJIaGQJIIZBEV', size=28, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='RFCcsgoQj93LNg6poaiZORME', size=29, operators=[and, if0, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='RFPGEXDdeJuxdApruxFqisVG', size=23, operators=[and, if0, not, or, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='RFfjPJtcDlLg2Rc99dwHwFJs', size=28, operators=[and, if0, not, or, plus, tfold, xor], solved=false, timeLeft=0}
+Problem{id='RFkpCC2uVjAiIXEB99zTh0gy', size=8, operators=[not, or, shr16, xor], solved=false, timeLeft=0}
+Problem{id='RRL2PiQAMSvZ2xhPP66j592H', size=23, operators=[and, if0, not, or, plus, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='RRq375YBpfBxZSd5MAOxI4XB', size=28, operators=[and, if0, not, or, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='RTLau9xBZv9tbTl7LKAr33OS', size=16, operators=[and, if0, not, or, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='RX8aCEFueN1rc1quB0QdYe2k', size=18, operators=[and, if0, not, or, plus, tfold], solved=false, timeLeft=0}
+Problem{id='RYhbvcZZ4IbFAw6Rb447u2LN', size=16, operators=[if0, not, or, plus, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='RYmk1MIXvkbynSEfBpJ6VOl0', size=30, operators=[and, fold, if0, not, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Reo3sa55qZAkiaeomibadXXP', size=30, operators=[and, if0, or, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='RfLew3mt0JfSMh0lBxujjQVB', size=30, operators=[if0, not, or, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='RgBfL9VhArc6pholblRoeEUz', size=11, operators=[fold, if0, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='RjYOQFfwLuyxBV6Lo5G1Kvc3', size=9, operators=[shl1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='RvETiTtDLPE0AMXFIRGCkZUm', size=18, operators=[and, fold, if0, or, shl1, xor], solved=false, timeLeft=0}
+Problem{id='RwgBFZR4v76r3r4sMJEWBOrK', size=27, operators=[and, fold, if0, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='RzfDMCEB0kknAPWPuT6atv1j', size=26, operators=[and, if0, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='S2aZ7u52bxls7mGhXFOBjqC9', size=28, operators=[and, if0, not, plus, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='S48huSzQXu9wtabBebEBoHlm', size=10, operators=[and, if0, not, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='S7iuvrGZcfgrSjszWD7YVjZe', size=23, operators=[and, if0, not, or, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='S9VqlX5yC8XIMN4pLdbjn2AE', size=28, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='SCukS0nbfhGAIhamkvEYCVsE', size=23, operators=[and, if0, not, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='SEFe9drgNB3N5iiBHcxivN0y', size=13, operators=[and, if0, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='SFG8T8U7cBs8FL3ThO1gMmpU', size=17, operators=[if0, or, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='SJEBR9U6ryAllbxjUT37Oc2I', size=23, operators=[and, fold, if0, not, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='SKE4qN7AHawKGe1osVJtcdIu', size=16, operators=[and, if0, not, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='SLwKiLLMuhahkrmaqWbqwElS', size=18, operators=[fold, if0, not, or, plus, shr1], solved=false, timeLeft=0}
+Problem{id='SNtBU1l2PIAFVphHMZGa0Kib', size=16, operators=[and, if0, plus, shl1], solved=false, timeLeft=0}
+Problem{id='SUvwAXoyOsgAabHtZLiiOkxg', size=28, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='SXjSZxAqNdTo0ZvhiBxUo5Bq', size=12, operators=[if0, plus, shr1], solved=false, timeLeft=0}
+Problem{id='SY29t14VXd0pl9QRCgMH2FFa', size=10, operators=[plus, tfold], solved=false, timeLeft=0}
+Problem{id='SbxoDlAnubaPg9UhpMrkJTCw', size=21, operators=[if0, or, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Sg4VcYhggJZzwiDVxztiO83n', size=27, operators=[and, if0, not, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='SkyVyi1hWz8PT4DKzV6jyF8n', size=29, operators=[and, if0, not, or, plus, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='SlMznJkBn2cGkGCCOwnvtl3M', size=13, operators=[fold, not, or, plus, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='SpCRuaicH9siiK7zVyNkpyAr', size=26, operators=[fold, if0, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='T3VCm5tTpuQJU4lWXYnE6Ecr', size=17, operators=[and, fold, if0, plus, shr16], solved=false, timeLeft=0}
+Problem{id='TBUWMo7iL1yScOCP6Uq2RJxC', size=17, operators=[if0, plus, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='TCSXYoqc3fTE0bXy8i6O5SN5', size=29, operators=[and, fold, if0, not, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='TF2Agqb09ji7Wvg3w6t1BJxA', size=15, operators=[and, if0, not, plus, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='TGS0cf0gpYj1a3i19oPOdxbq', size=16, operators=[and, if0, not, plus, shr4, xor], solved=false, timeLeft=0}
+Problem{id='THjOkhzXWAjqripkc6g2RLgZ', size=14, operators=[if0, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='TKuaGL5EN31BonUpzGcjzEDs', size=8, operators=[plus, xor], solved=false, timeLeft=0}
+Problem{id='TOJIMSREX1sFBVMT3tDBilsf', size=23, operators=[and, fold, if0, not, or, plus, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='TY1JjGvButsepA214BOzJyAI', size=24, operators=[if0, or, plus, shl1, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='TapBwZzt7S2ZDZdm9PVr53fm', size=15, operators=[and, fold, if0, not, or, shr1], solved=false, timeLeft=0}
+Problem{id='TcqwAIqMfGFknj0WeI1C9Xn5', size=10, operators=[and, if0, or, shl1], solved=false, timeLeft=0}
+Problem{id='Tr1TaDyNYtzYzyQQ6yeid2Jh', size=30, operators=[and, fold, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='TrH9OBmxnAGaRVQHlex6jFfq', size=15, operators=[fold, not, plus, xor], solved=false, timeLeft=0}
+Problem{id='TupU9xojFQ4661qI3QdXp1nw', size=23, operators=[if0, not, or, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='TxIC7NJC2w4Ce3Ca8LPrXZmA', size=18, operators=[fold, if0, not, or, plus], solved=false, timeLeft=0}
+Problem{id='TxvyBAadOaILjKMb2Q8A8QKn', size=29, operators=[and, if0, not, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='U0wGSUXeKflJlgaGBH4GbvEy', size=17, operators=[fold, if0, not, or, shl1, xor], solved=false, timeLeft=0}
+Problem{id='U1MkpuO6A8eN5r6FB50TpUsP', size=16, operators=[if0, or, shl1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='U2CtWrRcWCXfGyt96gaH62xU', size=30, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='U3LUZhB1ztXAwjmXwYDPTtZo', size=24, operators=[if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='U3OAdKrsx3KVMJt7Pur9MCSP', size=6, operators=[and, not, shr1], solved=false, timeLeft=0}
+Problem{id='U3xxfuWE4k4Llj783Brysp4n', size=15, operators=[if0, not, or, plus, shl1, xor], solved=false, timeLeft=0}
+Problem{id='U4vnZRDZWBV2KavwBgQdBQjn', size=12, operators=[fold, or, plus, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='U7gLC9sUc0Di7PpAn7NSzBF8', size=16, operators=[fold, if0, not, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='U8iEBeRcWKBhihibw2028cxI', size=18, operators=[if0, not, or, plus, shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='UDEBQd01470oApa2SweEzvta', size=11, operators=[fold, plus, shr4, xor], solved=false, timeLeft=0}
+Problem{id='UENrDFqUXJQVmjkbrP009Amd', size=30, operators=[and, if0, not, or, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='UF4BkeMpeGWZkBPGSsWSpcAU', size=24, operators=[and, if0, not, plus, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='UGSqnKT5JOjizARBmApeoeGB', size=6, operators=[plus, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='UPClobnVKpeEUw8cpLwtNAgK', size=6, operators=[or, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='UUxzOD9QcnInIXbcKtLHkhH6', size=22, operators=[and, if0, or, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='UYONKTk5BX4fmCJidBVmFc2A', size=19, operators=[if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='UYVvHWm5MXLk3AMTmhtZBQEE', size=28, operators=[and, if0, or, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='UZafZB7bUT0dogHcujhfatyu', size=13, operators=[fold, or, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='Ua4SsBWx0o3wXtb3WycHAz6W', size=8, operators=[and, shr4, xor], solved=false, timeLeft=0}
+Problem{id='UaR7V79Ifa60E1qnR7wkAUx3', size=14, operators=[and, if0, not, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='UahrsAb3qb0yK61Anrr6w95x', size=19, operators=[and, fold, if0, not, or, plus, shl1, xor], solved=false, timeLeft=0}
+Problem{id='UccaGKHWQs4T3zqjOQIJ8Q5L', size=15, operators=[and, if0, shl1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='UhFJmROvBICFJDN6oUzlrUv9', size=29, operators=[and, if0, not, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='Uii0Ik3THDpWTAFBACmfi1qn', size=8, operators=[or, tfold], solved=false, timeLeft=0}
+Problem{id='UjbolMoeTwRorZ7E3FPLQKSP', size=4, operators=[xor], solved=false, timeLeft=0}
+Problem{id='UkGBauwtllC1MXBLVaaWH06s', size=16, operators=[if0, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='UlV1xrwzkJ5gAd2BMlDmlDZz', size=10, operators=[or, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='UoYnggVhwBA4B3zecjyVhnVv', size=22, operators=[and, if0, not, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='UtK4d3mGb2XoGAfy5GT9H0M9', size=29, operators=[and, if0, not, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='UvAGvcW26WxOAsjU62BY7Jr8', size=7, operators=[and, if0], solved=false, timeLeft=0}
+Problem{id='UvDa7pZBc6GqQByAC8pYjnGo', size=22, operators=[fold, if0, not, or, xor], solved=false, timeLeft=0}
+Problem{id='UvMBq8D6SxNH5ydu8HASiBed', size=25, operators=[if0, not, or, plus, shl1, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='Ux9hsgHJarlt37s38srplRA7', size=26, operators=[fold, if0, not, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='Uy2wklwZ00J0PRwZWplz0xMk', size=30, operators=[if0, not, or, plus, shl1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='UyanfqsDQMSG1CeJMgUAmF5j', size=18, operators=[and, if0, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='V0LzLf3pyhmkn9Y3m4JIPSOb', size=14, operators=[if0, not, or, plus, shl1], solved=false, timeLeft=0}
+Problem{id='V0e39DfmoBvnbgWDhZ3n1Yt7', size=16, operators=[fold, if0, or, plus, shl1], solved=false, timeLeft=0}
+Problem{id='V4syfxiYRQqKeMmqvySbY1ea', size=26, operators=[and, if0, plus, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='V9M8FNxu7rpKsJ5XkHUf4FQI', size=18, operators=[and, if0, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='VB38cvkzHY1liCaezML0CAOX', size=27, operators=[and, fold, if0, not, or, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='VB6Qg7TUkBjYOTaJHi2Uro5V', size=17, operators=[and, fold, if0, not, plus, shr4, xor], solved=false, timeLeft=0}
+Problem{id='VDHhNKyikFUoX57i5xD8dYRc', size=12, operators=[and, fold, not, or, shr1], solved=false, timeLeft=0}
+Problem{id='VFxBqp4OdOBuMdXIGWGrZzah', size=25, operators=[if0, not, or, plus, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='VHBS44Fhx1bSigcZGOAxwpd5', size=9, operators=[and, if0, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='VJyw1h41AmEOggsBGzQDDAk9', size=20, operators=[if0, not, or, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='VXhHBI2x90D55pANRBNNafGV', size=22, operators=[and, if0, not, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='VYdZH8Jyv1H0XEPjGDkgRrM5', size=15, operators=[and, if0, or, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='VcDZeGNzmVwutbNIIKSLYVZe', size=15, operators=[if0, not, or, shl1, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='VeE9siLiLXgJ3UKHVVspzQCT', size=29, operators=[and, if0, or, plus, shl1, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='VecEnQJ5smCEINpwsdeXBetl', size=13, operators=[if0, not, or, plus, shr1], solved=false, timeLeft=0}
+Problem{id='VkPGy3AyfDZDY1hLAvnqP8l1', size=5, operators=[plus, shr1], solved=false, timeLeft=0}
+Problem{id='VnFQ876FCKXQmil8HMxFfL3a', size=24, operators=[and, fold, if0, or, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='VnVVjdzO9FiaNfxHfDAGujgx', size=13, operators=[fold, if0, not, or, shl1], solved=false, timeLeft=0}
+Problem{id='VoeHeO7mhcfxTUlIB43av1eQ', size=11, operators=[fold, or, plus, shl1], solved=false, timeLeft=0}
+Problem{id='VpqIBXXWHArbKCbtBSFUAekR', size=17, operators=[and, if0, or, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='VuqlAGSREf4aCSAeMHxnTynV', size=20, operators=[and, if0, not, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='VwdQAKpqKpUnSGvU2LMStIGl', size=19, operators=[and, if0, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='Vxmh2NARvMZ65XpPf3N3zUTe', size=5, operators=[plus, shl1], solved=false, timeLeft=0}
+Problem{id='W0tBaYXO4hLtjDsv3Gj1Bbls', size=8, operators=[plus, tfold], solved=false, timeLeft=0}
+Problem{id='W0zTv04wpMhRItXRCtZM9Mvh', size=18, operators=[and, if0, not, plus, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='W40IqcOXdU43C3fFJMxA5s1s', size=14, operators=[and, fold, or, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='W56o1EowW76Fl4xBWqNHuH9C', size=16, operators=[and, if0, not, plus, tfold], solved=false, timeLeft=0}
+Problem{id='WB7i7gAv0bGhuKuM1SZKIWhE', size=29, operators=[and, if0, not, or, plus, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='WCQGktliC811gt2ALib3WhFa', size=20, operators=[and, fold, if0, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='WDwm5eeoEnEPqSAZwTCuc7nA', size=24, operators=[and, fold, if0, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='WI3G0tDABKlqwPIcA6lJDBAz', size=21, operators=[and, if0, not, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='WJ7OJM79BBwsvZxRu2xI3P71', size=18, operators=[if0, not, or, plus, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='WKG2ITINlHKlzwEU5knidLAx', size=19, operators=[and, fold, if0, or, plus, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='WNFQJK0DrLfBiSmLvFON55IK', size=26, operators=[and, if0, or, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='WPVtin83lDSyP8vqOZbBAp1e', size=14, operators=[and, if0, or, plus, shr1], solved=false, timeLeft=0}
+Problem{id='WSc2NKYa55e7yvrXgUzABAMH', size=26, operators=[if0, not, or, plus, shl1, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='WSumnmMRD6OB5fZlELAzcVB1', size=27, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='WUTRQydPFSx7qHOWXxj9ThRM', size=18, operators=[if0, not, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='WYC9pwUyH8EDBLJKTFgJ62kP', size=20, operators=[if0, or, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='WZPe3viiLwRF1kABwpqBx0PW', size=28, operators=[and, if0, not, or, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='Wb2jMvqO5K7rNIIEo20cjnIt', size=28, operators=[and, fold, if0, not, plus, shr16, xor], solved=false, timeLeft=0}
+Problem{id='WgBHkFon8NhUSsyNOvw52kvO', size=24, operators=[and, if0, not, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='WgiB9TEg11K5mVzE8mkwwD0b', size=15, operators=[if0, or, plus, tfold, xor], solved=false, timeLeft=0}
+Problem{id='Wha7v19cH5AnDuoIU7ZcIXGx', size=30, operators=[and, if0, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='WjcwNLHu0MbDB5VR3AMpgGrn', size=9, operators=[if0, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='WlVQIe27AxbWeoIkjpBafpzB', size=28, operators=[and, if0, not, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='WmtPHmLUa23ixboP4AARJusJ', size=11, operators=[if0, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='Wojsne1obAQ7N3EEPp1h3Z56', size=18, operators=[and, if0, or, plus, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='WusQ5af9VF8toHbVs1bOYNxn', size=19, operators=[and, if0, plus, shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='Wvwng51lmWu5TWoBQpFTeAdj', size=27, operators=[if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='WwzWb7wHl6DkcyWYdzXfcvPa', size=24, operators=[and, if0, or, plus, shl1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='WxRB2f1eLsBvzSjVs3SI3N4i', size=9, operators=[not, plus, tfold], solved=false, timeLeft=0}
+Problem{id='WxcoHNcXVC5yKro9xzQORp0E', size=26, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='X3ojPQUbTBsL1A1dmSJwWjrk', size=29, operators=[and, if0, not, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='X8AOUiQiwKKqMsnhZhBmrgQ6', size=8, operators=[or, tfold], solved=false, timeLeft=0}
+Problem{id='XAeK2WK7W7mxRJsDE81QuIND', size=23, operators=[if0, not, or, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='XBInTVIHIb3p4wPsQPxY871z', size=19, operators=[if0, or, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='XBxZugKJoPkCYXGuA8nLsyvz', size=21, operators=[and, if0, or, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='XDppkJY5df5I39TUAMA64BoS', size=6, operators=[and, not, shr16], solved=false, timeLeft=0}
+Problem{id='XDqkAK0tQDKdMLIzxoBJf7gG', size=25, operators=[if0, not, or, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='XEIXdGLcqWsCaiRaglZE5kGa', size=8, operators=[or, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='XIRZBkkiYIgFYIuuF5sBEa0h', size=11, operators=[and, if0, not, shl1, xor], solved=false, timeLeft=0}
+Problem{id='XMjjmrvZ5MhtzAd6g010m6Mq', size=19, operators=[and, if0, not, or, plus, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='XPGl0rz01x6VJAJrc1SR6pB7', size=10, operators=[if0, not, tfold], solved=false, timeLeft=0}
+Problem{id='XPVvN1S0FID7HjeFEaS4xwvh', size=19, operators=[fold, if0, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='XPyA6xarjg5QngbNA5FfqrEy', size=18, operators=[and, if0, not, or, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='XXxt2MsVQBQOjJSlFYWQHRCw', size=27, operators=[and, if0, not, or, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Xa9IM80x7xiiWxElnT9qR9k2', size=14, operators=[and, fold, or, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='XbZ7xlMkoDFlg8Cz25Wsccnh', size=19, operators=[if0, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='XbndbNynMUYZiyzJbBjRNHCE', size=9, operators=[and, if0, xor], solved=false, timeLeft=0}
+Problem{id='Xdu4TD5CMBIkgEt9zysNsJL5', size=22, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Xh0xH74LPpOsjkl8qbfLKVYK', size=29, operators=[and, fold, if0, not, or, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Xj3wkYj3BBukBlYDPe9NOsZU', size=30, operators=[and, if0, not, or, plus, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='Xml1LcYMQXPeJFXpCvzjuBMp', size=19, operators=[if0, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='Xn1ebnOaSmft72Bukx5AhZn4', size=14, operators=[and, if0, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Xpd0ZpvJ8QhyVBXggFKS12re', size=30, operators=[and, if0, not, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='XyAlfK9B0I9qJueMQA0bfPdw', size=20, operators=[fold, if0, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='Y1fQCxPYyZcbpoxTxDIM5EpQ', size=18, operators=[and, fold, if0, not, or, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Y7gTOV6pKw97UnRpMnY8r544', size=29, operators=[and, fold, if0, not, or, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Y9DB0sALyP2TZELcl9BxIgpg', size=21, operators=[and, if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='YDzbOnBtcqzAD9W6RUZn5YYS', size=12, operators=[and, if0, not, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='YEBB0MIvTKkR8jFXDXtTFNMB', size=26, operators=[and, fold, if0, plus, shl1, xor], solved=false, timeLeft=0}
+Problem{id='YEENzjjz61CJYUYstR6y6br1', size=27, operators=[and, if0, or, plus, shl1, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='YHOiVLLjpHpUXQ3mgWRAnBjg', size=18, operators=[and, fold, if0, not, or, plus, shl1, shr16], solved=false, timeLeft=0}
+Problem{id='YJIi6QXNs6DsZGBRpI5426Iv', size=23, operators=[fold, if0, not, or, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='YKTywlQgXzTWzdMVGMe44mqa', size=6, operators=[not, or, shr16], solved=false, timeLeft=0}
+Problem{id='YNb70G5OLYmArB3wIGsMDs1U', size=24, operators=[and, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='YQXDZOzXyWC0AeaIi1rBO2XA', size=23, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='YQdrzHhl6qF5ZSEtPP8I2Cjl', size=7, operators=[and, plus, shr4], solved=false, timeLeft=0}
+Problem{id='YSjJbXfxBzwtagXcyfTudR8n', size=17, operators=[and, if0, or, plus, shr1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='YUNq2OKdfrndSLRYpAUpVQTy', size=26, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='YXcBWps62ccfIRFqh2f9ErZF', size=10, operators=[and, if0, shl1, xor], solved=false, timeLeft=0}
+Problem{id='YaIXeGdHsKSYC2FqSNXrZw47', size=29, operators=[if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='YbrZBTTTzTGSYbkMPISKxWJT', size=5, operators=[shl1, shr4], solved=false, timeLeft=0}
+Problem{id='YiJ2pPGfNE4dCDDPWUjIwdqB', size=14, operators=[and, if0, plus, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='YiOQaBzfUUUf5Kb2D0YGkF96', size=23, operators=[and, fold, if0, not, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='YkXToaaaU2AYA3Z2Bl7PjCbf', size=5, operators=[and, shr16], solved=false, timeLeft=0}
+Problem{id='YlYklKc2AYBSMTHuErxOPgcB', size=29, operators=[and, if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='YmAcONeTZ5PhkPDkCtnGTotB', size=12, operators=[and, fold, plus, shl1, shr16], solved=false, timeLeft=0}
+Problem{id='Yt7Rp5otjecafU5H970BrTqj', size=16, operators=[fold, if0, not, or, plus, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='Z13PotrAHNY6vKAADEoquepg', size=30, operators=[and, fold, if0, not, or, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='Z1WKNRI3oWGwwp0XbNYXfB22', size=22, operators=[and, if0, or, plus, shl1, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='Z1sMk469as1QQYAoXqfGsxnH', size=20, operators=[and, fold, if0, not, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='Z75vAeXkR8Ggtm5IWYtxDSzz', size=6, operators=[and, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='ZAsDZHOBBG568IUtkqydvxug', size=18, operators=[if0, not, or, tfold, xor], solved=false, timeLeft=0}
+Problem{id='ZCwABT1FkrveMmAq27A5AVob', size=14, operators=[fold, not, or, shr1, xor], solved=false, timeLeft=0}
+Problem{id='ZDpBB77hBOu0gL2viH3IYAwm', size=6, operators=[not, plus, shr1], solved=false, timeLeft=0}
+Problem{id='ZSp9dQrN5EEBp046pXHpVDYX', size=27, operators=[and, if0, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='ZTisbrpSRbogIeM2kB497rsc', size=26, operators=[and, if0, or, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='ZZRpOEmZTnyuPww0w9rJ2ArV', size=6, operators=[not, plus, shr16], solved=false, timeLeft=0}
+Problem{id='Za1ONjTnUMjBeMtJaxAA19Ts', size=12, operators=[plus, tfold], solved=false, timeLeft=0}
+Problem{id='Zb1MmeKNZ19NZo6tt3VuVYB7', size=15, operators=[if0, or, plus, shl1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='ZtV2LlBFrPTTgWXnkkYr7DXA', size=9, operators=[and, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='ZuikUmFBrfeelKsTjemvXeDd', size=9, operators=[or, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='a43aCGBXfdmmSXqSXNuHHa9k', size=17, operators=[and, if0, not, or, plus, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='a5Xu14AQVTBvNsEQr4NExo03', size=12, operators=[and, fold, not, shr4, xor], solved=false, timeLeft=0}
+Problem{id='a9cGM52mjFDzukDRa2J3ogKw', size=12, operators=[and, if0, plus, shr1], solved=false, timeLeft=0}
+Problem{id='aDjR1gbTxG6FBESO3wQgMpNP', size=15, operators=[if0, or, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='aDlz4JO4WAbUkbXA89da8QkQ', size=11, operators=[or, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='aFjstkGv2mBIlZmNjRV8jRiY', size=16, operators=[and, if0, or, plus, shr16], solved=false, timeLeft=0}
+Problem{id='aWBWx0gqwmGJz8xQkTG8UDWk', size=12, operators=[fold, or, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='aWT0ZofIc72SEuMckN7hBA93', size=20, operators=[and, fold, if0, not, xor], solved=false, timeLeft=0}
+Problem{id='aZsZnlYSohT3nvgyXlEzbW2C', size=24, operators=[and, fold, if0, not, or, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='aaBE5zjEEll7up4hNJvIhRNJ', size=16, operators=[and, if0, or, plus, shr1, xor], solved=false, timeLeft=0}
+Problem{id='abxZ2snA1G0yS1os7jq09xvY', size=16, operators=[if0, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='ack03IRsILsOKlYVBlClmrBy', size=17, operators=[fold, if0, or, plus, shl1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='aeixx7y6BwAHIkSV9JgyUzqr', size=16, operators=[and, fold, if0, not, or], solved=false, timeLeft=0}
+Problem{id='ahcjYBLrZL8m3pOLcWDK6q97', size=28, operators=[and, fold, if0, not, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ai4zGmrcwKhiGLaF445VQaGP', size=15, operators=[and, fold, not, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='alN1d6gJCMgoU2dGqrIgBrFG', size=20, operators=[and, if0, shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='apCIIOqmdCJJ5UTigjPkzagA', size=10, operators=[shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='b1ZBUCeAEUVKJMjlTVRU7ADV', size=20, operators=[fold, if0, not, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='b3rVAICd0JwaNEBXjlWN8ZE0', size=23, operators=[and, if0, or, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='b5EWr9C0t4VUAcaKSvoDHkag', size=28, operators=[and, if0, not, or, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='b7izCicEWR1MC9tkt6qyZNkC', size=11, operators=[fold, if0, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='bE9WjbwXgb0KmCXgv2tE5zqI', size=22, operators=[and, if0, not, or, plus, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='bJh6TItI14Qru1Y1bwJbdlzO', size=30, operators=[and, if0, not, or, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='bN2EtHTTxWVPIv4UOBI2OGZt', size=13, operators=[fold, or, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='bNN2IvohCWv1ts4Efk3fGI9l', size=3, operators=[shr1], solved=false, timeLeft=0}
+Problem{id='bOVFtQWT10FteC01PqbWK4tA', size=26, operators=[and, if0, not, or, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='bPaUD8DPkg9uJv8jxAt3fTMS', size=12, operators=[and, not, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='bPlhFqQrWdIWWQhCOBmjanb2', size=19, operators=[if0, not, or, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='bSqwqV5UvxAHBOg3KxAtfuQ0', size=17, operators=[and, fold, if0, or, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='bWvr8yAgy71SDSBe1UOYR8tb', size=25, operators=[and, fold, if0, not, or, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='bjdFORzBGXAna7kjpKCMpukA', size=15, operators=[and, fold, if0, or, xor], solved=false, timeLeft=0}
+Problem{id='buKJR4sgf1CAgVB1NwtBkHZb', size=27, operators=[and, if0, not, plus, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='bv97YKTXV8WbfRQYgzROFvGk', size=16, operators=[if0, not, or, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='bvAdpEhWWB7tMJWqlHRvuZwJ', size=7, operators=[shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='c1kxRVxHkl03Azx2IzDVZCgS', size=27, operators=[and, if0, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='c3XpueNxBP6DqTpABdMS1faY', size=21, operators=[and, if0, not, or, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='c5k53ZGxhavej9BaFO6YpPW7', size=26, operators=[if0, or, plus, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='c7nzBvg1Q7ogvBg3w6Kfn8m8', size=16, operators=[fold, if0, or, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='c9VNTuahAtT5pyWpm0cAgykN', size=22, operators=[if0, plus, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='cALCYM36aPNM2BjtMHqSpBNf', size=18, operators=[fold, if0, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='cBkqobfUKclylkRfFhZEI5tf', size=24, operators=[and, if0, not, or, shl1, shr1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='cCjqBWYf9dg9uO5LogWRG2zG', size=21, operators=[if0, or, plus, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='cESkGRN9iLXbnaLpbIhxxfM7', size=26, operators=[and, if0, or, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='cHL9eTSJIlEUx8HLBJOjA7ys', size=25, operators=[if0, not, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='cHXSU8VYzyyAFjHd81PGU1Ej', size=7, operators=[not, plus, shr16], solved=false, timeLeft=0}
+Problem{id='cIcHVJP7iWsBrhTbBLJNcuJV', size=23, operators=[if0, plus, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='cPOCY0Qw16tJaPTAoxaqwX7K', size=16, operators=[if0, not, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='cPPGeJfJSfb3vOgIbhBeD4CY', size=12, operators=[not, plus, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='cQLfrJJzkSvyQGzDiNZAOxBt', size=19, operators=[if0, shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='cUjOMBrT1beA5nPImEdB5ciB', size=16, operators=[and, if0, or, plus, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='cV7ufUDiBRjqpA7AeB6Nt9vA', size=11, operators=[fold, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='cXLTFoX9Ticg6VQOyjX1Zx41', size=30, operators=[and, if0, not, or, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='cZ1jKANR0hDW6JaHu6Wu4o7A', size=12, operators=[fold, if0, shr16, xor], solved=false, timeLeft=0}
+Problem{id='ceGPt90VZbEcVpHI32GoMw4B', size=16, operators=[and, fold, if0, not, shr16, xor], solved=false, timeLeft=0}
+Problem{id='cfh4DZYyIyrgKELczR4XQupT', size=11, operators=[or, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='ckBgQlIGla4eMDmaYS9AQVAC', size=15, operators=[and, if0, not, plus, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='cndXcaIBPX0JpvR1J3FZsxHX', size=29, operators=[if0, not, or, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='cnvHl8gAY55I14hZuXhEnO8u', size=27, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='cqAa37GHebxCBv4u6nuXxDJA', size=26, operators=[and, if0, not, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='csEBG331pctk6oV54GQGmNTx', size=18, operators=[if0, not, or, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='cvOyqFX6OfYa9cbckBLBVHd6', size=21, operators=[fold, if0, or, plus, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='cwTMcsuAOjmPJET0oBpsXutC', size=21, operators=[and, fold, if0, or, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='cysTOlCTb9hSImI4BkxckBZe', size=24, operators=[and, if0, or, plus, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='d1lqWJtn1j5fDQqqUw3Azf0B', size=22, operators=[and, if0, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='d55S5dF6cbTptkYTWte1bbqU', size=6, operators=[and, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='d5oKeRZNz8sKUBbrUAVxcahA', size=24, operators=[and, if0, not, or, plus, shl1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='d9TTqtKus5hYU4XpSx1HBUd8', size=26, operators=[and, if0, not, or, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='dA7n9het7ddAIHBWAZPB6yBY', size=8, operators=[not, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='dAU0dMwRyElUv10tAWZK3iQi', size=16, operators=[fold, if0, not, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='dBTAgYucA6ffnZp3ayEEZiVH', size=29, operators=[and, if0, not, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='dOSDLjKZukK9rEu0WMm62TvX', size=11, operators=[fold, if0, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='dRA3V0B3XIHPstvA5dDANWKF', size=8, operators=[plus, tfold], solved=false, timeLeft=0}
+Problem{id='dRVkDeSu6607OAzAyFHonqgr', size=5, operators=[not, xor], solved=false, timeLeft=0}
+Problem{id='dWLRGmgfgJ8rPKO5tGHAkbFU', size=28, operators=[and, fold, if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ddYda6cZLeogXJ5IrwLrAH1O', size=29, operators=[fold, if0, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='dkPo3tAf2aZLdBlEQveybaeg', size=22, operators=[and, if0, not, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='dlcS5CaJqcWcS3noONodAcAn', size=25, operators=[and, if0, or, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='dmVokbJIvB6Ux3qx7xP9QqcB', size=8, operators=[not, or, shr1, xor], solved=false, timeLeft=0}
+Problem{id='dmc18SuVmvfUU53gWB8PmIr6', size=30, operators=[and, if0, not, or, plus, shl1, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='dmee95L3H2dCqgCJM0wCPwCG', size=19, operators=[if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='dnIGVIlrc0sYD9YnN7guyIAv', size=12, operators=[if0, or, plus, shr16, xor], solved=false, timeLeft=0}
+Problem{id='dr4F0QE08zQNDRp7idv9VQxI', size=24, operators=[if0, not, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='dsWgkpUPTmv7JLS9deBAY3D8', size=19, operators=[and, if0, not, or, plus, shl1, xor], solved=false, timeLeft=0}
+Problem{id='dv982VHNjbl8JYd6JLCgyAzD', size=26, operators=[and, if0, not, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='e65DpUaOhT0WmzVogmjk0ABs', size=27, operators=[if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='e7BSghA0NG7E1Xb3MYAZNiFs', size=23, operators=[fold, if0, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='eABvHBvY4gDYK5JaoBL6lfKt', size=24, operators=[if0, not, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='eAtDhuXXfI1WqLQGLou8gPTi', size=20, operators=[and, if0, or, plus, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='eMSVHKaR8gDi4kmiSuVW7QB0', size=23, operators=[and, fold, if0, or, plus, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='eMba91dlNQBpUwXhK4AVpMeD', size=24, operators=[and, if0, not, or, shl1, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='eMiCcxaCtvtcEs8Oq5deAOsD', size=22, operators=[if0, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='eRasdycd7pZqwxhibL785pIe', size=28, operators=[if0, not, or, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='eXnM2SIlGGsrOJ5lUCfiss7a', size=15, operators=[fold, if0, or, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='eY8xak509QownBZmZ1Sl2G14', size=27, operators=[and, if0, not, or, plus, shr1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='eYtrmUlMEk0xLwQXimkUvqag', size=28, operators=[fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='eZ3bkqxBbOzHWdJ1ciRVVjzu', size=28, operators=[fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ed3rCdXvMOHICvefW0qwYeVx', size=13, operators=[fold, not, plus, shr1], solved=false, timeLeft=0}
+Problem{id='efFRpUJ2xDIAEtekB4GKEvcB', size=19, operators=[if0, not, or, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='eikjAmXXRAH5FfgDSJMrTV7c', size=25, operators=[and, fold, if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='en9yq069mg3Rz7ZHZwEL8Mpx', size=19, operators=[and, fold, if0, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='esk48mjrxi1bBOZ9xNc2YNeA', size=22, operators=[if0, not, or, plus, shl1, xor], solved=false, timeLeft=0}
+Problem{id='exFRpUkj3RDtkEhT2BWSUOeB', size=26, operators=[and, if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='exVQ1wW1a5pFUGsEH2pOo6Vf', size=30, operators=[if0, not, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='eyAt5xDXP4xRwXBztWnweYNM', size=28, operators=[and, if0, not, or, plus, shr1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='ezDFUyOKogqfIO6ATkKJ45KA', size=10, operators=[and, if0, not, xor], solved=false, timeLeft=0}
+Problem{id='f0f75iDQgcj6qcyqEV9hQ0vX', size=13, operators=[and, fold, not, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='f1U2OGVxMaVlJydMmIYNUdqs', size=19, operators=[and, fold, if0, or, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='f3dFBYAqJ5c0eMgLoWzWjKxO', size=22, operators=[if0, not, or, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='f3fR853yr5mncTHpVBJWbZlV', size=7, operators=[or, shl1, xor], solved=false, timeLeft=0}
+Problem{id='f4hiJJlcrHAvxwgTkAFnKz2N', size=13, operators=[and, if0, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='f4utAwzexuSV8N3yGyqoV06M', size=13, operators=[if0, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='f6oZBieGeCtajAXnoUvAzmrf', size=26, operators=[and, fold, if0, or, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='fA4NgHP0p2DwrR1b5A7HM5YB', size=25, operators=[and, if0, not, or, plus, shl1, shr1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='fEmGlSM3J6TrEBqvkmfDeoRe', size=17, operators=[if0, not, or, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='fEqIG46nKSBKyPTfD8LY8chD', size=19, operators=[if0, not, plus, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='fFABoBAVk7hiB8FAWyo0Mo2W', size=12, operators=[and, if0, or, shl1, xor], solved=false, timeLeft=0}
+Problem{id='fUiJ7v82XggKSkXBobTUL4En', size=22, operators=[if0, not, or, plus, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='fXqotvYF7DvnKVoBKA0SOGr5', size=12, operators=[if0, or, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='fc1kmnGJAsiaJtuDfBYM5YJ2', size=26, operators=[if0, not, or, plus, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='fdzXD6YLrK7A7BP1hgAm2skJ', size=20, operators=[fold, if0, or, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='fjtuP5utRk9oZxObVQaeBD1M', size=11, operators=[if0, plus, tfold], solved=false, timeLeft=0}
+Problem{id='fnK9vuMvPDJqjVpkNTKRwFo5', size=15, operators=[if0, not, or, plus, xor], solved=false, timeLeft=0}
+Problem{id='fsgRYaEkWdTLGF8ZD4qDIdMJ', size=11, operators=[or, shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='fv1sGEurL9VzgEvBP1AqReX0', size=12, operators=[or, tfold, xor], solved=false, timeLeft=0}
+Problem{id='fv23jv0drxy3oiKRjpDFxCYn', size=16, operators=[and, if0, or, plus, shr16, xor], solved=false, timeLeft=0}
+Problem{id='fvaqKRsjeHYw4sFkrAAbFJ2i', size=20, operators=[if0, or, plus, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='g1AJAtN8FHwlJEjGGJX6cHQU', size=9, operators=[or, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='g32SpVckDEn3xcQQcE3BBqoI', size=28, operators=[and, if0, not, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='g3bd5f4dncG5TTrj6WAsmdhQ', size=27, operators=[if0, not, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='g4QxkoLvBhAGBkJpnwgmgv4b', size=12, operators=[plus, shl1, shr1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='g5Ydk3Y9cVCWNkQAUVYjdAVb', size=14, operators=[if0, or, plus, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='g5lNj9FpP5XPoGOBhu1b521I', size=26, operators=[and, fold, if0, not, or, plus, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='g7dua4o5YLAHjqNel0wwRUGj', size=15, operators=[if0, or, plus, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='g9FTAoSTSjAtdaHeNydAkBCA', size=14, operators=[and, if0, not, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='g9g7r3FmRgN3JhtgL44BfCzw', size=21, operators=[and, fold, if0, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='gC3OtWSLZ3hRz3s5N6TEBBWp', size=28, operators=[if0, not, or, plus, shr1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='gCgxHNnTXgXMr3CxyWjAok3D', size=7, operators=[and, shr4], solved=false, timeLeft=0}
+Problem{id='gDGOQDIAQShVIe8FimzECbs8', size=18, operators=[fold, if0, not, or, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='gGhpw9o0wlBLAW5J8YftjYWH', size=25, operators=[fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='gGk3dGOwkGo4crbK4V8NuN7z', size=24, operators=[if0, or, plus, shl1, shr1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='gIRMa6xvauVMbeuqRcoGfwmE', size=23, operators=[if0, or, plus, shl1, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='gIUcF9QBELgHzMpyLvkMitsP', size=21, operators=[and, if0, not, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='gJxGoILNx2BiB1Chsac9hCe5', size=12, operators=[and, or, plus, tfold], solved=false, timeLeft=0}
+Problem{id='gKlwBOllkuXqHAeNDBB51k9T', size=29, operators=[fold, if0, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='gW72DqNeOauFVFrOGXBuXYyv', size=6, operators=[shr4, xor], solved=false, timeLeft=0}
+Problem{id='gnqt8AAkkvjdOpgSbY56scT6', size=22, operators=[and, fold, if0, not, or, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='grS3aISwyRkbKeDVmacUvpAz', size=9, operators=[if0, tfold], solved=false, timeLeft=0}
+Problem{id='h1LNC1Do1N2cBPPwO7fXTf91', size=15, operators=[and, if0, not, or, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='h1NBpWQuZfhZnZTPtCiBcEQ4', size=9, operators=[shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='h6TxB7ohizB2lvyPbbMcJRPW', size=13, operators=[and, if0, shr1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='h8RfdIYejq3J3pgbbtL2ETNl', size=8, operators=[tfold, xor], solved=false, timeLeft=0}
+Problem{id='h8yJs5fEXej4vjNWB5FwUixc', size=19, operators=[and, fold, if0, or, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='hBpsgCAVe4Fil6uD9J9lKr3L', size=25, operators=[if0, or, plus, shr1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='hDV6Pit2BF3euWeZi3k9lOon', size=17, operators=[if0, not, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='hGxFTcyabqDvOHA7hZgnJv9D', size=29, operators=[if0, not, plus, shl1, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='hHQbR5gI0GZc3GsbgG85biwA', size=29, operators=[if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='hKuqQeowOhGnMl9YCPAFpgCE', size=15, operators=[and, fold, if0, not, plus, shr1], solved=false, timeLeft=0}
+Problem{id='hLM8DwSJtXSCPOK0EAi7T2ai', size=27, operators=[and, if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='hNzl9AvpNwX60MoVDFBCe5tm', size=8, operators=[and, tfold], solved=false, timeLeft=0}
+Problem{id='hQv0rs5v1j2UXIPjjwjIh20H', size=9, operators=[or, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='hVBBHHnugphqKktAB0TOZz2o', size=15, operators=[if0, not, or, shr1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='hXs923iYumqS6dJKGEyBp4bq', size=28, operators=[and, fold, if0, not, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='hYg2cdbWDBWiLJgZBv0RkDS3', size=8, operators=[and, plus], solved=false, timeLeft=0}
+Problem{id='hbWquVzL2x5TxfodvX3WqsBf', size=3, operators=[shr1], solved=false, timeLeft=0}
+Problem{id='hbuMyBKRAB9i6whwE8y3hZ5b', size=5, operators=[not, plus], solved=false, timeLeft=0}
+Problem{id='he3x6WtHsp7oGA3glRWiNwZb', size=25, operators=[fold, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='hj7KqSorgYbiExxTF0MpkqIU', size=19, operators=[fold, if0, not, or, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='hnEizVEPOWJuuZ8aOfOZYkl7', size=30, operators=[and, if0, not, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='hnxIRdfRteHHXMixH6JnzISX', size=12, operators=[fold, if0, or, shr16], solved=false, timeLeft=0}
+Problem{id='hsrxNeGBU7mokSNowlOGyyfO', size=20, operators=[and, fold, if0, or, shr4, xor], solved=false, timeLeft=0}
+Problem{id='htN1Stn1Ezp88uXumTPISqxv', size=13, operators=[and, if0, plus], solved=false, timeLeft=0}
+Problem{id='hthbyTA7MF1tMz9zIsq8wznG', size=19, operators=[if0, not, or, plus, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='hwP3J50gc3pOtGnLxqJ7xNiQ', size=23, operators=[and, if0, not, or, plus, shl1, xor], solved=false, timeLeft=0}
+Problem{id='i2EGYBWthWVdRaYdnrA1Ot9x', size=4, operators=[or], solved=false, timeLeft=0}
+Problem{id='i38ANuB9C4I3s1Zrry5hTv9N', size=29, operators=[and, if0, not, or, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='i3PaWxaBj1TAh9nSJHMBugop', size=16, operators=[fold, if0, not, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='i4h3Qdq2KO1l3aNhDv04A84d', size=14, operators=[if0, not, or, plus, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='i5f885UhW5iU3r9fsmQF39dh', size=30, operators=[and, if0, not, or, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='i8ihX0jWO0N7EsuT56a4fNZ2', size=22, operators=[and, fold, if0, not, or, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='iA8Bp3kVeHSlDf9SWBFiMlB7', size=22, operators=[and, if0, not, or, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='iHTtiAThxzl6SBextqBl9lsw', size=5, operators=[or, shr16], solved=false, timeLeft=0}
+Problem{id='iRnKjA7Mrc8EfFCOHRXBkXNU', size=12, operators=[if0, or, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='iT7Y42p0ZGhSgStdWTQ1PNxA', size=29, operators=[and, if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='iUzrN2V5yKSNlBVt1zToaIPF', size=26, operators=[and, if0, not, or, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='iZeFx0SwOXTHZK9dhgLV0UXA', size=25, operators=[and, if0, or, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ib1XoLIrQYb5qLgUUbXSBID4', size=17, operators=[and, if0, not, plus, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='idMJvnRBrRFj33rrVxPw02CV', size=14, operators=[fold, if0, or, plus, shr1], solved=false, timeLeft=0}
+Problem{id='ihEys7Jf1jnnndDO6S3LkB3B', size=14, operators=[and, fold, plus, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='ihOAELGDGCk9SYeY7MHlLqpt', size=5, operators=[and, not], solved=false, timeLeft=0}
+Problem{id='ijzLqwSUkbRxs3hqGmjjrIjA', size=22, operators=[and, if0, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='ilebgJAJibtdAXK7VFyucNCo', size=27, operators=[and, if0, not, or, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='iq6Vh4MPViUjsMCVa8mguXIT', size=21, operators=[and, if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='iq7Ew3JjBZsncIovhaChwmta', size=13, operators=[and, fold, not, shr1], solved=false, timeLeft=0}
+Problem{id='ivh44UTlmHP0jNso4ZReR5OU', size=15, operators=[if0, not, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='iwaTgd4Bqiam4Fuo1xvDpMhb', size=30, operators=[and, fold, if0, or, plus, shr4, xor], solved=false, timeLeft=0}
+Problem{id='j1oHBWE4lv05rIW9DRN4oYQz', size=13, operators=[if0, or, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='j25FBWdtlLjyVi1pam9AwFir', size=4, operators=[xor], solved=false, timeLeft=0}
+Problem{id='j7kOPZIwN0tk84fsGTX3OfUj', size=29, operators=[and, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='j9ABGsHKXmkTPzlY7bBlrbhA', size=9, operators=[or, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='j9QcJA3rmJMAUSrYq1KhVt1Z', size=11, operators=[fold, plus, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='jA3y3mUOxC56kmy85gLbh0yJ', size=26, operators=[and, if0, or, plus, shr1, xor], solved=false, timeLeft=0}
+Problem{id='jAs1VqZHRvBQrI1VHku7NTxI', size=13, operators=[and, if0, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='jE0Jw6YZ1ShIcz8gcZBBOGSv', size=11, operators=[and, if0, plus, shr4], solved=false, timeLeft=0}
+Problem{id='jXayW5uGO2I48BV1EDyFO8KX', size=14, operators=[if0, plus, shl1, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='jZwTnP5ChQcbKmPyhtw5Bj51', size=16, operators=[and, if0, not, or, plus, tfold], solved=false, timeLeft=0}
+Problem{id='jauKI9AIvxBgQZM6X7gXXSqf', size=13, operators=[if0, plus, shl1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='jbAOv8HinCFpnsBSgAI3FPuW', size=4, operators=[shr1, shr4], solved=false, timeLeft=0}
+Problem{id='jgOfQKzNSNF1AfgmIG2SJaUb', size=21, operators=[if0, or, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='jhUpVUE2YHYWhHtfViFpy1OM', size=29, operators=[if0, not, or, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='ji8F5LAAZVk58fEVBG38uWfi', size=30, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='jiO4ILo1u6dqRf4e63BMy4hb', size=11, operators=[if0, not, or, shr1, xor], solved=false, timeLeft=0}
+Problem{id='jijgnzAcXJcoQrwFsfkK53eO', size=24, operators=[if0, not, or, plus, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='jjn4tjKerWvxiveY3lP3eclr', size=30, operators=[and, fold, if0, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='jljGiUQRLvP9DBgAZhdZ3TO8', size=26, operators=[if0, not, or, plus, shl1, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='jrUzxlgHZ5ugLHu6BMpLbW17', size=22, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='juMLCy4fNvBUiueH47EVRcSw', size=25, operators=[if0, or, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='juYTGeJ6fifmKgbVeWpMOF0h', size=11, operators=[and, if0, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='jvKBqbDa3d1BtiH3o8lytlBB', size=14, operators=[and, if0, not, or, plus, shl1], solved=false, timeLeft=0}
+Problem{id='jxga9htkn6yYkRp2cdgcB45M', size=28, operators=[fold, if0, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='jxymsMqPFSwg2l3BFW3aiFm8', size=30, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='jzjgPMo93bA7zQ9XazTSZFDD', size=12, operators=[and, shl1, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='k1IkIS46BDB2aBZSm130ab8L', size=20, operators=[if0, not, plus, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='kJaLMFx6UfzB6Kz7TLb5SlLo', size=21, operators=[and, fold, if0, not, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='kJp9ANSTvwJaTIWZsOfKYEqP', size=20, operators=[and, if0, not, or, plus, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='kOoqFbM2SAyurVzqgpXuqTCZ', size=23, operators=[if0, not, or, plus, shl1, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='kTJ4maGfoS3qzWiaLoBQSPso', size=10, operators=[and, if0, shl1], solved=false, timeLeft=0}
+Problem{id='kZRCxAOCsyeKBo8QKc8ORtBm', size=15, operators=[if0, not, plus, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='kaPXro3CNqIlka2dMKUHgWY8', size=14, operators=[fold, not, or, shr4, xor], solved=false, timeLeft=0}
+Problem{id='kotB4QkKKWQ8ojMcGs7edS6C', size=26, operators=[and, fold, if0, not, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='kwgwEA712Rcw4WzSoSvhBOLB', size=12, operators=[if0, or, shl1, shr16], solved=false, timeLeft=0}
+Problem{id='kxmadVPkAP4mwBcbrKyZwFbX', size=25, operators=[and, if0, plus, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='l1X86ORRYAf4hIZ0sAUTa4x2', size=11, operators=[and, fold, not, shl1, shr16], solved=false, timeLeft=0}
+Problem{id='l3kMsvseCsx0QlsxfT52N5Yh', size=28, operators=[and, if0, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='l93ZxWAck8UzWb4Bfx1aKAef', size=7, operators=[and, shr1], solved=false, timeLeft=0}
+Problem{id='lApL2nahqX0uorWWiBRAP8HI', size=19, operators=[and, if0, not, or, plus, shr4, xor], solved=false, timeLeft=0}
+Problem{id='lAukbAWRzLHtdcjZuqqAz78f', size=11, operators=[if0, not, or, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='lIA42lcjA85S5GAQBzUqKDvn', size=26, operators=[and, if0, not, or, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='lIeIDhA0BpBVq0LtdABeJiQA', size=17, operators=[if0, or, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='lL27uAo6VFXfFwB4IoJObBZc', size=16, operators=[and, if0, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='lMqGln74y0BfEofrfaV50y95', size=21, operators=[if0, not, or, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='lQzmOBhSuLVOcnSsK5utzG0J', size=26, operators=[and, if0, not, plus, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='lVHgEpVYeN6enTFtnE2Mwe1F', size=17, operators=[fold, if0, plus, shl1, xor], solved=false, timeLeft=0}
+Problem{id='lYFD2PyHc14BkYuqexYYWVKs', size=21, operators=[and, fold, if0, or, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='laBtMUzmHOntDlO5ZSwccBJH', size=20, operators=[and, fold, if0, not, or, plus, shl1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='lbyv3d4S2V7Gm9FREGAFbCBh', size=27, operators=[and, if0, plus, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='lfXthTA4gHf6H9UlOEoZFgXw', size=6, operators=[or, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='ligtZuddM9wZqh9CqU2wyBVx', size=12, operators=[fold, not, or, shr1, xor], solved=false, timeLeft=0}
+Problem{id='likB561IpoZicdZD80hhQUVp', size=26, operators=[and, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ljWng82teqnxwB9Vva0ZnwXj', size=22, operators=[fold, if0, not, or, plus, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='lkhOKv1DmCLRnpou0Mwp3YuK', size=19, operators=[if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='llO8BVxnkiyCLuvsTI7jPdAJ', size=11, operators=[fold, plus, shr16], solved=false, timeLeft=0}
+Problem{id='lmHdEWeCqLoXc85HmLzATAyt', size=28, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='lpw8tBcgmbBfOCYwMuONphr2', size=9, operators=[and, if0, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='lqJzZOAypJVeBoaBcnU8LalO', size=11, operators=[fold, plus, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='lrxUVAW95XXZB6ocCfPlwVzT', size=17, operators=[and, fold, if0, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='lsdd2Qnsy6k6NbQdwf2AdgE8', size=20, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='lv3CWtyg7aAYQOqMGMvZqfPt', size=24, operators=[and, fold, if0, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='lvmZVg2h6XSqoKovNKkT9Ju8', size=23, operators=[if0, not, or, plus, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='lxIEWUmvDftytp2mVnskuKBt', size=7, operators=[or, plus, shr1], solved=false, timeLeft=0}
+Problem{id='lzJoiAnPvkCRRuAl8VA0ogAy', size=28, operators=[and, if0, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='m4b9GtqFJhEHEshyFv8nkW6U', size=20, operators=[if0, or, plus, shl1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='m5AJwGbdTsftVu52Bctht7sd', size=9, operators=[or, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='m9D0k5hjHSdtpsgHcmnqLz5c', size=14, operators=[if0, plus, shl1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='m9ezWaIe2pMMSxyDWEFHjhBF', size=11, operators=[and, or, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='mDD30qln9rWuf5UCfnwmNR5e', size=4, operators=[not, shr1], solved=false, timeLeft=0}
+Problem{id='mFzZ85U9cbtG4kmFHTvZU62K', size=5, operators=[not, shl1], solved=false, timeLeft=0}
+Problem{id='mILKHb1P6zdFLLAIJtQ0Btlc', size=22, operators=[and, if0, not, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='mJ0qEGsAkcOJL4ibXhwCYZaV', size=22, operators=[and, fold, if0, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='mJofnYMZjiBovBvPUfBAw9qC', size=30, operators=[and, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='mKzAvAAe3UqJD5AwJDFDppAo', size=27, operators=[and, if0, not, or, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='mN0sOtinDXRiUMvxbmQJikiH', size=30, operators=[and, if0, not, or, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='mN8VObBOWp4WmrkjngRKOA3y', size=4, operators=[or], solved=false, timeLeft=0}
+Problem{id='mQ2zBKut44eeEHFBuRU6DDp3', size=18, operators=[and, fold, if0, plus, shr1, xor], solved=false, timeLeft=0}
+Problem{id='mRXset9H3QPnAQs035xMv6hA', size=25, operators=[if0, not, or, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='mRsXLAItb764VYC9LPa8kxmB', size=15, operators=[fold, not, or, plus, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='mTRptOmBuS9SSDH7awUo9pRx', size=20, operators=[and, fold, if0, plus, shl1, xor], solved=false, timeLeft=0}
+Problem{id='mVg6BqF8iVB21u8wzFtlBTog', size=11, operators=[if0, or, shr4, xor], solved=false, timeLeft=0}
+Problem{id='mbaUtWZhkfDonxnN71b9jJac', size=27, operators=[and, fold, if0, not, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='me3rQ83quMBkyeL2C1Ph9MIR', size=25, operators=[and, if0, not, plus, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='mfBL2ARfjT3q7hLBKigGtOyd', size=27, operators=[and, fold, if0, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='miAJRLnaMbRSdbcb59DEci6F', size=14, operators=[fold, not, plus, shr4, xor], solved=false, timeLeft=0}
+Problem{id='miWa5raDKhmSf2FmAcNuf3cA', size=25, operators=[and, fold, if0, or, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='ml2jmukuzIx9pnYi3HYAhur8', size=20, operators=[and, if0, not, or, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='mlnjAPo5fTdNGDN9RrBuLrC0', size=8, operators=[plus, shr4], solved=false, timeLeft=0}
+Problem{id='mnrWjJsMtSJzGljEGULzR5fA', size=9, operators=[if0, not, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='mqABtOoanrdmWCKutV93F5L1', size=17, operators=[and, if0, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='mrQtUqPakSBsABGPWFwr9wNM', size=22, operators=[and, if0, not, or, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='mxmlIwZlcTW2BQImdVYJYrtJ', size=22, operators=[fold, if0, not, or, plus, shl1, xor], solved=false, timeLeft=0}
+Problem{id='n0riqWf0qifBQVqfXYjvpSxa', size=11, operators=[if0, or, tfold], solved=false, timeLeft=0}
+Problem{id='n2y49QpOljH8o9nPfSfF7Wlu', size=10, operators=[and, if0, not, xor], solved=false, timeLeft=0}
+Problem{id='n6tKMjgXyEvIwYUne95hdZul', size=23, operators=[and, if0, not, plus, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='n7nLWkjhDgH5FUvNCQzse1eK', size=24, operators=[and, if0, not, or, plus, shl1, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='nAZlKMFTaEMfIi7ukcV2XbVZ', size=14, operators=[if0, not, or, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='nAsX6GKIhX4uEaatqRpRiAkq', size=21, operators=[if0, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='nBBvBfAyBBU1kma8VrpKcooB', size=20, operators=[if0, not, or, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='nCHa6VIBjY1ADUwSNNjtee9B', size=28, operators=[and, if0, not, or, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='nDSNFOr3ZxJkkJo6PkNcSGC2', size=29, operators=[and, if0, or, plus, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='nGYMl2A3pKjBTC50P8uWmYvZ', size=15, operators=[if0, not, or, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='nHS5rc8FA3tNqjntnvmULIkr', size=21, operators=[and, if0, not, or, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='nLxXNWflLBXCAYwxFZlCqjdp', size=23, operators=[fold, if0, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='nMRvNAegkkppztkBt0SKJDky', size=29, operators=[and, if0, not, or, plus, shl1, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='nSEdrU9dVRBATSne8xK4LLYJ', size=14, operators=[and, if0, or, plus, shr16], solved=false, timeLeft=0}
+Problem{id='nY2YVLbewt2cpCwx04Srl0uF', size=15, operators=[if0, or, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='nYwcWOuXHOAOxllPeKDABjaV', size=18, operators=[fold, if0, not, plus, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ndSRfDlEaHtlhpkNEpzuRboU', size=21, operators=[if0, not, or, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='nff1gve4WUSE7Ej85r31Jq8T', size=21, operators=[and, if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='nh8KIAafCn3osNBvmy0KfvL4', size=19, operators=[if0, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='nhngJwrzAShQNxllYAASes5b', size=22, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='nk0lNFkYYAtirpMjdKoCcthe', size=7, operators=[and, not], solved=false, timeLeft=0}
+Problem{id='nm38TRI3nDtaMheBByzZf5pK', size=13, operators=[fold, not, plus, shr16, xor], solved=false, timeLeft=0}
+Problem{id='ntCp5R21AIKRJbYYV7xuowim', size=18, operators=[and, if0, plus, shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='nwb5zoWv2uADhAAXsZI6MshC', size=8, operators=[not, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='o0oRMP7HoimtLxTesqMq213s', size=26, operators=[and, if0, or, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='o4zIYr9GcB3RkLuonSYh1PYV', size=20, operators=[if0, not, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='o6GAB6FMBLI7jFt1vpo8QlEE', size=18, operators=[and, if0, not, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='oACtCAKYtyxOP8Cf4ik5U2qK', size=14, operators=[fold, not, or, plus, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='oApu7UprbGeLLyMDYoH71jlZ', size=15, operators=[if0, not, or, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='oTdU2gJDsUyi6KwuJidP62nB', size=26, operators=[if0, or, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='oUhqzVfAYArM0Pj8PWAhC1hJ', size=10, operators=[plus, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='oVPoHXrw8xSOKYxAyOKEC8Pl', size=17, operators=[and, if0, or, shr1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='oYaSdFs7WZNKQmSK9Bcqlk2b', size=16, operators=[fold, if0, not, shr1, xor], solved=false, timeLeft=0}
+Problem{id='ocjSNVZuCMBBiwshK7ABInr8', size=29, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='omZcAnb8wFWhmBh9yT6wSLIk', size=25, operators=[and, if0, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='oqXmyc9ak69BBCSBAxKXtm99', size=25, operators=[fold, if0, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='ouKnFZnwSWqzb4FcbMA8L0mK', size=21, operators=[and, if0, not, or, plus, shr1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='oy49bvofStv9F05mEgPBwd24', size=5, operators=[not, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='p6eQbbRFngpujNT3o5PTij2A', size=25, operators=[and, if0, not, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='p6ydsXofiJC2x80rNVzn9Cf7', size=14, operators=[and, if0, plus, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='pAF40JAIOBZEba8HDHDasS8e', size=20, operators=[if0, or, plus, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='pBIUjvei2i0RUjFwBZ0fiXbB', size=4, operators=[or], solved=false, timeLeft=0}
+Problem{id='pBWZTwTWWIx1BWgwisYts9El', size=13, operators=[if0, not, or, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='pCaXbBmykJcDorjEIPoBWOyN', size=30, operators=[and, if0, or, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='pFKaepjCXzBStwMBjoImpsNy', size=13, operators=[and, if0, plus, shr1], solved=false, timeLeft=0}
+Problem{id='pGXJmHxcAAWwBcSvTu4cwLr8', size=20, operators=[and, if0, not, or, plus, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='pHfHqYyoaKGVi0GCU4neOSaT', size=16, operators=[and, if0, not, or, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='pInWErk8AthZRMjtCvDYjq63', size=18, operators=[and, if0, plus, shr1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='pJGkwyrHjDNwfBV0OR9FlNST', size=30, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='pLJH9BEfqDoMqBIDLjNACeUI', size=25, operators=[and, if0, or, plus, shl1, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='pMMFvka4idkTLBhCvP5AOaF8', size=30, operators=[and, if0, not, or, plus, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='pOGmwJXlJz1oCFtPZnJYt1Gu', size=11, operators=[if0, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='pSlMcUGcYHPrWPMWG6ViqBbq', size=20, operators=[fold, if0, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='pU3FqvdkCpDdmM4R8oVWko6o', size=11, operators=[and, or, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='pgBcEjxzpiyk7HnR5q9t8sE8', size=27, operators=[if0, not, or, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='phGkfHoeTAUuQhvbwHEdbusc', size=22, operators=[and, if0, or, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='pleRhARyrAtEGqdJXJXtbbFG', size=19, operators=[and, if0, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='pn39BMleLKz5gI4ba9dTjCeO', size=26, operators=[if0, not, plus, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='ptBsyKPBMmnJOBnwM9oFlGvc', size=8, operators=[plus, tfold], solved=false, timeLeft=0}
+Problem{id='pv2azHRPzjekuLnvB18yLamW', size=12, operators=[if0, or, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='pwtwY3TCap4YdQEYXFx2jo9y', size=12, operators=[fold, or, plus, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='q1yearXZswID0Agh2NKBRlKM', size=6, operators=[shr16, shr4], solved=false, timeLeft=0}
+Problem{id='q9WOg72Z2wJ6A3k0e1ASglWu', size=8, operators=[tfold, xor], solved=false, timeLeft=0}
+Problem{id='q9mp8L0ByejyimHAwuO0w4Vq', size=19, operators=[and, if0, not, plus, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='qAQiiBGaFxqyrUcANHJBJAXA', size=17, operators=[and, fold, if0, or, shr1], solved=false, timeLeft=0}
+Problem{id='qDTiNImHZx4dVLcrgzAnceug', size=7, operators=[not, or, plus], solved=false, timeLeft=0}
+Problem{id='qHGHaiIl8ZpWhkZGgBpy3128', size=7, operators=[if0, not, shr16], solved=false, timeLeft=0}
+Problem{id='qHgLlXK6AI7rMjRCUzr5dcdy', size=15, operators=[if0, not, plus, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='qgEcqY3pKBtuoL3UDHYQQ9i2', size=13, operators=[if0, not, or, shr4], solved=false, timeLeft=0}
+Problem{id='qpLCHwvbBlpSFXzuTYcN8ZyP', size=8, operators=[plus, tfold], solved=false, timeLeft=0}
+Problem{id='qpWw2BgyruVkXRjsibskDF3B', size=29, operators=[and, fold, if0, not, or, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='quVozRGRCSXdPHEXMMZeo2tx', size=25, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='qw5sVdwz4D3BSRyJa38cErDs', size=21, operators=[and, if0, not, plus, shl1, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='r0BEDRnYdyGickryhCoFldH1', size=10, operators=[and, if0, or, shr16], solved=false, timeLeft=0}
+Problem{id='r0roV184BPKVKqlt8dO6GqB5', size=12, operators=[if0, not, or, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='r2XdAbJbamC2QvPmHpBj01CB', size=8, operators=[plus, tfold], solved=false, timeLeft=0}
+Problem{id='r3y916kH5ePCx7kTR00hq8gP', size=25, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='rAAMIs9XpSrMJu1KPJyGSX8Q', size=27, operators=[and, if0, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='rAknBxlManmkGN9Z4mwlSCGo', size=27, operators=[and, fold, if0, or, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='rAsbHAZxKrjmVht0wodT0lrT', size=21, operators=[and, if0, not, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='rBjdKHO0ldtyMGRdXHln81IG', size=8, operators=[shl1, tfold], solved=false, timeLeft=0}
+Problem{id='rGGpkB1e2e9XodmMedf8qps8', size=23, operators=[if0, not, or, plus, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='rI2MuO2ARspblkXBdAsNeod5', size=30, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='rLqAQqgGATsBMHOIByq2gmEv', size=16, operators=[if0, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='rNFG8sHpWTiYnUU5q0c7G900', size=27, operators=[and, if0, or, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='rOtMqljWROYuyh6QpkUCG6Ym', size=15, operators=[if0, not, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='rRMIqFHNYEWIBfAaHIwZ6M4I', size=25, operators=[and, fold, if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='rRe2upMYXSXYxgXFTeTL2yev', size=24, operators=[and, if0, not, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='rTxJtAeBfY5C6w1BTFHoWvJT', size=22, operators=[fold, if0, not, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='rV4ULPJWTkAimw4TpAfTdAtt', size=29, operators=[and, if0, or, plus, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='rV4vBETXSFsYjV1U0aPEmRwP', size=21, operators=[fold, if0, not, plus, xor], solved=false, timeLeft=0}
+Problem{id='rWFT4U8Tsg1egAXvhivwQlrX', size=17, operators=[and, if0, not, plus, shr4, xor], solved=false, timeLeft=0}
+Problem{id='rXTjaAEfG3vRmzrzKO3efvpz', size=17, operators=[if0, not, or, plus, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='rbxtgfA4aHqMpKIXlXBlLsBn', size=29, operators=[and, if0, or, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='re5QosfoeFrGrA2TyeNFDAL2', size=18, operators=[if0, not, or, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='rgoMOQU7yP0Okfh3lJT17NdI', size=23, operators=[and, if0, not, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='rhaIAK5hvW0wNeyivkC1dURr', size=25, operators=[and, if0, or, plus, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='rk4Zr68aYJY1UBwii9tN7XKH', size=22, operators=[and, fold, if0, not, or, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='rmgyjZb0qjkBqMJ7kMQPO2W1', size=19, operators=[and, if0, not, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='rp31HBKM4azrJAiBykoPyYfo', size=20, operators=[fold, if0, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='rsXZJVYUCv7UHlFA9LbtRlQ4', size=18, operators=[and, if0, not, or, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='rtU5BqEMpcxcIs2FKouekDLW', size=20, operators=[and, if0, not, or, plus, shr16], solved=false, timeLeft=0}
+Problem{id='rvljr91mOu8jxna4AAB0AHKV', size=24, operators=[and, if0, not, plus, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='rvoy9CBmAkQZor64ssBEr8cF', size=28, operators=[fold, if0, not, or, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='rweKz1VqGFJpo13vmjbFd1sQ', size=29, operators=[and, if0, not, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='rxXtimWeuagB0abstUSoOoNE', size=11, operators=[fold, or, shl1, shr16], solved=false, timeLeft=0}
+Problem{id='s1dKuCfUlOKfBjwgEqtLn7AY', size=12, operators=[and, not, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='s7K3beMpopYj9q2s4NMLRUxq', size=26, operators=[fold, if0, or, plus, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='s83f1sSBR2AAhB92Umz96jWD', size=24, operators=[and, fold, if0, plus, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='s8YAtln6kNJbwAXcj8Zjlnnu', size=30, operators=[and, if0, or, plus, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='sASYwJcNFvBNFiqjpAsDYA3J', size=15, operators=[fold, or, shr1, xor], solved=false, timeLeft=0}
+Problem{id='sCHLSGxpKQMi1THT6YMJLlA6', size=28, operators=[and, fold, if0, not, or, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='sDDRWOIGIypLMa2reYz6iPDm', size=7, operators=[shl1, xor], solved=false, timeLeft=0}
+Problem{id='sFl2XhenopfiBrKOPYTmHcHV', size=9, operators=[shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='sI4Fjmyya2q6DQShS5X0qWUE', size=25, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='sIFhBxkwZ3jPC4piTIgBFmqM', size=28, operators=[and, fold, if0, not, or, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='sIpywAXNEPq0AGWtBTwwYIHJ', size=27, operators=[and, fold, if0, not, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='sIzEB59QdhUq3yxxxH9usInA', size=13, operators=[and, if0, plus, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='sJfju54GxDg6u3iZrdyE9DxW', size=21, operators=[and, fold, if0, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='sQyvxODIrtt5APT8nrJbenjn', size=30, operators=[and, fold, if0, not, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='sSahWvVT85XQnZIJfH7vaCsI', size=19, operators=[and, if0, not, plus, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='sb3MY7K46moL1zBx0SmycUD5', size=23, operators=[and, if0, or, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='seGTaB3QDn8kx4IezEYZWxiy', size=30, operators=[and, if0, not, or, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='soa1mmTp51TcYAjG9QUIUUE4', size=25, operators=[and, if0, not, shl1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='srE8lgawkviUzo3UPex0IuqS', size=12, operators=[not, shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='swYVMIkkGwDmDKBcYr62aVw2', size=21, operators=[and, if0, not, plus, shl1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='tAiOt5dX2zpwdMj0R8EZqnXp', size=26, operators=[and, if0, or, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='tBABPm0vEHNhNoijvQwxsfEv', size=13, operators=[and, fold, or, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='tBKHcZ1Ch0QxeyqzuZBffXR9', size=11, operators=[if0, not, or, plus, shr4], solved=false, timeLeft=0}
+Problem{id='tFWstVNiFeoXEiVfDnqUsJmr', size=9, operators=[and, if0, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='tXhqKVFZz384fF6HvoSAKYws', size=4, operators=[shl1, shr1], solved=false, timeLeft=0}
+Problem{id='tYglZLOAI0Chxgz9aHzkJSUH', size=18, operators=[if0, or, shl1, shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='ta9z0vYFBBIPZ0eMHgt5D87V', size=23, operators=[and, if0, not, or, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='tavn3LvVtTN4ExipnAeAPakh', size=11, operators=[if0, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='tbyT1JxBgMYOAxkrAjuGGS9M', size=17, operators=[fold, if0, or, plus, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='tctpejtoZBdIb9OrgTBE1Nuj', size=11, operators=[if0, not, plus, shl1], solved=false, timeLeft=0}
+Problem{id='tknCpuvxtPWoCVeNMc335i9X', size=24, operators=[and, if0, not, or, plus, shr1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='tq7cnOrRv6gitdwOMOwdka2a', size=28, operators=[and, if0, or, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='tvQnUhVHe6BeXreSw2A98OpW', size=4, operators=[plus], solved=false, timeLeft=0}
+Problem{id='twuQa6h4ej26pU3DZd7mVeoz', size=25, operators=[and, if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='txABFAgSgU977rcwvTuT5eZ3', size=19, operators=[if0, not, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='txVxEzYpOLDYerxwGKVcKRYj', size=27, operators=[and, if0, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='u0uNpUUIPRvaGaK4LOeqdZb0', size=27, operators=[and, if0, or, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='u1h36mHTrrtkIkZWpsZjZOBm', size=26, operators=[and, if0, not, or, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='u1lKJRJNgKAg1avXqdCk8VPm', size=27, operators=[and, fold, if0, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='u1yNtKhp5KlRTyYk74Flmqib', size=18, operators=[if0, not, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='u20Jy5mjeu3VqcCpNBHxQ5mQ', size=12, operators=[if0, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='uFWEQGhs3WA6iaWeUxxO20tR', size=13, operators=[fold, if0, not, shr4], solved=false, timeLeft=0}
+Problem{id='uPZJMSjbS43fHpkhR39xarOB', size=21, operators=[if0, not, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='uPmpSRImRxn3mtkuAB1c9Gdu', size=23, operators=[and, fold, if0, not, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='uT15SQJssCSr4JgKnm40bhln', size=23, operators=[and, if0, not, or, plus, shr1, xor], solved=false, timeLeft=0}
+Problem{id='uXsDX7TLDbP8KpTkrsKRyxdM', size=25, operators=[and, if0, not, or, shl1, shr1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='uYbfkPgeEuYNW8keLkeOvLAA', size=30, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='uYqyFxCj7nmpEAScqH8VleRV', size=26, operators=[and, if0, or, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='uZo6nv2SwMwC3cN6VwIxQ8jL', size=12, operators=[if0, or, shl1, xor], solved=false, timeLeft=0}
+Problem{id='uehv5FqCdpl4qM0tRdXAmeby', size=25, operators=[if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='uhzOivkAe0sxvNARYst0xiFy', size=24, operators=[and, fold, if0, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='uiicXqBGCz2tqAkRrFwSYKu1', size=26, operators=[and, if0, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='uikRxdLcHYOHqv2NFwo9nWI8', size=10, operators=[and, if0, or, shr16], solved=false, timeLeft=0}
+Problem{id='unaEJdXwdd1Q4fsv9WVJjeUg', size=10, operators=[not, or, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='upQ3Y7rJob7Agc5fWiTTAHTH', size=20, operators=[and, if0, not, or, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='urUKVnOxImf3pYTamRBvXR9b', size=16, operators=[fold, if0, not, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='v4RoyoUvGvmaLcC3NxXHrAPJ', size=30, operators=[and, fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='v7KtEEqdUlN68vWHPOxB5jNN', size=10, operators=[and, if0, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='vCGkk2OlxbQaZhHFwYVwcGAW', size=27, operators=[and, fold, if0, not, or, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='vCz3IAH9owJXnKaAoBhJSVXf', size=22, operators=[and, fold, if0, not, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='vF7uYRAOf0w26mie54jDQasN', size=6, operators=[not, shr1, xor], solved=false, timeLeft=0}
+Problem{id='vLFkdD6BTe9OieJ61VuXZuBB', size=20, operators=[and, fold, if0, not, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='vVhtzZDpCfBw4ROcbM3NiXyd', size=24, operators=[and, fold, if0, or, shl1, xor], solved=false, timeLeft=0}
+Problem{id='vXo3Pmsqx8AAyhjOk4jBISVo', size=3, operators=[shr1], solved=false, timeLeft=0}
+Problem{id='vbQxGyAXgFT3QK5QMk0CDw3i', size=25, operators=[and, fold, if0, not, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='vdlWQMAyilHRxM3P8mIsdZOz', size=12, operators=[not, shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='vfAizlBe4Zwi4lTtwzm3RTbI', size=14, operators=[if0, not, or, tfold, xor], solved=false, timeLeft=0}
+Problem{id='vqzBjrBDxBvYh5TBnCYAXejF', size=14, operators=[fold, not, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='vt7uSys1h4x8wCQ5eoz5cx7A', size=16, operators=[and, if0, or, plus, shr1], solved=false, timeLeft=0}
+Problem{id='vuFGbhB2tMES26WlUMjs4BI3', size=18, operators=[and, fold, if0, not, shl1, xor], solved=false, timeLeft=0}
+Problem{id='vwis21MVlggeAnC7dCInXm1N', size=12, operators=[and, if0, not, tfold], solved=false, timeLeft=0}
+Problem{id='vwqKQsqfLgeAupY7yLcpIiba', size=24, operators=[and, if0, not, or, plus, shl1, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='vxRTI1ZD9CQW62VmFbyZpBb3', size=17, operators=[and, if0, or, plus, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='w1AhhOpNoB39tZ7G81DqsYDu', size=25, operators=[fold, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='w6Eo2QWndgxpvJzGAEJraPRV', size=22, operators=[and, if0, not, or, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='w6lL8Www979JMkIAV4OJQdyo', size=18, operators=[if0, not, or, plus, tfold], solved=false, timeLeft=0}
+Problem{id='w6ujk6z06T2aABIvr7LYNVDc', size=18, operators=[and, if0, not, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='w7kOQcvlWyYRzRtkpGu6N1BB', size=25, operators=[if0, not, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='w9BlEcy4Npj2C7BCBznpugA1', size=10, operators=[plus, shl1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='wAaWw1kABswktZXnyQ8jKjDk', size=18, operators=[and, if0, not, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='wAt9tomlSMqvwIWeqMGLxbiS', size=26, operators=[and, if0, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='wEYkAbsC9ZuBbslplts854Bt', size=19, operators=[fold, if0, not, plus, shr1], solved=false, timeLeft=0}
+Problem{id='wEc2j9JcavqxWEvEKSGEAqyi', size=25, operators=[and, if0, not, or, plus, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='wGAhOc5aPfS0sYO9rPLBi6l6', size=28, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='wHRdM72YJS2hc53tZO6uvLYx', size=27, operators=[and, if0, not, or, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='wJWaGOnnKAneDls8deXQcEUT', size=12, operators=[and, if0, plus, shl1, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='wO49FmEhNqm5zw1lscnizWU0', size=13, operators=[if0, not, or, shr16], solved=false, timeLeft=0}
+Problem{id='wOU9meDetNaALGzPLdlDVebG', size=16, operators=[and, if0, plus, shl1, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='wPxWfAnwW1gSQkGZRNYQ6fBh', size=27, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='wSEQ9EXWIz9Cgl2uYXBsiEnd', size=10, operators=[and, if0, plus, shl1], solved=false, timeLeft=0}
+Problem{id='wT35qzZwAXWkmprVh0VZ9Byr', size=13, operators=[if0, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='wZlyDucvBSDdACKKSBMuqsn2', size=16, operators=[and, fold, if0, not, or, xor], solved=false, timeLeft=0}
+Problem{id='wa6oZ3etX4whJLthSda9rMmg', size=14, operators=[and, if0, or, plus, shl1], solved=false, timeLeft=0}
+Problem{id='waHvAQD348pw6aputNgrztPT', size=8, operators=[plus, tfold], solved=false, timeLeft=0}
+Problem{id='wbCEd4LwqsqYCE1rmqRF3sOx', size=21, operators=[fold, if0, not, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='weJMBxajkgd8UlphLDfTwY27', size=16, operators=[and, if0, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='weskjNwoGwgTSCHwNcZZHCqK', size=29, operators=[and, if0, not, or, plus, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='wiyQ8eYQCcrDnBmBgbGuyPnp', size=26, operators=[and, if0, not, or, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='wo4hs1ati1AS3EBG2kxXKpA9', size=24, operators=[and, fold, if0, not, or, plus, shl1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='woBDFCuz8YSTMjTOOEIpAcgO', size=27, operators=[and, fold, if0, not, or, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='wqN5Bup53y4ZDNTWqhzJ48N0', size=11, operators=[not, plus, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='wruQ7VjoNFpqlmii23UFvG5M', size=20, operators=[if0, or, plus, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='wudJtAweRDksj0QwrEk9mwRY', size=16, operators=[fold, if0, or, plus, shr16], solved=false, timeLeft=0}
+Problem{id='wunZOC20bB6laceUcV79Wzll', size=7, operators=[plus, shr16, xor], solved=false, timeLeft=0}
+Problem{id='wv01DwAePZUvBBeohX00BAvL', size=15, operators=[if0, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='wwa66wW74x7boJdICYTNxb3q', size=11, operators=[and, if0, plus, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='x3Ogvl5gmAqAabbmezKkSakM', size=8, operators=[and, plus, xor], solved=false, timeLeft=0}
+Problem{id='x3grjcF8AMCjQYj6b6YYiYFB', size=9, operators=[if0, not, shl1, shr16], solved=false, timeLeft=0}
+Problem{id='x4zLK5Aydmo86jDPExg2evul', size=8, operators=[or, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='x5SBhyApJLtnukNdp1Jml7lR', size=29, operators=[and, fold, if0, not, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='x8MhAHnxSfClZuABAocRu8X7', size=8, operators=[plus, shr1, shr16], solved=false, timeLeft=0}
+Problem{id='xBNNvuPmKEAXZ5VCcjYZtT7N', size=23, operators=[and, fold, if0, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='xBRjDAYVMGxk4kk14LN6kwTb', size=20, operators=[and, if0, not, or, shl1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='xBolpdCJ3ckZdjChPcyBUJjp', size=10, operators=[or, shr1, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='xDlcveKI4f8Xv6un3IxYBPaj', size=23, operators=[and, fold, if0, or, plus, shr1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='xG3zKNCdB6OoyBAKlAwJ3tti', size=16, operators=[and, if0, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='xGmeXhvFQvflZXPcrPLzA6gj', size=13, operators=[if0, shl1, shr1, shr16, shr4, tfold], solved=false, timeLeft=0}
+Problem{id='xK09qA3Z8JlFVzqEBgdfJPSM', size=4, operators=[shl1, shr16], solved=false, timeLeft=0}
+Problem{id='xNDKlmJkZwPdmjQSYZ9r0PFz', size=22, operators=[and, if0, not, or, plus], solved=false, timeLeft=0}
+Problem{id='xNHTQSznZ17AUy7uUhRpmUsI', size=23, operators=[if0, plus, shl1, shr1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='xSLWDAKJQNutKiBMfKjE2kNd', size=26, operators=[and, fold, if0, or, plus, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='xWTWSGpON84XPmYe8aCAJ3e5', size=19, operators=[if0, or, shl1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='xYdxBmD7Tw0GK0QCZtKQtGWA', size=3, operators=[shl1], solved=false, timeLeft=0}
+Problem{id='xbuA7KNJY89gSuZD3phvS96c', size=5, operators=[plus, shl1], solved=false, timeLeft=0}
+Problem{id='xd5juHYxCtOIMocmAKzgt7Au', size=26, operators=[fold, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='xfqWs4EpSAvOsRexQvp8AWd8', size=18, operators=[fold, if0, or, plus, shr16, xor], solved=false, timeLeft=0}
+Problem{id='xlQml004asMBCPGDpq5HzqkA', size=21, operators=[and, if0, or, plus, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='xnzxA1dxAt8ijOoXn2UlsexU', size=26, operators=[and, if0, not, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='xocqwNvRsJChQyBX7sV1M2XS', size=14, operators=[and, fold, or, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='xtE3E6tbhpo8cBl4NFkuAB4z', size=17, operators=[and, if0, not, plus, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='xzLSMfaYAKzBqaXc0A6cSyny', size=25, operators=[if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='y0VUXu2bo6JvoORGVD7M7wOP', size=14, operators=[fold, or, plus, shl1, shr1, xor], solved=false, timeLeft=0}
+Problem{id='y2zqPxIrsBUoncBbpNh4030w', size=19, operators=[and, if0, or, plus, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='y4iisCAWO0yZ2FFuIPeDKMon', size=20, operators=[if0, or, plus, shl1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='y6k39EO3FJOv80WpohP7AmI0', size=23, operators=[and, if0, or, plus, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='y8c2CYNIm8nh47n69J57UKTq', size=18, operators=[and, fold, if0, or, plus, shr4], solved=false, timeLeft=0}
+Problem{id='yAl7vlUcz4A5yUKgugCbFhf9', size=21, operators=[and, fold, if0, or, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='yDYTpMPBxMmeW6WvdlVeGzvD', size=21, operators=[fold, if0, or, plus, shl1, shr16, xor], solved=false, timeLeft=0}
+Problem{id='yE17myLqAJXFdao4F8WtFALb', size=12, operators=[and, if0, shr16, xor], solved=false, timeLeft=0}
+Problem{id='yFvEuKfOfqunJYODdBraVWPU', size=17, operators=[and, if0, not, plus, shr1, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='yJce1xfSMB0IAl7AicRzNrt0', size=4, operators=[xor], solved=false, timeLeft=0}
+Problem{id='yLaKrTHDBUofSARa6NXqNroR', size=20, operators=[and, fold, if0, not, or, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='yLkaanOLflqbfeH6xFZMj7aD', size=29, operators=[if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='yOwbB2CwZWxuwSUz727gXztB', size=11, operators=[plus, shl1, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='yUVkOhkb3SLt6LpSuWvBqcYJ', size=14, operators=[and, if0, plus, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='yVAkCkLTPDd0mBbo8z7LuSWa', size=11, operators=[and, shl1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='yXMTBC4cV4K6lLCC6uJBhuww', size=12, operators=[and, if0, or, plus, shr1], solved=false, timeLeft=0}
+Problem{id='yZYAip2KrN2ALXAGkNRuoVLH', size=15, operators=[fold, not, or, plus, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='yefM78ZhAlSqrgxDz8tGWMG3', size=28, operators=[and, if0, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ykCDStwqTRZFvusoSZWjk4Oh', size=25, operators=[and, if0, not, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ykyA082veZfnzslxH3sxpMTv', size=23, operators=[fold, if0, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='yl3meY6VC7W0QXW2h9G0AK53', size=24, operators=[fold, if0, not, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ylAqDDSY3xhSoDRXhyUqKKWr', size=12, operators=[if0, or, plus, shr16, xor], solved=false, timeLeft=0}
+Problem{id='ylGCYPLwrUwLhHYwFBU8vAhW', size=20, operators=[and, if0, or, plus, shl1, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ymKjcxcHY2w8q6GI5vMkQ60B', size=15, operators=[if0, or, shl1, tfold], solved=false, timeLeft=0}
+Problem{id='ynx6UnwfNutkT6UTE9L8fmJK', size=23, operators=[and, if0, not, or, plus, shl1, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='yoEBUNFRMfn6oeiftZyUnB30', size=8, operators=[not, plus, shl1, shr4], solved=false, timeLeft=0}
+Problem{id='yr9A2n7sreY5Z4b8f5RAq6AM', size=25, operators=[and, fold, if0, or, plus, shr16, xor], solved=false, timeLeft=0}
+Problem{id='yrIU9b24eg6xEqCNgp6vPQcV', size=16, operators=[fold, if0, not, plus, shr16, shr4], solved=false, timeLeft=0}
+Problem{id='yrpdAWEIJs122VP1DgNi1ELs', size=7, operators=[or, plus, shr4], solved=false, timeLeft=0}
+Problem{id='yrvzKnicKvqaBnVhQP61dVqB', size=8, operators=[not, or, plus, shr16], solved=false, timeLeft=0}
+Problem{id='yvMY0N6YH2SmttUNkWLzKMiB', size=4, operators=[shl1], solved=false, timeLeft=0}
+Problem{id='ywMRYVzfRg41Wy34goMDM4sb', size=26, operators=[and, if0, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='ywbDdNSVRocqZgfUIRvRn9r6', size=14, operators=[if0, not, or, plus, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='z05kiFq9DmkAWNucWsdoMhgo', size=17, operators=[and, fold, if0, not, or, shr1, xor], solved=false, timeLeft=0}
+Problem{id='z135ZVM59H7s6nEL6NeJnpCV', size=20, operators=[and, if0, not, or, plus, shl1, shr1, shr4], solved=false, timeLeft=0}
+Problem{id='z5rttLAmvMKQHAwEsKHvRvdY', size=22, operators=[if0, not, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='z7loB1C1mkzUhroW4njCsgyi', size=17, operators=[and, if0, not, or, shr1, xor], solved=false, timeLeft=0}
+Problem{id='z9MVUvQqBLxnFJjFYNupJjFU', size=17, operators=[and, if0, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='zDJWUZzMHyUBNA8SAfASxJJU', size=10, operators=[shr1, tfold, xor], solved=false, timeLeft=0}
+Problem{id='zI5fDaEPuAiAJAsDrrQwxtVd', size=16, operators=[if0, or, shl1, shr1, shr16, tfold, xor], solved=false, timeLeft=0}
+Problem{id='zMOjLIgsicTmsxI7zbYYCM7n', size=30, operators=[fold, if0, or, plus, shr1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='zPysBM8MK7lh6l4xkFiiFWVV', size=9, operators=[if0, plus, shl1, shr1], solved=false, timeLeft=0}
+Problem{id='zQKJ1aisCrs1ct700GYqQ1Wd', size=27, operators=[if0, not, or, plus, shl1, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='zR1Ja4zcbYkcZljNh4dQo0oK', size=11, operators=[and, if0, not, or, shr16], solved=false, timeLeft=0}
+Problem{id='zR4ZpTQ99C73ciRHUyltYBfD', size=16, operators=[if0, not, or, plus, shl1, shr16, shr4, xor], solved=false, timeLeft=0}
+Problem{id='zXnpF2EWJkwmzcekOnBAmuIR', size=17, operators=[and, fold, if0, shr4, xor], solved=false, timeLeft=0}
+Problem{id='zZ1yuZIzrQzdS5sHR9Bjulqx', size=4, operators=[shr1], solved=false, timeLeft=0}
+Problem{id='zZ7D4GHBGEzVof4nYPNjCTMi', size=8, operators=[tfold, xor], solved=false, timeLeft=0}
+Problem{id='zZHrX2E9glvv43Hc5eRg6ALf', size=11, operators=[or, plus, shr16, tfold], solved=false, timeLeft=0}
+Problem{id='zgQD8KNt2i6Oaa5Gwflw4Eg6', size=4, operators=[shr1, shr4], solved=false, timeLeft=0}
+Problem{id='zi4gSs7cHZCgJ1W8Z9Efqhmg', size=18, operators=[and, if0, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='znDUwWbVr7mJFAMO1PBgM64L', size=16, operators=[and, if0, or, plus, shr1, xor], solved=false, timeLeft=0}
+Problem{id='zrMaAOr18dQClKPuoAf1jL88', size=20, operators=[if0, not, plus, shr16, shr4, tfold, xor], solved=false, timeLeft=0}
+Problem{id='zwZEiG67tyESRR0NiBVVpOAQ', size=14, operators=[and, if0, or, shr1, tfold], solved=false, timeLeft=0}
+Problem{id='zzNwOPjJrP9K8bYk94MR5lAI', size=29, operators=[and, fold, if0, or, plus, shl1, shr1, shr4, xor], solved=false, timeLeft=0}
+Problem{id='zzh5sCHfYSajCU9J9T5kfn7y', size=27, operators=[and, if0, or, plus, shr4, tfold, xor], solved=false, timeLeft=0}

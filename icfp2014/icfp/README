@@ -1,0 +1,35 @@
+Build project
+=============
+
+Project code could be built using maven inside code directory:
+
+mvn install
+
+Prebuilt tools
+==============
+
+Code contains directory libs with dependencies and compiled java classes so
+that it can be used to generate lambdaman and ghost code out of the box.
+
+Compiling Lambdaman
+===================
+
+Intermediate language (see grammar.txt for overview) could be compiled using:
+
+java -classpath submission/code/libs/*:submission/code/src/main/resources lambdaman.SubmissionCompiler /third_bot.gcc
+
+Compiling ghost
+===============
+
+GHC assembler files could be compiled using:
+
+java -classpath submission/code/libs/*:submission/code/src/main/resources ghc.GHCLinker /ghost_seek_and_destroy.ghc false
+
+Providing source files
+======================
+
+Source files are searched inside classpath and location with files should be added to it e.g.
+-classpath submission/code/libs/*:submission/code/src/main/resources
+where
+submission/code/libs/*             - is all dependencies and compiled code
+submission/code/src/main/resources - location of source files

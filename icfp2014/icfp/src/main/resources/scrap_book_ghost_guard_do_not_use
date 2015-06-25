@@ -1,0 +1,198 @@
+.data
+moveCount 4
+ghostIndex
+;-- 0: standard, 1: fright mode, 2: invisible.
+ghostVitality
+ghostDirection
+oppositeDirection
+ghostX
+ghostY
+lambdaX
+lambdaY
+deltaX
+deltaY
+maxDelta
+preferredHorizontalDirection
+preferredVerticalDirection
+preferredDirection
+secondPreferredDirection
+squares 4
+;--------------------------
+;**************************
+;--------------------------
+.code
+int 3
+mov [ghostIndex], a
+int 6
+mov [ghostVitality], a
+mov [ghostDirection], b
+;---compute opppositeDirection
+mov [oppositeDirection], [ghostDirection]
+add [oppositeDirection], 2
+jlt _noCorrection,[oppositeDirection],4
+sub [oppositeDirection], 4
+_noCorrection:
+;---compute deltas
+int 3
+int 5
+mov [ghostX], a
+mov [ghostY], b
+int 1
+mov [lambdaX], a
+mov [lambdaY], b
+
+jlt _ldltXNeg, [ghostX],[lambdaX]
+mov [deltaX], [ghostX]
+sub [deltaX], [lambdaX]
+mov [preferredHorizontalDirection], 3
+jeq _ldeltY, 0, 0
+_ldltXNeg:
+mov [deltaX], [lambdaX]
+sub [deltaX], [ghostX]
+mov [preferredHorizontalDirection], 1
+_ldeltY:
+jlt _ldltYNeg, [ghostY],[lambdaY]
+mov [deltaY], [ghostY]
+sub [deltaY], [lambdaY]
+mov [preferredVerticalDirection], 0
+jeq _deltaComplete, 0, 0
+_ldltYNeg:
+mov [deltaY], [lambdaY]
+sub [deltaY], [ghostY]
+mov [preferredVerticalDirection], 2
+_deltaComplete:
+;---compute preferred direction
+jlt _preferY,deltaX,deltaY
+mov [preferredDirection], [preferredHorizontalDirection]
+mov [secondPreferredDirection], [preferredVerticalDirection]
+mov [maxDelta], [deltaX]
+jeq _preferredComplete, 0, 0
+_preferY:
+mov [preferredDirection], [preferredVerticalDirection]
+mov [secondPreferredDirection], [preferredHorizontalDirection]
+mov [maxDelta], [deltaY]
+_preferredComplete:
+;---invert preferred direction if in fright mode
+jeq _frightMode, [ghostVitality], 1
+jeq _preferredInvertComplete, 0, 0
+_frightMode:
+;-- do not run from him if we are far away
+jgt _preferredInvertComplete, [maxDelta], 5
+jlt _preferY,deltaX,deltaY
+add [preferredDirection], 2
+jlt _preferredInvertComplete,[preferredDirection],4
+sub [preferredDirection], 4
+_preferredInvertComplete:
+;-- compute which squares are blocked
+;--up
+mov a,[ghostX]
+mov b,[ghostY]
+dec b
+int 7
+mov [squares], a
+;--right
+mov a,[ghostX]
+mov b,[ghostY]
+inc a 
+int 7
+mov [squares+1], a
+;--down
+mov a,[ghostX]
+mov b,[ghostY]
+inc b 
+int 7
+mov [squares+2], a
+;--left
+mov a,[ghostX]
+mov b,[ghostY]
+dec a 
+int 7
+mov [squares+3], a
+
+
+;-- ************************************************************
+;-- score calc
+;---a is the best score so far
+;-- c is candidate direction and pointer to move counts
+;-- b is best direction so far
+;-- d is current score
+;-- e is square state
+mov a,0
+mov b,0    
+mov c,moveCount-1  
+mov e,squares-1
+
+_moveLoop:
+inc c
+inc e
+;-- base score
+mov d, 150
+;-- set score to 0 if hitting the wall
+jgt _noWallPenalty, [e], 0
+mov d, 0
+jeq _bestMoveCheck, 0, 0
+_noWallPenalty:
+;-- subtract number of moves
+sub d, [c]
+;-- bias move for current ghostIndex
+jeq _ghostIndexBias, c, [ghostIndex]
+dec d
+_ghostIndexBias:
+;-- set score to 1 for opposite direction
+jeq _opposite, [oppositeDirection], c
+jeq _nonOpposite, 0, 0
+_opposite:
+mov d, 1
+jeq _bestMoveCheck, 0, 0
+_nonOpposite:
+;-- bias move for preferred direction
+jeq _prefDir, [preferredDirection], c
+sub d,4
+_prefDir:
+;-- bias move if can reach fruit
+jeq _fruit, [e], 4
+jeq _nonFruit, 0, 0
+_fruit:
+mov d, 255
+jeq _bestMoveCheck, 0, 0
+_nonFruit:
+;-- bias move if can reach powerpill
+jeq _powerpill, [e], 3
+jeq _nonPowerPill, 0, 0
+_powerpill:
+mov d, 200
+jeq _bestMoveCheck, 0, 0
+_nonPowerPill:
+;-- bias move for second preferred direction
+jeq _secPrefDir, [secondPreferredDirection], c
+sub d,2
+_secPrefDir:
+_bestMoveCheck:
+
+;-- is move best
+jgt _notBest,a,d
+;-- save best score so far and move
+mov a,d
+inc a
+mov b,c
+_notBest:
+jlt _moveLoop,c,moveCount+3  
+
+mov a,b    
+int 0
+
+int 3      
+int 6
+;-- update history
+mov c,moveCount-1 
+_decLoop:
+inc c
+;-- reduce number of last moves
+jeq _loopCheck, [c], 0
+dec [c]
+_loopCheck:
+jlt _decLoop,c,moveCount+3
+;-- add 2 to direction we travel to  
+add [b],3
+    
+hlt

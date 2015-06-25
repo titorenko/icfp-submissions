@@ -1,0 +1,18 @@
+fun step aiState worldState
+begin
+    debug 1
+	return call doStep aiState worldState
+end
+
+fun doStep aiState worldState
+var a
+begin
+  debug aiState
+  set a=0
+  while 10 > a
+    debug a
+    set a=a+1
+  endloop
+  set aiState=aiState+1
+  return cons aiState 1
+end
