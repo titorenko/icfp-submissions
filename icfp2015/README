@@ -1,0 +1,14 @@
+Submission from hi, team
+
+Program comes prebuilt to simplify launching.
+Makefile doesn't do much in fact.
+
+Program requires Java8 installed and either located in PATH or pointed by standard JAVA_HOME variable.
+
+To compile it from sources provided in 'sources' directory you need Java8 and maven installed correctly.
+https://maven.apache.org/
+Sources could be compiled issuing 'mvn clean install' if need be.
+
+Regards
+Team :)
+

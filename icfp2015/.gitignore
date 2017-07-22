@@ -1,0 +1,12 @@
+/target
+/.classpath
+/.project
+/.settings
+/.idea
+/results
+*.iml
+exec.log
+cmp
+pad
+hi-team.tar.gz
+target

@@ -1,0 +1,47 @@
+#!/bin/bash
+
+DEBUG=
+
+BASEPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+
+if [ -z "$JAVA_HOME" ] ; then
+	JAVA_EXEC=$(which java)
+	[ -z "$JAVA_EXEC" ] && echo "No java in path and no JAVA_HOME environment is set" && exit -1
+else
+	JAVA_EXEC="${JAVA_HOME}/bin/java"
+	[ ! -x "$JAVA_EXEC" ] && echo "JAVA_HOME doesn't point to valid JDK" && exit -1
+fi
+
+ARGS="-r json"
+JVMOPTS=
+
+while getopts "f:t:m:c:p:" opt; do
+    case $opt in
+    f)
+    	ARGS="$ARGS -f $OPTARG"
+    	;;
+    t)
+    	ARGS="$ARGS -t $OPTARG"
+    	;;
+    m)
+    	TOTAL=$OPTARG
+    	MEM=$((TOTAL-200))
+    	JVMOPTS="$JVMOPTS -Xmx${MEM}M -Xms${MEM}M"
+		;;
+    c)
+    	ARGS="$ARGS -c $OPTARG"
+    	;;
+    p)
+    	ARGS="$ARGS -p $OPTARG"
+		;;
+    \?)
+    	echo "Unknown arg $OPTARG"
+    	;;
+    esac
+done
+
+CLASSPATH="$BASEPATH/lib/*"
+
+[ -n "$DEBUG" ] && echo "$JAVA_EXEC $JVMOPTS -classpath $CLASSPATH runner.ProblemRunner $ARGS"
+
+$JAVA_EXEC $JVMOPTS -classpath "$CLASSPATH" runner.ProblemRunner $ARGS

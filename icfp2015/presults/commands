@@ -1,0 +1,2 @@
+find . -name "problem4b_*" | xargs grep "Best score" | gawk '{print $3}' | gawk '{s+=$1} END {print s}'
+find . -name "problem*" | xargs grep -h "curl" > 1.sh

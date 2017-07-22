@@ -1,0 +1,4 @@
+Best score 1514
+Submit with
+curl --user :da3af8bc-ad82-4e42-93e8-f4c6e7868b86 -X POST -ssl -H "Content-Type: application/json" -d '[{ "problemId":21 , "seed":0, "tag": "sunNight", "solution": "ei!pppalaaei!pppalbblei!pppalblei!pppallei!lbbbbblia! ia!palaaei!aei!ppalbblei!aei!ppalblei!paei!pallei!lei!lbbbbblaaei!aei!aei!palbblei!aei!aei!palblei!aei!aei!pallei!lei!lei!lbbbbbllei!ia! ia!llei!lei!lei!lbbbbbllei!aei!aei!aei!lei!ia! ia!aei!aei!aei!lei!lei!aei!aei!lbei!l" }]' http://icfp15.de-falco.fr/teams/5/solutions
+Found with schedule: [7, 5, 5, 2, 1] and multiplier 0 over 5

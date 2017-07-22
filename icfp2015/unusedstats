@@ -1,0 +1,23 @@
+public int getGapCount() {
+		int h = getBoard().getHeight();
+		boolean isEmpty=true;
+		int nGaps=0;
+		BitSet cells = getBoard().getLockedInCells();
+		for (int y = 0; y < h; y++) {
+			int c1 = board.getRow(cells, y).cardinality();
+			int c2 = board.getRow(y).cardinality();
+			if (c2 > 0 && isEmpty) {
+				isEmpty = false;
+				nGaps++;
+			} else if (c2==0 && !isEmpty){
+				isEmpty = true;
+				nGaps++;
+			}
+			if (c1==1 && c2==0 && nGaps >0) {
+				nGaps++;
+			}
+		}
+		
+		return nGaps;
+	}
+	

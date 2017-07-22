@@ -1,0 +1,10 @@
+01.09.2015
+	Total sum: 221861, verified in 141646	
+	Total sum: 222963, verified in 142577
+	Total sum: 221861, verified in 141847
+	
+	Annealing solver done with score 4449 best so far 4449 in 418302
+	Annealing solver done with score 4648 best so far 4648 in 101076
+	
+02.09.2015	
+	Total sum: 219728, verified in 140580 (after extra locks on rotate)

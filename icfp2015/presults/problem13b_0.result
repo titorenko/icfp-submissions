@@ -1,0 +1,3 @@
+Best score 4729
+Submit with
+curl --user :da3af8bc-ad82-4e42-93e8-f4c6e7868b86 -X POST -ssl -H "Content-Type: application/json" -d '[{ "problemId":13 , "seed":0, "tag": "sunNight", "solution": "blue hadesei!r\u0027lyehei!kkpppppdyoyodynekpkplanet 10pkppdcase nightmare greendddlallllthe laundrydppdpmonkeyboydppppppppkei!dpddyuggothjohn bigbootedappaaaia! ia!dbbkbbbbbdbdpdyogsothothlr\u0027lyehppkptsathogguadpdddllr\u0027lyehddbbdbbkpkpkcthulhu fhtagn!pppkkaar\u0027lyehei!dei!dei!lbbbblla" }]' http://icfp15.de-falco.fr/teams/5/solutions

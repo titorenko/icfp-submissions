@@ -1,0 +1,29 @@
+mixin strategies into q and inherit strategy in children
+!!powerword search, Bellman Ford?
+!optimize for speed, pw + board
+check powerwords with old impl to check correctness + repetitions
+vary lookahead depending on size of the board
+!faster powerword search and bfs with int arrays?
+add heuristic for removing multiple lines somehow
+reuse computations done on during various steps, consider dynamic programming
+A* for global search?
+increase search depth when tree is becoming small in lookahead
+!!better heuristic for partially filled rows and try to postpone removal
+try doing pw search only on final board
+
+
+!! minimize number of in-between lines
+
+!!try different heur. f. for empty/filled boards
+
+!automated fill factor increase/descrease, depth increase/decrease
+
+!!! investigate why on problem 13 lookahead does not find best sol
+
+!!! try dijkstra staged with annealing
+
+!!!!! investigate search score inconsistency
+
+!!!!!!!!!!! special solver for lots of single square thingis, consider merging some shapes into one over multiple moves
+
+bellman-ford again!
